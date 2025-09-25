@@ -1,0 +1,85 @@
+neo4j+s://65eb27c7.databases.neo4j.io
+Output file not found. Creating a new file: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Specific_Questions_OriginalText.csv
+
+==================================================
+Processing Matched Question | Q_ID: 459
+Using Original English Question for processing:
+ Hey Doc, I've been experiencing some chest pains recently and I'm afraid it might be related to my central atherosclerosis. Is there any way to know for sure?
+Translated Chinese Question (for CSV output only):
+ 嘿，醫生，我最近一直胸痛，擔心可能跟我的中心性動脈粥樣硬化有關，有什麼方法可以確定嗎？
+Dynamically extracting entities from the ORIGINAL English question...
+extracted_entities_raw: ['Chest pain, Central atherosclerosis']
+Dynamically Extracted question_kg:
+ ['Chest pain', 'Central atherosclerosis']
+Question Entities:
+ ['Sharp_chest_pain', 'Coronary_atherosclerosis']
+Find Subgraph: 1.468 秒
+Find Paths: 0.096 秒
+Generate Paths in NL: 1.018 秒
+Final English Answer: **\n\n1. **Most Likely Disease:**\nCoronary artery disease (CAD).  The patient's complaint of chest pain, coupled with mention of central atherosclerosis (a buildup of plaque in the arteries), strongly suggests CAD.  Central atherosclerosis increases the risk of CAD significantly.\n\n2. **Recommended Medication(s):**\n* **Nitroglycerin:** To alleviate chest pain by dilating blood vessels.\n* **Aspirin:** To reduce blood clotting and prevent further blockage.\n* **Statins:** To lower cholesterol levels and slow plaque buildup.\n* **Beta-blockers:** To lower heart rate and blood pressure, reducing the heart's workload.\n* **ACE inhibitors or ARBs:** To manage blood pressure and protect the heart.\n* **Antiplatelet medications (e.g., clopidogrel):**  To further reduce clotting risk.\n\nNote:  Medication selection and dosage must be determined by a physician based on the patient's individual health status and test results.\n\n3. **Suggested Medical Test(s):**\n* **Electrocardiogram (ECG or EKG):** To assess the heart's electrical activity and detect any abnormalities.\n* **Cardiac enzyme tests (e.g., troponin):** To detect heart muscle damage, indicating a heart attack.\n* **Echocardiogram:** To visualize the heart's structure and function.\n* **Coronary angiography:**  A gold standard test involving inserting a catheter to visualize the coronary arteries and identify blockages.\n* **Stress test (exercise or pharmacological):** To assess the heart's response to increased workload.\n\n\n**
+Final Chinese Answer: 1. **最可能的疾病：**
+冠狀動脈疾病 (CAD)。病患主訴胸痛，加上提及中心性動脈粥樣硬化（動脈斑塊堆積），強烈暗示 CAD。中心性動脈粥樣硬化顯著增加 CAD 的風險。
+
+2. **建議藥物：**
+* **硝化甘油：**藉由擴張血管來減輕胸痛。
+* **阿斯匹靈：**減少血液凝固並預防進一步阻塞。
+* **史達汀：**降低膽固醇水平並減緩斑塊堆積。
+* **β受體阻斷劑：**降低心率和血壓，減少心臟的工作負荷。
+* **ACE抑制劑或ARB：**控制血壓並保護心臟。
+* **抗血小板藥物（例如，Clopidogrel）：**進一步降低凝血風險。
+
+備註：藥物選擇和劑量必須由醫師根據病患的個人健康狀況和檢驗結果決定。
+
+3. **建議醫療檢驗：**
+* **心電圖 (ECG 或 EKG)：**評估心臟的電活動並檢測任何異常。
+* **心臟酵素檢驗（例如，肌鈣蛋白）：**檢測心肌損傷，指示心臟病發作。
+* **超音波心臟檢查：**視覺化心臟的結構和功能。
+* **冠狀動脈攝影：**一種黃金標準檢驗，涉及插入導管以視覺化冠狀動脈並識別阻塞。
+* **壓力測試（運動或藥物誘發）：**評估心臟對增加工作量的反應。
+
+==================================================
+Processing Matched Question | Q_ID: 995
+Using Original English Question for processing:
+ I had surgery yesterday and I'm experiencing a lot of pain. What medications should I take?
+Translated Chinese Question (for CSV output only):
+ 我昨天動了手術，現在非常疼痛。我應該服用什麼藥物？
+Dynamically extracting entities from the ORIGINAL English question...
+extracted_entities_raw: ['Post-surgical pain']
+Dynamically Extracted question_kg:
+ ['Post-surgical pain']
+<Warning> Entity 'Post-surgical pain' not in keyword embeddings. Skipping.
+<Warning> No matching entities found in KG. Cannot proceed.
+
+==================================================
+Processing Matched Question | Q_ID: 3783
+Using Original English Question for processing:
+ Doctor, I have been experiencing pain when I breathe, excessive sweating, and congestion in my chest. What could be wrong with me?
+Translated Chinese Question (for CSV output only):
+ 醫生，我呼吸時會痛、出很多汗，而且胸部很悶。我可能得了什麼病？
+Dynamically extracting entities from the ORIGINAL English question...
+extracted_entities_raw: ['Chest pain, Dyspnea, Excessive sweating, Chest Congestion']
+Dynamically Extracted question_kg:
+ ['Chest pain', 'Dyspnea', 'Excessive sweating', 'Chest Congestion']
+<Warning> Entity 'Chest Congestion' not in keyword embeddings. Skipping.
+Question Entities:
+ ['Sharp_chest_pain', 'Apnea', 'Sweating']
+Find Subgraph: 2.209 秒
+Find Paths: 0.744 秒
+Generate Paths in NL: 24.908 秒
+Final English Answer: \n\n1. **Most Likely Disease:**\nPanic Disorder. The patient's symptoms of chest pain (while breathing could indicate a sharp pain), excessive sweating (hyperhidrosis), and congestion in the chest are consistent with a panic attack.  While chest congestion is not a typical symptom, the anxiety associated with panic disorder can lead to somatic manifestations such as perceived tightness or discomfort in the chest.\n\n2. **Recommended Medication(s):**\n* **Selective Serotonin Reuptake Inhibitors (SSRIs):**  Such as sertraline (Zoloft), paroxetine (Paxil), or escitalopram (Lexapro) are first-line treatments for panic disorder. They help regulate serotonin levels in the brain, reducing anxiety and panic symptoms.\n* **Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs):**  Such as venlafaxine (Effexor) or duloxetine (Cymbalta) may also be effective.\n* **Benzodiazepines:** Such as alprazolam (Xanax) or lorazepam (Ativan) can provide rapid relief from acute panic attacks but are generally not used long-term due to the risk of dependence.  They are often used in conjunction with SSRIs or SNRIs initially.\n* **Cognitive Behavioral Therapy (CBT):**  CBT is a highly effective therapy for panic disorder. It helps patients identify and change negative thought patterns and behaviors that contribute to panic attacks.\n\n3. **Suggested Medical Test(s):**\n* **Physical Examination:**  To rule out other potential causes of the symptoms.\n* **Electrocardiogram (ECG):** To check for any heart abnormalities as chest pain is a concern.\n* **Blood tests:** To rule out other medical conditions.\n* **Psychiatric Evaluation:** To properly diagnose panic disorder and rule out other anxiety disorders or mental health conditions.  This would involve a detailed discussion of the patient's symptoms, history, and mental state.\n\n\n
+Final Chinese Answer: 1. **最可能的疾病：**
+恐慌症。病患的症狀包括胸痛（呼吸時可能會有銳痛）、大量出汗（多汗症）和胸悶，與恐慌發作一致。雖然胸悶並非典型症狀，但與恐慌症相關的焦慮可能導致身體症狀，例如感覺胸部緊繃或不適。
+
+2. **建議藥物：**
+* **選擇性血清素再吸收抑制劑 (SSRIs)：**例如賽瑞特 (Zoloft)、帕羅西汀 (Paxil) 或escitalopram (Lexapro) 是治療恐慌症的一線藥物。它們有助於調節腦中血清素的水平，減少焦慮和恐慌症狀。
+* **血清素-正腎上腺素再吸收抑制劑 (SNRIs)：**例如文拉法辛 (Effexor) 或度洛西汀 (Cymbalta) 也可能有效。
+* **苯二氮平類藥物：**例如阿普唑侖 (Xanax) 或洛拉西泮 (Ativan) 可以快速緩解急性恐慌發作，但由於成癮風險，通常不用於長期治療。它們通常與 SSRIs 或 SNRIs 結合使用於初期。
+* **認知行為治療 (CBT)：**CBT 是治療恐慌症非常有效的療法。它幫助患者識別和改變導致恐慌發作的負面思考模式和行為。
+
+3. **建議醫學檢查：**
+* **身體檢查：**排除其他可能導致症狀的原因。
+* **心電圖 (ECG)：**檢查是否有任何心臟異常，因為胸痛令人擔憂。
+* **血液檢查：**排除其他醫療狀況。
+* **精神科評估：**正確診斷恐慌症並排除其他焦慮症或精神健康疾病。這將涉及詳細討論病患的症狀、病史和精神狀態。
+
+Processing complete. Results saved to: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Specific_Questions_OriginalText.csv

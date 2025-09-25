@@ -1,0 +1,376 @@
+Q_ID,Question,Reference Answer,Answer
+5239,"Doctor, I'm experiencing some strange symptoms. I've been acting hostile towards my family, and I'm having problems with my movement. Also, I've noticed that I've been slurring my words lately.","1. **Most Likely Disease:** Substance-related mental disorder. While both stroke and substance-related mental disorder share the ""problems with movement"" symptom, substance-related mental disorder is the only disease listed with ""hostile behavior"" as a symptom, which the patient is experiencing. Slurred speech could potentially be related to a substance.
+
+2. **Recommended Medication(s):**
+    *   Lorazepam
+
+3. **Suggested Medical Test(s):**
+    *   Hematologic tests (Blood test)",503
+913,"Hi Doctor, I've been feeling very weak and fatigued lately. I also noticed that my muscles have been shrinking and I'm having trouble building muscle. ","1. **Most Likely Disease:** Fibromyalgia. The symptoms of fatigue and muscle pain/difficulty building muscle align with the symptoms listed for fibromyalgia. While muscle wasting can occur in other conditions, it's not a primary feature listed in the table for Cirrhosis, whereas muscle pain and fatigue are core symptoms of Fibromyalgia.
+
+2. **Recommended Medication(s):**
+* Pregabalin (Lyrica)
+* Tizanidine
+* Nortriptyline
+* Milnacipran (Savella)
+* Chlorzoxazone
+* Oxymorphone (Opana)
+
+3. **Suggested Medical Test(s):**
+* Physical therapy exercises (Exercises)
+* Magnetic resonance imaging (Mri)
+* Bone density scan
+* Depression screen (Depression screening)",503
+205,"Hi doctor, I am experiencing some pain in my lower abdomen and after a few tests, I have been diagnosed with a benign kidney cyst. What medical tests do I need to undergo now? ","Since there is no reference table provided, I will answer based on my medical knowledge.
+
+1. **Most Likely Disease:** Benign Kidney Cyst. The patient has already been diagnosed with this based on tests. While lower abdominal pain can have many causes, the question specifically states a diagnosis of a benign kidney cyst. Further testing is to monitor the cyst and rule out complications or other potential causes of the pain.
+
+2. **Recommended Medication(s):**
+    *   Pain relievers (e.g., Acetaminophen, Ibuprofen)
+
+3. **Suggested Medical Test(s):**
+    *   Repeat Ultrasound
+    *   CT Scan of Abdomen and Pelvis
+    *   MRI of Abdomen and Pelvis
+    *   Urinalysis
+    *   Blood Pressure Measurement",503
+2254,"Doctor, I am experiencing some pain and soreness in my breast, along with some back pain and difficulty breathing. What could be the problem?","1. **Most Likely Disease:** Dengue fever, Problem during pregnancy, Abscess of the lung.
+The patient exhibits pain or soreness of the breast, which aligns with dengue fever, back pain, which aligns with problem during pregnancy, and difficulty breathing, which is related to abscess of the lung
+
+2. **Recommended Medication(s):**
+*   Acetaminophen
+*   Multivitamin, Prenatal
+*   Budesonide
+
+3. **Suggested Medical Test(s):**
+*   CT scan abdomen (Ct of abdomen)
+*   Standard pregnancy test
+*   Radiographic imaging procedure","""**1. Most Likely Disease:**\n\nMetastatic cancer (most likely breast cancer that has metastasized).  The combination of breast pain/soreness, back pain, and shortness of breath suggests a more serious underlying condition than a simple breast infection or musculoskeletal issue.  The back pain and breathing difficulties point towards potential metastasis to the lungs or bones, which is a common pattern in advanced breast cancer.  It is crucial to note that this is a *possible* diagnosis based on limited information and a proper diagnosis requires thorough investigation.\n\n\n**2. Recommended Medication(s):**\n\nThere is no single \""cure\"" for metastatic cancer, and treatment depends on the specific type and stage of the cancer, as well as the patient's overall health.  Treatment options *might* include (but are absolutely not limited to, and should only be administered after a confirmed diagnosis by a medical professional):\n\n* **Chemotherapy:** To shrink tumors and slow cancer growth. Specific chemotherapy regimens will vary depending on the type of cancer.\n* **Targeted therapy:** Drugs that target specific molecules involved in cancer growth.\n* **Hormone therapy:**  If the cancer is hormone-receptor positive, hormone therapy can help slow or stop cancer growth.\n* **Radiation therapy:** To shrink tumors and relieve pain, especially in areas like the bones where metastasis has occurred.\n* **Immunotherapy:** To help the body's immune system fight cancer cells.\n* **Pain management medication:**  Pain relievers (opioids or non-opioids) would be necessary to manage the pain associated with the disease.\n* **Supportive care:** This includes managing symptoms like shortness of breath and fatigue.\n\n\n**3. Suggested Medical Test(s):**\n\nA thorough workup is essential to determine the cause of the symptoms.  Tests should include:\n\n* **Mammogram:** To visualize the breast tissue and detect any abnormalities.\n* **Breast Ultrasound:**  To further examine any suspicious areas identified on the mammogram.\n* **Breast biopsy:**  To obtain a tissue sample for microscopic examination to confirm the presence and type of cancer.\n* **Chest X-ray:** To assess the lungs for any signs of metastasis.\n* **Bone scan:** To detect any bone metastases.\n* **CT scan (Computed Tomography):**  To create detailed images of the internal organs and help identify the spread of cancer.\n* **MRI (Magnetic Resonance Imaging):** Might be used to get clearer images of the breast and other areas suspected to be affected.\n* **Blood tests:**  To evaluate overall health, check for tumor markers (e.g., CA 15-3, CEA), and assess organ function.\n\n\n**Disclaimer:** This information is for general knowledge and informational purposes only, and does not constitute medical advice.  The information provided should not be used for diagnosing or treating any medical condition. It is crucial to consult with a qualified healthcare professional for any health concerns or before making any decisions related to your health or treatment.  The patient needs immediate medical attention.\n"""
+2007,"Doctor, I've been experiencing shortness of breath, drainage in my throat, weakness in my wrist, and I've been coughing up blood. What could be the problem?","1. **Most Likely Disease:** Abscess of the lung. This is the most likely diagnosis as it is the only disease in the provided data that includes all the major symptoms: shortness of breath, drainage in the throat, wrist weakness (less directly related, but possible due to overall weakness), and coughing up blood (hemoptysis). Atelectasis, while having cough and shortness of breath, doesn't explain the hemoptysis, drainage in the throat or wrist weakness as well.
+
+2. **Recommended Medication(s):**
+* Meropenem
+* Vancomycin
+* Budesonide
+* Dexamethasone Topical Product
+* Docusate (Colace)
+
+3. **Suggested Medical Test(s):**
+* Radiographic imaging procedure
+* X-ray computed tomography (Scan ct)
+* Plain x-ray (X ray)
+* Cardiac monitoring (Cardiac monitor)
+* Hematologic tests (Blood test)
+* Complete blood count (Cbc)
+* Electrocardiogram",503
+1829,"Doctor, I have been experiencing sharp chest pain along with an irregular heartbeat. What could be the problem?","1. **Most Likely Disease:**
+Coronary atherosclerosis. This is because it's the only disease in the provided data that lists *both* sharp chest pain and irregular heartbeat as symptoms. While other diseases include sharp chest pain, they do not also list irregular heartbeat.
+
+2. **Recommended Medication(s):**
+Aspirin
+
+3. **Suggested Medical Test(s):**
+Electrocardiogram",503
+1144,I have been diagnosed with primary kidney disease. What are the required medications for it? ,"Since you indicated there is no reference table available, I will answer using my own medical knowledge.
+
+1. **Most Likely Disease:** Primary Kidney Disease. The prompt itself states the diagnosis, therefore, this is the most likely disease. ""Primary"" indicates the kidney disease originated in the kidneys themselves, rather than being caused by another underlying condition like diabetes or high blood pressure.
+
+2. **Recommended Medication(s):**
+
+*   ACE inhibitors (e.g., Lisinopril, Enalapril)
+*   ARBs (e.g., Valsartan, Losartan)
+*   Diuretics (e.g., Furosemide, Hydrochlorothiazide)
+*   Corticosteroids (e.g., Prednisone)
+*   Immunosuppressants (e.g., Cyclosporine, Mycophenolate mofetil)
+*   Phosphate binders (e.g., Sevelamer, Lanthanum carbonate)
+*   Erythropoiesis-stimulating agents (ESAs) (e.g., Epoetin alfa, Darbepoetin alfa)
+*   Vitamin D analogs (e.g., Calcitriol)
+
+3. **Suggested Medical Test(s):**
+
+*   Urinalysis
+*   Urine protein creatinine ratio
+*   Estimated Glomerular Filtration Rate (eGFR)
+*   Kidney ultrasound
+*   Kidney biopsy
+*   Blood urea nitrogen (BUN)
+*   Serum creatinine
+*   Electrolyte panel
+*   Complete blood count (CBC)
+*   Parathyroid hormone (PTH)
+*   Vitamin D level",503
+840,"Doctor, I have been experiencing severe back pain and stiffness. Sometimes the pain even radiates to my neck and shoulders. I also find it difficult to move my back freely.","1. **Most Likely Disease:** Spondylitis. The patient reports back pain, stiffness, and pain radiating to the neck and shoulders, along with limited back mobility. These symptoms strongly align with spondylitis, which involves inflammation of the vertebrae and can cause stiffness and referred pain. Fibromyalgia is also possible as it includes back pain, neck pain, and shoulder pain. However, the stiffness and limited movement described by the patient are more characteristic of spondylitis.
+
+2. **Recommended Medication(s):**
+* Cyclobenzaprine
+* Diazepam (Valium)
+* Carisoprodol (Soma)
+* Orphenadrine (Flexon)
+* Methocarbamol
+* Tizanidine
+
+3. **Suggested Medical Test(s):**
+* Plain x-ray (X ray)
+* Physical therapy exercises (Exercises)
+* Magnetic resonance imaging (Mri)",503
+4468,"Doctor, I recently had an ultrasound and they found a mass on my kidney. What could this mean?","1. **Most Likely Disease:** Liver cancer. The table lists ""Kidney mass"" as a symptom and ""Ultrasonography (Ultrasound)"" as a medical test associated with Liver cancer. The patient's ultrasound found a kidney mass.
+
+2. **Recommended Medication(s):**
+   * Spironolactone
+
+3. **Suggested Medical Test(s):**
+   * Ultrasonography (Ultrasound)
+   * Magnetic resonance imaging (MRI)",503
+713,"Doctor, I was diagnosed with diabetic ketoacidosis. What tests do I need to take?<EOS>","Since there is no reference table provided, I will answer based on my medical knowledge.
+
+1. **Most Likely Disease:** Diabetic Ketoacidosis (DKA). The patient states they were diagnosed with it.
+
+2. **Recommended Medication(s):**
+    * Insulin
+    * IV fluids (e.g., Normal Saline)
+    * Potassium chloride (if needed)
+    * Sodium bicarbonate (in specific circumstances)
+
+3. **Suggested Medical Test(s):**
+    * Blood glucose
+    * Serum ketones
+    * Arterial blood gas (ABG)
+    * Electrolyte panel (Sodium, Potassium, Chloride, Bicarbonate)
+    * Blood urea nitrogen (BUN) and Creatinine
+    * Complete blood count (CBC)
+    * Urinalysis
+    * EKG
+    * Serum Osmolality",503
+4838,"Doctor, I've been experiencing lower body pain and my foot/toe feels stiff or tight. Any idea what it might be?","1. **Most Likely Disease:**
+Spondylitis. This is because Spondylitis includes both ""Lower body pain"" and Stiffness as a symptom, and although Flat feet also includes foot or toe stiffness or tightness, Spondylitis appears to be a better fit because the symptom list is more comprehensive.
+
+2. **Recommended Medication(s):**
+Cyclobenzaprine
+Diazepam (Valium)
+Carisoprodol (Soma)
+Orphenadrine (Flexon)
+Methocarbamol
+Tizanidine
+Bupivacaine
+Metaxalone (Skelaxin)
+Methadone
+Nabumetone
+Chlorzoxazone
+
+3. **Suggested Medical Test(s):**
+Plain x-ray (X ray)
+Physical therapy exercises (Exercises)
+Other therapeutic procedures
+Insertion of catheter or spinal stimulator and injection into spinal canal
+Magnetic resonance imaging (Mri)
+Other non-OR or closed therapeutic nervous system procedures
+Physical therapy exercises; manipulation; and other procedures",503
+3457,"Doctor, I am experiencing an eyelid lesion or rash, diminished vision, and leg weakness. What could this be?","Here's an analysis of the symptoms and a possible answer based on the provided data and general medical knowledge:
+
+1. **Most Likely Disease:**
+**Chalazion complicated by secondary issues/other condition**. Based on the provided information, the ""Eyelid lesion or rash"" is a symptom of Chalazion. Also the associated symptom of diminished vision is associated with Chalazion. ""Leg weakness"" is not directly linked to Chalazion in the provided data. This suggests the leg weakness may be related to a separate neurological or musculoskeletal issue, or a complication arising from the initial eyelid condition (if it is severe and untreated). Because there are two separate conditions, it is difficult to pick one single ""most likely"" disease.
+
+2. **Recommended Medication(s):**
+*   Erythromycin Ophthalmic
+*   Tobramycin Ophthalmic
+*   Dexamethasone-Tobramycin Ophthalmic
+*   Insulin (if Diabetic Retinopathy becomes primary concern)
+
+3. **Suggested Medical Test(s):**
+*   Ophthalmic examination and evaluation (Eye exam)
+*   Biopsy
+*   Neurological exam (due to leg weakness)
+*   Other therapeutic procedures on eyelids; conjunctiva; cornea",503
+261,"Doctor, I have been experiencing some pain and swelling around my bellybutton. I also noticed some redness and discharge from the area. What could be the problem?","1. **Most Likely Disease:** Neither Peritonitis nor Ischemia of the Bowel completely fits the provided symptoms. The redness and discharge point more towards a localized infection or inflammation around the umbilicus (bellybutton), which is not directly covered by the table. Therefore, a more accurate assessment would require further information and a physical examination. If forced to choose based solely on the table, given the abdominal pain, Peritonitis is a slightly closer match than Ischemia of the Bowel, although it doesn't explain the redness and discharge as well.
+
+2. **Recommended Medication(s):**
+
+*   Metronidazole
+*   Given the high probability of an infection, a broad-spectrum antibiotic would be necessary.
+
+3. **Suggested Medical Test(s):**
+
+*   Hematologic tests (Blood test)
+*   Radiographic imaging procedure
+*   Complete blood count (Cbc)
+*   Culture of the discharge",503
+245,"Doctor, I have an open wound from my surgical incision. What medical tests do I need?","1. **Most Likely Disease:** Surgical Site Infection. An open surgical incision is inherently at risk of infection.
+
+2. **Recommended Medication(s):**
+    *   Cephalexin
+    *   Clindamycin
+    *   Mupirocin (topical)
+
+3. **Suggested Medical Test(s):**
+    *   Wound culture
+    *   Complete blood count (CBC)
+    *   Radiographic imaging procedure
+    *   Wound care management",503
+768,"Doctor, I have been experiencing difficulty in passing urine lately. It feels like something is blocking my bladder. What should I do?","Based on the provided table:
+
+1.  **Most Likely Disease:** Pelvic organ prolapse. The symptom ""difficulty in passing urine"" aligns with ""retention of urine,"" which is listed as a symptom of Pelvic organ prolapse. While Vocal cord polyp also lists ""retention of urine,"" it is less likely given the presenting symptom.
+
+2.  **Recommended Medication(s):**
+    *   Estradiol
+    *   Estrogens, Conjugated (Usp) (Premarin)
+    *   Tolterodine (Detrol)
+    *   Solifenacin (Vesicare)
+    *   Darifenacin (Enablex)
+    *   Selegiline
+    *   Bethanechol
+    *   Imipramine
+    *   Eprosartan (Teveten)
+
+3.  **Suggested Medical Test(s):**
+    *   Pelvis exam
+    *   Urinalysis
+    *   Examination of breast
+    *   Rectal examination
+    *   Mammography (Mammogram)
+    *   Ultrasonography (Ultrasound)",503
+1792,"Hi doctor, I've been feeling hot and cold lately along with some elbow cramps or spasms. I also feel like vomiting sometimes and have had seizures in the past. What could be the reason for these symptoms? ","1. **Most Likely Disease:**
+
+Cysticercosis. This is because the provided table lists cysticercosis as having all the mentioned symptoms: seizures, vomiting, elbow cramps or spasms, and feeling hot and cold.
+
+2. **Recommended Medication(s):**
+
+Based on the table, for Cysticercosis and Poisoning due to ethylene glycol the recommended medications are:
+
+*   Lorazepam
+
+3. **Suggested Medical Test(s):**
+
+Based on the table, for Poisoning due to ethylene glycol the recommended medical test is:
+
+*   Toxicology screen",503
+1906,"Doctor, I have been vomiting, my throat feels tight and I am experiencing incontinence of stool.","Based on the provided table and the patient's symptoms:
+
+1.  **Most Likely Disease:** Foreign body in the gastrointestinal tract. The table directly links vomiting and throat tightness to this condition, which aligns with the patient's report. While fecal incontinence isn't explicitly listed, a foreign body could potentially cause bowel obstruction or irritation leading to this symptom.
+
+2.  **Recommended Medication(s):** Glucagon
+
+3.  **Suggested Medical Test(s):** Radiographic imaging procedure, Plain x-ray (X ray)",503
+4140,"Doctor, I am experiencing eye redness, a swollen eye, a headache, spots or clouds in vision, and pain in my eye. What could be causing these symptoms?","1. **Most Likely Disease:**
+Corneal disorder. This is because the patient experiences eye redness, a swollen eye, a headache, spots or clouds in vision, and pain in the eye. Corneal disorder presents with diminished vision, pain in the eye, eye redness, and spots or clouds in vision. Other diseases present similar symptoms.
+
+2. **Recommended Medication(s):**
+Prednisolone Ophthalmic, Tropicamide Ophthalmic, Phenylephrine (Duramax)
+
+3. **Suggested Medical Test(s):**
+Ophthalmic examination and evaluation (Eye exam)",503
+4932,"Doctor, I have this strange rash on my skin and I've noticed a few skin growths. What could be causing this?","1. **Most Likely Disease:**
+Alopecia. This is because it is the only disease that lists both ""skin rash"" and ""skin growth"" as symptoms, which are the patient's presented symptoms. While other diseases list one or the other, Alopecia is the only condition in the provided table that includes both symptoms.
+
+2. **Recommended Medication(s):**
+Triamcinolone Topical Product
+Clobetasol Topical
+Fluocinonide Topical
+Betamethasone Topical Product
+Salicylic Acid Topical
+Ketoconazole
+Hydroxychloroquine (Plaquenil)
+Anthralin Topical
+
+3. **Suggested Medical Test(s):**
+Complete physical skin exam performed (ML)
+Other therapeutic procedures
+Biopsy
+Excision (Removal)
+Other diagnostic procedures on skin and subcutaneous tissue
+Excision of skin lesion",503
+218,I had an accident last night and I think I might have injured one of my internal organs. ,"Okay, here's an analysis based on the provided table and the user's statement ""I had an accident last night and I think I might have injured one of my internal organs."":
+
+1. **Most Likely Disease:** Injury to the abdomen
+
+   Explanation: Given the accident, injury to the abdomen directly aligns with the scenario. The symptom ""Sharp abdominal pain"" also supports this. Other conditions might be exacerbated by trauma, but injury is the most direct consequence.
+
+2. **Recommended Medication(s):**
+
+*   Vecuronium
+*   Bisacodyl (The Magic Bullet)
+*   Memantine (Namenda)
+*   Sennosides, Usp (Perdiem)
+*   Zosyn
+*   Mecamylamine
+*   Grepafloxacin (Raxar)
+*   Malathion Topical
+*   Gemtuzumab (Mylotarg)
+
+3. **Suggested Medical Test(s):**
+
+*   Radiographic imaging procedure
+*   Hematologic tests (Blood test)
+*   Complete blood count (Cbc)
+*   X-ray computed tomography (Scan ct)
+*   Urinalysis
+*   Kidney function tests (Kidney function test)
+*   Intravenous fluid replacement",503
+4598,"Doctor, I've been experiencing some strange symptoms lately. I've been abusing alcohol a bit more than usual, and I've been experiencing delusions or hallucinations. I've been slurring my words, too, and I even fainted at work the other day. ","1. **Most Likely Disease:**
+Substance-related mental disorder. The patient reports abusing alcohol more than usual, experiencing delusions or hallucinations, and slurring words. These symptoms, along with a history of alcohol abuse, strongly suggest a substance-related mental disorder.
+
+2. **Recommended Medication(s):**
+*   Lorazepam
+*   Quetiapine (Seroquel)
+*   Risperidone
+*   Haloperidol
+*   Benztropine
+*   Ziprasidone (Geodon)
+*   Naltrexone
+
+3. **Suggested Medical Test(s):**
+*   Hematologic tests (Blood test)
+*   Complete blood count (Cbc)
+*   Urinalysis
+*   Glucose measurement (Glucose level)
+*   Kidney function tests (Kidney function test)
+*   Electrocardiogram",503
+1629,"Doctor, I've been having knee pain and heartburn lately.","1. **Most Likely Disease:** Injury to the knee. This is the only disease in the table that lists both knee pain and heartburn as symptoms.
+
+2. **Recommended Medication(s):**
+    * Chondroitin-Glucosamine
+    * Cortisone
+    * Piroxicam
+    * Nabumetone
+    * Pentazocine (Talwin)
+    * Alendronate-Cholecalciferol
+
+3. **Suggested Medical Test(s):**
+    * Radiographic imaging procedure
+    * Plain x-ray (X ray)
+    * Magnetic resonance imaging (Mri)
+    * Application of splint (Splinting)
+    * Physical therapy exercises (Exercises)",503
+5324,"Doctor, I have been experiencing burning chest pain, regurgitation, problems with the shape and size of my breast, and I'm also having some smoking-related problems. What could be wrong with me?","1. **Most Likely Disease:** Coronary atherosclerosis. The combination of burning chest pain and the mention of a breast examination, along with smoking-related problems, strongly suggests this condition.
+
+2. **Recommended Medication(s):**
+*   Nicotine
+
+3. **Suggested Medical Test(s):**
+*   Examination of breast",503
+4465,"Doctor, I have been experiencing some symptoms lately. I have been abusing alcohol, feeling depressed, and having temper problems. I also have some fears and phobia. ","Here's an analysis of the patient's symptoms based on the provided information:
+
+1.  **Most Likely Disease:** Substance-related mental disorder.
+    *   **Why:** The patient presents with a combination of symptoms including alcohol abuse, depression, temper problems (excessive anger), and fears/phobias. These align strongly with the listed symptoms for Substance-related mental disorder.
+
+2.  **Recommended Medication(s):**
+    *   Lorazepam
+    *   Quetiapine (Seroquel)
+    *   Risperidone
+    *   Haloperidol
+    *   Benztropine
+    *   Ziprasidone (Geodon)
+    *   Efavirenz
+    *   Naloxone (Suboxone)
+    *   Nicotine
+    *   Didanosine (Videx)
+    *   Nelfinavir (Viracept)
+    *   Naltrexone
+
+3.  **Suggested Medical Test(s):**
+    *   Hematologic tests (Blood test)
+    *   Complete blood count (Cbc)
+    *   Urinalysis
+    *   Glucose measurement (Glucose level)
+    *   Kidney function tests (Kidney function test)
+    *   Electrocardiogram
+    *   Intravenous fluid replacement",503

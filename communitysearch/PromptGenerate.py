@@ -19,7 +19,7 @@ import ollama
 ### User Groq - Already set up in llm/groqapi.
 
 ### OpenRaouter
-chat_gemma3 = openrouter.Gemma3(API_KEY=os.getenv("openrouter_api_key"))
+#chat_gemma3 = openrouter.Gemma3(API_KEY=os.getenv("openrouter_api_key"))
 
 
 ### --- [目前無使用] 找出兩兩 nodes 之間的 egde

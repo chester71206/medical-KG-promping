@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>醫療問答系統</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Markdown渲染器 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏥 醫療問答智能系統</h1>
+            <p>基於知識圖譜的智能醫療諮詢服務</p>
+        </div>
+
+        <form id="questionForm">
+            <div class="form-group">
+                <label class="form-label" for="questionInput">請輸入您的醫療問題：</label>
+                <div class="input-container">
+                    <textarea 
+                        id="questionInput" 
+                        class="question-input" 
+                        placeholder="例如：我有胰臟炎病史，我下背痛超過一個月，請問是什麼問題？&#10;Or: I have a history of pancreatitis and have been experiencing lower back pain for over a month. What could be the problem?&#10;Or: 今天天氣如何？ (純粹問Gemini可以問任何問題)"
+                        rows="5"
+                    ></textarea>
+                </div>
+
+                <div class="language-detector">
+                    <div class="language-info">
+                        <span>偵測語言：</span>
+                        <span id="languageBadge" class="language-badge unknown">未知</span>
+                        <span class="auto-translate-note">（知識圖譜分析模式下有中文字符將自動翻譯）</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button type="submit" class="submit-btn primary" id="submitBtn">
+                    <span class="loading-spinner" id="loadingSpinner"></span>
+                    <span id="submitText">🔬 知識圖譜分析</span>
+                </button>
+                <button type="button" class="submit-btn secondary" id="directGeminiBtn">
+                    <span class="loading-spinner" id="directLoadingSpinner"></span>
+                    <span id="directSubmitText">🤖 純粹問Gemini</span>
+                </button>
+            </div>
+        </form>
+
+        <div class="processing-steps" id="processingSteps">
+            <div class="step" data-step="1">
+                <div class="step-icon pending">1</div>
+                <span>語言檢測與翻譯</span>
+            </div>
+            <div class="step" data-step="2">
+                <div class="step-icon pending">2</div>
+                <span>醫療實體提取</span>
+            </div>
+            <div class="step" data-step="3">
+                <div class="step-icon pending">3</div>
+                <span>實體匹配</span>
+            </div>
+            <div class="step" data-step="4">
+                <div class="step-icon pending">4</div>
+                <span>知識圖譜搜索</span>
+            </div>
+            <div class="step" data-step="5">
+                <div class="step-icon pending">5</div>
+                <span>路徑分析</span>
+            </div>
+            <div class="step" data-step="6">
+                <div class="step-icon pending">6</div>
+                <span>生成醫療建議</span>
+            </div>
+        </div>
+
+        <div class="result-container" id="resultContainer">
+            <div class="result-label">🎯 醫療建議：</div>
+            <div class="result-text" id="resultText"></div>
+            
+            <div class="result-details" id="resultDetails">
+                <h3>🔍 分析詳情：</h3>
+                <div class="detail-item">
+                    <strong>偵測語言：</strong>
+                    <span id="detectedLanguage">-</span>
+                </div>
+                <div class="detail-item">
+                    <strong>提取實體：</strong>
+                    <span id="extractedEntities">-</span>
+                </div>
+                <div class="detail-item">
+                    <strong>匹配實體：</strong>
+                    <span id="matchedEntities">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="error-container" id="errorContainer">
+            <div class="error-text" id="errorText"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

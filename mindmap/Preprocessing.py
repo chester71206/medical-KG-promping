@@ -68,7 +68,46 @@ def prompt_extract_keyword(input_text, chat, re1):
     chat_prompt_with_values = chat_prompt.format_prompt(input = input_text,\
                                                         text={})
 
-    response_of_KG = chat(chat_prompt_with_values.to_messages()).content
+    #response_of_KG = chat(chat_prompt_with_values.to_messages()).content
+    # 修復：直接將prompt格式化為字符串，而不是消息列表
+    formatted_prompt = chat_prompt_with_values.to_string()
+    response_of_KG_raw = chat.invoke(formatted_prompt)
+    
+    # 處理Gemini返回的JSON格式響應
+    if isinstance(response_of_KG_raw, str):
+        try:
+            # 嘗試解析JSON字符串
+            import json
+            response_of_KG = json.loads(response_of_KG_raw)
+            if not isinstance(response_of_KG, str):
+                response_of_KG = str(response_of_KG)
+        except json.JSONDecodeError:
+            # 如果不是JSON格式，直接使用原字符串
+            response_of_KG = response_of_KG_raw
+    else:
+        response_of_KG = str(response_of_KG_raw)
 
-    question_kg = re.findall(re1,response_of_KG)
+    print(f"DEBUG: Gemini response for entity extraction: {response_of_KG}")
+    
+    question_kg = re.findall(re1, response_of_KG)
+    print(f"DEBUG: Regex match result: {question_kg}")
+    
+    # 如果正則匹配失敗，嘗試更寬鬆的匹配 - 保持和原始程序一致的額外匹配邏輯
+    if not question_kg:
+        print("DEBUG: Standard regex failed, trying alternative patterns...")
+        # 嘗試不同的匹配模式
+        alternative_patterns = [
+            r'entities are (.*?)<',
+            r'entities are:?\s*(.*?)(?:\n|$)',
+            r'entities.*?:\s*(.*?)(?:\n|$)',
+            r'(?:entities|症狀|symptoms).*?[:：]\s*(.*?)(?:\n|$|。)'
+        ]
+        
+        for pattern in alternative_patterns:
+            matches = re.findall(pattern, response_of_KG, re.IGNORECASE | re.DOTALL)
+            if matches:
+                print(f"DEBUG: Alternative pattern matched: {pattern} -> {matches}")
+                question_kg = matches
+                break
+    
     return question_kg

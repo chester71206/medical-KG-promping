@@ -1,0 +1,86 @@
+neo4j+s://65eb27c7.databases.neo4j.io
+Output file not found. Creating a new file: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Specific_Questions.csv
+
+==================================================
+Processing Matched Question | Q_ID: 459
+Original English Question:
+ Hey Doc, I've been experiencing some chest pains recently and I'm afraid it might be related to my central atherosclerosis. Is there any way to know for sure?
+Translated Chinese Question:
+ 嘿，醫生，我最近一直胸痛，我擔心可能跟我的中心性動脈粥樣硬化有關。有什麼方法可以確定嗎？
+Re-translated English Question:
+ Hey doctor, I've been having chest pain lately, and I'm worried it might be related to my central artery atherosclerosis.  Is there any way to find out for sure?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Chest pain, Central artery atherosclerosis']
+Dynamically Extracted question_kg:
+ ['Chest pain', 'Central artery atherosclerosis']
+<Warning> Entity 'Central artery atherosclerosis' not in keyword embeddings. Skipping.
+Question Entities:
+ ['Sharp_chest_pain']
+Find Subgraph: 1.486 秒
+test
+Find Paths: 0.072 秒
+Generate Paths in NL: 6.769 秒
+Final English Answer: \n\n1. **Most Likely Disease:** Coronary atherosclerosis.  The patient's mention of central artery atherosclerosis and chest pain strongly suggests this as a possibility. While \"central artery\" is not a precise anatomical term, it implies a major artery, and coronary arteries are the most likely location for atherosclerosis to cause chest pain.\n\n2. **Recommended Medication(s):**  Treatment for coronary atherosclerosis focuses on managing risk factors and preventing further disease progression. This might include:\n    * **Statins:** To lower LDL cholesterol.  Examples include atorvastatin, simvastatin, rosuvastatin.\n    * **Aspirin:** To reduce blood clotting.\n    * **Beta-blockers:** To control blood pressure and heart rate. Examples include metoprolol, atenolol, carvedilol.\n    * **ACE inhibitors or ARBs:** To manage blood pressure and protect the heart. Examples include lisinopril, ramipril (ACE inhibitors), losartan, valsartan (ARBs).\n    * **Nitroglycerin:** For immediate relief of angina (chest pain).  This is usually administered sublingually (under the tongue).\n\n3. **Suggested Medical Test(s):**\n    * **Electrocardiogram (ECG or EKG):** To assess the heart's electrical activity and detect any abnormalities.\n    * **Cardiac enzyme tests (Troponin I, CK-MB):** To rule out a heart attack (myocardial infarction).\n    * **Echocardiogram:** An ultrasound of the heart to assess the structure and function of the heart, including evaluating for possible atherosclerosis.\n    * **Coronary angiography:** A more invasive test involving injecting dye into the coronary arteries to visualize blockages.  This is often considered the gold standard for diagnosing coronary artery disease.\n    * **Stress test (exercise or pharmacological):**  To assess the heart's response to increased workload, helping to identify areas of reduced blood flow.\n\n\n
+Final Chinese Answer: 1. **最可能的疾病：**冠狀動脈粥狀硬化。患者提到中央動脈粥狀硬化和胸痛，強烈暗示了這種可能性。「中央動脈」雖然不是精確的解剖學術語，但它暗示一條主要動脈，而冠狀動脈是最可能因粥狀硬化而導致胸痛的部位。
+
+2. **建議藥物：**冠狀動脈粥狀硬化的治療重點在於控制危險因素和預防疾病進一步發展。這可能包括：
+    * **他汀類藥物：**降低低密度脂蛋白膽固醇。例如阿托伐他汀、辛伐他汀、瑞舒伐他汀。
+    * **阿斯匹靈：**減少血液凝固。
+    * **β受體阻滯劑：**控制血壓和心率。例如美托洛爾、阿替洛爾、卡維地洛。
+    * **ACE抑制劑或ARB：**控制血壓並保護心臟。例如利西諾普利、雷米普利（ACE抑制劑）、洛沙坦、缬沙坦（ARB）。
+    * **硝化甘油：**立即緩解心絞痛（胸痛）。這通常是舌下給藥（含在舌下）。
+
+3. **建議的醫療檢測：**
+    * **心電圖（ECG或EKG）：**評估心臟的電活動並檢測任何異常。
+    * **心臟酶檢測（肌鈣蛋白I、CK-MB）：**排除心臟病發作（心肌梗塞）。
+    * **超聲心動圖：**心臟超聲波檢查，評估心臟的結構和功能，包括評估可能的粥狀硬化。
+    * **冠狀動脈造影：**一種更具侵入性的檢查，將染料注射到冠狀動脈中以觀察阻塞。這通常被認為是診斷冠狀動脈疾病的金標準。
+    * **壓力測試（運動或藥理學）：**評估心臟對增加工作量的反應，有助於識別血流減少的區域。
+
+==================================================
+Processing Matched Question | Q_ID: 995
+Original English Question:
+ I had surgery yesterday and I'm experiencing a lot of pain. What medications should I take?
+Translated Chinese Question:
+ 我昨天動了手術，現在非常疼痛，請問該吃什麼藥？
+Re-translated English Question:
+ I had surgery yesterday and am in a lot of pain. What medication should I take?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Post-surgical pain']
+Dynamically Extracted question_kg:
+ ['Post-surgical pain']
+<Warning> Entity 'Post-surgical pain' not in keyword embeddings. Skipping.
+<Warning> No matching entities found in KG. Cannot proceed.
+
+==================================================
+Processing Matched Question | Q_ID: 3783
+Original English Question:
+ Doctor, I have been experiencing pain when I breathe, excessive sweating, and congestion in my chest. What could be wrong with me?
+Translated Chinese Question:
+ 醫生，我呼吸時感到疼痛，出汗過多，胸部也感到阻塞。我可能得了什麼病？
+Re-translated English Question:
+ Doctor, I'm having pain when I breathe, excessive sweating, and chest tightness. What could be wrong with me?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Chest pain, Dyspnea (shortness of breath), Excessive sweating']
+Dynamically Extracted question_kg:
+ ['Chest pain', 'Dyspnea (shortness of breath)', 'Excessive sweating']
+<Warning> Entity 'Dyspnea (shortness of breath)' not in keyword embeddings. Skipping.
+Question Entities:
+ ['Sharp_chest_pain', 'Sweating']
+Find Subgraph: 1.237 秒
+Find Paths: 1.065 秒
+Generate Paths in NL: 12.143 秒
+Final English Answer: **\n\n1. **Most Likely Disease:** Asthma.  The combination of chest tightness, pain on breathing, and excessive sweating points towards a potential respiratory issue.  Asthma is characterized by airway inflammation and bronchospasm, leading to these symptoms. While other conditions like pleurisy or cardiac issues could also present with similar symptoms, asthma is a more common and plausible explanation given the information provided.\n\n2. **Recommended Medication(s):**  \n    * **Bronchodilators:** (e.g., albuterol) to relax the airways and relieve bronchospasm, providing immediate relief.  These are usually administered via inhaler.\n    * **Inhaled corticosteroids:** (e.g., fluticasone, budesonide) to reduce airway inflammation in the long term.  These are also typically delivered via inhaler.\n    * **Combination inhalers:** These often combine a bronchodilator and a corticosteroid in one inhaler for convenience and better symptom management.\n\n3. **Suggested Medical Test(s):**\n    * **Spirometry:** This measures lung function to assess the severity of airflow limitation characteristic of asthma.\n    * **Peak expiratory flow (PEF) monitoring:**  Patients can use a peak flow meter at home to track changes in their lung function, helping identify triggers and monitor response to treatment.\n    * **Allergy testing:** To identify potential environmental allergens that may be triggering asthma attacks.\n\n\n**
+Final Chinese Answer: 1. **最可能的疾病：** 哮喘。胸悶、呼吸疼痛和大量出汗的症狀組合指向潛在的呼吸系統問題。哮喘的特徵是氣道發炎和支氣管痙攣，導致這些症狀。雖然像胸膜炎或心臟問題等其他疾病也可能出現類似症狀，但根據提供的資訊，哮喘是更常見且合理的解釋。
+
+2. **建議藥物：**
+    * **支氣管擴張劑：**（例如，沙丁胺醇）放鬆氣道並緩解支氣管痙攣，提供立即緩解。這些通常通過吸入器給藥。
+    * **吸入性類固醇：**（例如，氟替卡松、布地奈德）長期減少氣道發炎。這些也通常通過吸入器給藥。
+    * **複方吸入器：**這些通常將支氣管擴張劑和類固醇合併在一個吸入器中，方便使用並更好地控制症狀。
+
+3. **建議的醫學檢查：**
+    * **肺功能檢查：**測量肺功能以評估哮喘特徵性氣流受限的嚴重程度。
+    * **峰值呼氣流速 (PEF) 監測：**患者可以在家使用峰值流量計追蹤肺功能的變化，幫助識別誘發因素並監測治療反應。
+    * **過敏原檢測：**以識別可能誘發哮喘發作的潛在環境過敏原。
+
+Processing complete. Results saved to: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Specific_Questions.csv

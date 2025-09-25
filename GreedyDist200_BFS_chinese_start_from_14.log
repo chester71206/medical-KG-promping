@@ -1,0 +1,1221 @@
+neo4j+s://65eb27c7.databases.neo4j.io
+Resuming run from question #15. Appending to file: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Test.csv
+
+==================================================
+Processing Question #15 | Q_ID from data: 768
+Original English Question:
+ Doctor, I have been experiencing difficulty in passing urine lately. It feels like something is blocking my bladder. What should I do?
+Translated Chinese Question:
+ 醫生，我最近排尿困難，感覺好像膀胱被阻塞了，該怎麼辦？
+Re-translated English Question:
+ Doctor, I've been having trouble urinating lately, it feels like my bladder is blocked. What should I do?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Urinary Retention, Bladder obstruction']
+Dynamically Extracted question_kg:
+ ['Urinary Retention', 'Bladder obstruction']
+<Warning> Entity 'Urinary Retention' not in keyword embeddings. Skipping.
+Question Entities:
+ ['Involuntary_urination']
+Find Subgraph: 1.564 秒
+test
+Find Paths: 0.066 秒
+Generate Paths in NL: 2.257 秒
+Final English Answer: **\n\n1. **Most Likely Disease:**\nBenign prostatic hyperplasia (BPH) is the most likely diagnosis.  The symptom of difficulty urinating, feeling like the bladder is blocked, is a classic sign of BPH, which is an enlargement of the prostate gland that obstructs the urethra.  While the provided path evidence mentions conditions primarily associated with involuntary urination (incontinence), the patient's description points to urinary retention, a key feature of BPH.\n\n2. **Recommended Medication(s):**\n* **Alpha-blockers:**  These relax the muscles in the prostate and bladder neck, improving urine flow. Examples include tamsulosin (Flomax), alfuzosin (Uroxatral), and silodosin (Rapaflo).\n* **5-alpha-reductase inhibitors:** These shrink the prostate gland over time. Examples include finasteride (Proscar) and dutasteride (Avodart).\n* **Combination therapy:** Often, a combination of alpha-blockers and 5-alpha-reductase inhibitors is used for optimal results.\n* **Tadalafil (Cialis):** In some cases, this medication, primarily known for erectile dysfunction, can also improve urinary symptoms in men with BPH.\n\n\n3. **Suggested Medical Test(s):**\n* **Digital Rectal Examination (DRE):** The doctor will manually feel the prostate gland to assess its size and consistency.\n* **Urinalysis:** To check for urinary tract infection or other abnormalities in the urine.\n* **Prostate-specific antigen (PSA) blood test:**  Measures the level of PSA in the blood; elevated levels can indicate prostate problems, but further investigation is needed to determine the cause.\n* **Uroflowmetry:** Measures the rate of urine flow to assess the severity of obstruction.\n* **Post-void residual (PVR) urine test:** Measures the amount of urine left in the bladder after urination, indicating potential bladder emptying issues.\n* **Transrectal ultrasound (TRUS):** Provides an image of the prostate gland to assess its size and rule out other conditions.\n\n\n**
+Final Chinese Answer: 1. **最可能的疾病：**良性前列腺增生 (BPH) 是最可能的診斷。排尿困難，感覺膀胱阻塞的症狀，是BPH的典型症狀，BPH是前列腺腫大阻塞尿道所致。雖然提供的病理證據主要提及與非自主排尿（尿失禁）相關的疾病，但病人的描述指向尿滯留，這是BPH的一個關鍵特徵。
+
+2. **建議藥物：**
+* **α受體阻滯劑：**這些藥物可以放鬆前列腺和膀胱頸的肌肉，改善尿流。例如坦洛新 (Flomax)、阿爾扶索辛 (Uroxatral) 和西洛多辛 (Rapaflo)。
+* **5α還原酶抑制劑：**這些藥物可以隨著時間推移縮小前列腺。例如非那雄胺 (Proscar) 和度他雄胺 (Avodart)。
+* **聯合療法：**通常，α受體阻滯劑和5α還原酶抑制劑聯合使用可以獲得最佳療效。
+* **他達拉非 (Cialis)：**在某些情況下，這種主要用於治療勃起功能障礙的藥物，也可以改善BPH患者的排尿症狀。
+
+
+3. **建議的醫學檢查：**
+* **直腸指診 (DRE)：**醫生會用手觸診前列腺以評估其大小和硬度。
+* **尿液分析：**檢查尿路感染或尿液中的其他異常情況。
+* **前列腺特異性抗原 (PSA) 血液檢查：**測量血液中PSA的水平；升高的水平可能提示前列腺問題，但需要進一步調查以確定病因。
+* **尿流動力學檢查：**測量尿流速率以評估阻塞的嚴重程度。
+* **排尿後殘餘尿量 (PVR) 檢查：**測量排尿後膀胱中殘留的尿量，顯示潛在的膀胱排空問題。
+* **經直腸超聲檢查 (TRUS)：**提供前列腺的影像以評估其大小並排除其他疾病。
+
+==================================================
+Processing Question #16 | Q_ID from data: 1792
+Original English Question:
+ Hi doctor, I've been feeling hot and cold lately along with some elbow cramps or spasms. I also feel like vomiting sometimes and have had seizures in the past. What could be the reason for these symptoms? 
+Translated Chinese Question:
+ 嗨醫生，我最近一直忽冷忽熱，而且手肘還會抽筋或痙攣。有時候也會想吐，過去也有過癲癇發作。這些症狀可能的原因是什麼？
+Re-translated English Question:
+ Hi doctor, I've been experiencing hot and cold flashes lately, and my elbows have been cramping or spasming.  Sometimes I also feel nauseous, and I've had seizures in the past. What could be causing these symptoms?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Hot flashes, Cold flashes, Elbow cramping, Elbow spasms, Nausea, Seizures']
+Dynamically Extracted question_kg:
+ ['Hot flashes', 'Cold flashes', 'Elbow cramping', 'Elbow spasms', 'Nausea', 'Seizures']
+<Warning> Entity 'Cold flashes' not in keyword embeddings. Skipping.
+Question Entities:
+ ['Hot_flashes', 'Elbow_cramps_or_spasms', 'Elbow_pain', 'Nausea', 'Seizures']
+Find Subgraph: 3.062 秒
+Find Paths: 0.676 秒
+Generate Paths in NL: 9.198 秒
+Final English Answer: \n\n1. **Most Likely Disease:**  Von Hippel-Lindau (VHL) disease.  The combination of hot flashes, elbow cramps/spasms, nausea, and a history of seizures points towards a multi-system disorder like VHL.  While the other conditions mentioned in the path evidence are possible, they don't fully account for the range of symptoms presented.  VHL is characterized by the development of tumors in various organs, which can lead to diverse clinical manifestations.\n\n2. **Recommended Medication(s):**  There isn't a \"cure\" for VHL, but treatment focuses on managing symptoms and tumors. This might include:\n    * **Seizure medication:**  Anticonvulsants like levetiracetam, lamotrigine, or others, depending on the seizure type.\n    * **Pain management:** Analgesics for muscle cramps and other pain.\n    * **Hormone therapy (potentially):**  If hormonal imbalances contribute to hot flashes.  This would need careful evaluation.\n    * **Surgery/Targeted Therapy:** To remove or treat tumors depending on their location and size.  This is a crucial part of VHL management.\n\n3. **Suggested Medical Test(s):**\n    * **Genetic testing:** To confirm a VHL gene mutation, which is diagnostic.\n    * **MRI/CT scans:** Of the brain, kidneys, and other organs to look for tumors.\n    * **Blood tests:** To evaluate kidney function and other parameters.\n    * **Ophthalmologic examination:** To check for retinal angiomas, a common VHL feature.\n\n\n
+Final Chinese Answer: 1. **最可能疾病：**馮·希佩爾-林道症候群 (VHL)。潮熱、手肘抽筋/痙攣、噁心以及既往癲癇病史的組合，指向像是VHL這樣的多系統疾病。雖然病理證據中提到的其他疾病也有可能，但它們無法完全解釋所呈現的症狀範圍。VHL的特性是在各種器官中發展腫瘤，這可能導致多樣化的臨床表現。
+
+2. **建議藥物：**VHL沒有「治癒方法」，但治療重點在於控制症狀和腫瘤。這可能包括：
+    * **抗癲癇藥物：**依據癲癇類型，例如拉莫三嗪、利拉西坦或其他藥物。
+    * **疼痛管理：**用於肌肉痙攣和其他疼痛的止痛藥。
+    * **荷爾蒙療法（可能）：**如果荷爾蒙失衡導致潮熱，這需要仔細評估。
+    * **手術/標靶治療：**根據腫瘤的位置和大小來切除或治療腫瘤。這是VHL管理中至關重要的一部分。
+
+3. **建議醫學檢查：**
+    * **基因檢測：**確認VHL基因突變，這是診斷性的。
+    * **核磁共振/電腦斷層掃描：**檢查腦部、腎臟和其他器官是否有腫瘤。
+    * **血液檢查：**評估腎功能和其他參數。
+    * **眼科檢查：**檢查視網膜血管瘤，這是VHL的常見特徵。
+
+==================================================
+Processing Question #17 | Q_ID from data: 1906
+Original English Question:
+ Doctor, I have been vomiting, my throat feels tight and I am experiencing incontinence of stool.
+Translated Chinese Question:
+ 醫生，我一直在嘔吐，喉嚨很緊，而且還有大便失禁。
+Re-translated English Question:
+ Doctor, I've been vomiting, my throat is tight, and I have fecal incontinence.
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: Doctor, I've been vomiting, my throat is tight, and I have fecal incontinence.
+
+==================================================
+Processing Question #18 | Q_ID from data: 4140
+Original English Question:
+ Doctor, I am experiencing eye redness, a swollen eye, a headache, spots or clouds in vision, and pain in my eye. What could be causing these symptoms?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I am experiencing eye redness, a swollen eye, a headache, spots or clouds in vision, and pain in my eye. What could be causing these symptoms?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I am experiencing eye redness, a swollen eye, a headache, spots or clouds in vision, and pain in my eye. What could be causing these symptoms?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I am experiencing eye redness, a swollen eye, a headache, spots or clouds in vision, and pain in my eye. What could be causing these symptoms?]]
+
+==================================================
+Processing Question #19 | Q_ID from data: 4932
+Original English Question:
+ Doctor, I have this strange rash on my skin and I've noticed a few skin growths. What could be causing this?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have this strange rash on my skin and I've noticed a few skin growths. What could be causing this?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have this strange rash on my skin and I've noticed a few skin growths. What could be causing this?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have this strange rash on my skin and I've noticed a few skin growths. What could be causing this?]]
+
+==================================================
+Processing Question #20 | Q_ID from data: 218
+Original English Question:
+ I had an accident last night and I think I might have injured one of my internal organs. 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: I had an accident last night and I think I might have injured one of my internal organs. ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: I had an accident last night and I think I might have injured one of my internal organs. ]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: I had an accident last night and I think I might have injured one of my internal organs. ]]
+
+==================================================
+Processing Question #21 | Q_ID from data: 4598
+Original English Question:
+ Doctor, I've been experiencing some strange symptoms lately. I've been abusing alcohol a bit more than usual, and I've been experiencing delusions or hallucinations. I've been slurring my words, too, and I even fainted at work the other day. 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been experiencing some strange symptoms lately. I've been abusing alcohol a bit more than usual, and I've been experiencing delusions or hallucinations. I've been slurring my words, too, and I even fainted at work the other day. ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been experiencing some strange symptoms lately. I've been abusing alcohol a bit more than usual, and I've been experiencing delusions or hallucinations. I've been slurring my words, too, and I even fainted at work the other day. ]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I've been experiencing some strange symptoms lately. I've been abusing alcohol a bit more than usual, and I've been experiencing delusions or hallucinations. I've been slurring my words, too, and I even fainted at work the other day. ]]
+
+==================================================
+Processing Question #22 | Q_ID from data: 1629
+Original English Question:
+ Doctor, I've been having knee pain and heartburn lately.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been having knee pain and heartburn lately.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been having knee pain and heartburn lately.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I've been having knee pain and heartburn lately.]]
+
+==================================================
+Processing Question #23 | Q_ID from data: 5324
+Original English Question:
+ Doctor, I have been experiencing burning chest pain, regurgitation, problems with the shape and size of my breast, and I'm also having some smoking-related problems. What could be wrong with me?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing burning chest pain, regurgitation, problems with the shape and size of my breast, and I'm also having some smoking-related problems. What could be wrong with me?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing burning chest pain, regurgitation, problems with the shape and size of my breast, and I'm also having some smoking-related problems. What could be wrong with me?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Burning chest pain, Regurgitation, Breast shape and size problems, Smoking-related problems']
+Dynamically Extracted question_kg:
+ ['Burning chest pain', 'Regurgitation', 'Breast shape and size problems', 'Smoking-related problems']
+<Warning> Entity 'Breast shape and size problems' not in keyword embeddings. Skipping.
+Question Entities:
+ ['Burning_chest_pain', 'Regurgitation', 'Smoking_problems']
+Find Subgraph: 2.132 秒
+Find Paths: 0.420 秒
+Generate Paths in NL: 20.643 秒
+Final English Answer: \n\n1. **Most Likely Disease:**  Gastroesophageal reflux disease (GERD)\n\nBased on the symptoms described (burning chest pain and regurgitation), GERD is a strong possibility.  While the breast shape/size change and smoking-related problems could be coincidental or related to other underlying conditions, the burning chest pain and regurgitation are classic GERD symptoms.\n\n2. **Recommended Medication(s):**\n\n* **Proton Pump Inhibitors (PPIs):** Omeprazole, lansoprazole, pantoprazole.  These reduce stomach acid production.\n* **H2 Receptor Antagonists:** Ranitidine, famotidine, cimetidine. These also reduce stomach acid but are less potent than PPIs.\n* **Lifestyle Modifications:**  Weight loss (if overweight), elevating the head of the bed, avoiding trigger foods (e.g., spicy foods, caffeine, alcohol), quitting smoking.\n\n\n3. **Suggested Medical Test(s):**\n\n* **Upper Endoscopy:**  To visually examine the esophagus and stomach for any abnormalities (e.g., ulcers, inflammation).\n* **Esophageal pH Monitoring (24-hour pH study):** Measures the acidity in the esophagus over 24 hours to assess reflux episodes.\n* **Barium Swallow:**  An X-ray examination that visualizes the esophagus and stomach, helping to identify structural issues.\n* **Blood tests:** To rule out other conditions that may cause similar symptoms (liver function tests given mention of smoking related problems and possible connection to cirrhosis in the provided data).\n\n\n
+Final Chinese Answer: 1. **最可能的疾病：** 胃食道逆流疾病 (GERD)
+
+根據所描述的症狀（灼熱胸痛和反胃），GERD 的可能性很高。雖然乳房形狀/大小改變和吸煙相關問題可能是巧合，或與其他潛在疾病有關，但灼熱胸痛和反胃是典型的 GERD 症狀。
+
+2. **建議藥物：**
+
+* **質子泵抑制劑 (PPI)：** 奥美拉唑、蘭索拉唑、泮托拉唑。這些藥物可以減少胃酸分泌。
+* **H2 受體拮抗劑：** 雷尼替丁、法莫替丁、西咪替丁。這些藥物也可以減少胃酸，但效力不如 PPI。
+* **生活方式調整：** 體重減輕（如果超重），抬高床頭，避免誘發食物（例如：辛辣食物、咖啡因、酒精），戒菸。
+
+
+3. **建議的醫療檢查：**
+
+* **上消化道內視鏡檢查：**  用以目視檢查食道和胃是否有任何異常（例如：潰瘍、發炎）。
+* **食道pH值監測 (24 小時 pH 值檢查)：** 測量 24 小時內食道酸度以評估反流情況。
+* **鋇劑吞嚥檢查：** 一種 X 光檢查，可以顯示食道和胃，有助於識別結構問題。
+* **血液檢查：** 排除可能導致類似症狀的其他疾病（鑒於提到吸煙相關問題及與肝硬化可能的關聯，故建議進行肝功能檢查）。
+
+==================================================
+Processing Question #24 | Q_ID from data: 4465
+Original English Question:
+ Doctor, I have been experiencing some symptoms lately. I have been abusing alcohol, feeling depressed, and having temper problems. I also have some fears and phobia. 
+Translated Chinese Question:
+ 醫生，我最近一直有一些症狀。我酗酒、感到沮喪，而且脾氣暴躁。我還有一些恐懼症。
+Re-translated English Question:
+ Doctor, I've been having some symptoms lately. I'm an alcoholic, I'm depressed, and I have a bad temper. I also have some phobias.
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Alcoholism, Depression, Anger issues, Phobias']
+Dynamically Extracted question_kg:
+ ['Alcoholism', 'Depression', 'Anger issues', 'Phobias']
+<Warning> Entity 'Alcoholism' not in keyword embeddings. Skipping.
+Question Entities:
+ ['Depression', 'Excessive_anger', 'Fears_and_phobias']
+Find Subgraph: 2.155 秒
+Find Paths: 0.098 秒
+Generate Paths in NL: 5.917 秒
+Final English Answer: \n\n1. **Most Likely Disease:** Substance-related mental disorder.  The patient's self-reported alcoholism, depression, anger issues, and phobias strongly suggest a co-occurrence of multiple mental health conditions, frequently seen in substance-related mental disorders.  Alcoholism itself is a substance use disorder.\n\n2. **Recommended Medication(s):**  Treatment would likely involve a multifaceted approach. This could include:\n    * **Medication for alcohol dependence:** Medications like naltrexone, acamprosate, or disulfiram might be used to reduce cravings or deter alcohol consumption.\n    * **Antidepressants:**  Selective serotonin reuptake inhibitors (SSRIs) or other antidepressants to address the depression.\n    * **Mood stabilizers:**  Such as lithium or valproate, to help manage the irritability and anger.\n    * **Anxiolytics:**  For the phobias, depending on their nature and severity, anxiolytics (like benzodiazepines – short-term use only) or other anxiety medications might be considered.\n    * **Therapy:**  Cognitive behavioral therapy (CBT) and/or other forms of psychotherapy are crucial for addressing underlying issues contributing to substance abuse, depression, anger management, and phobias.\n\n3. **Suggested Medical Test(s):**\n    * **Comprehensive psychiatric evaluation:** This is the most important initial step to assess the full range of symptoms and make a proper diagnosis.\n    * **Laboratory tests:**  Blood tests (liver function tests, complete blood count) to check for any organ damage related to alcohol abuse.\n    * **Urine toxicology screen:** To confirm alcohol use and rule out other substance use.\n\n\n
+Final Chinese Answer: 1. **最可能疾病：**物質相關精神疾病。患者自述的酒精成癮、憂鬱症、憤怒問題和恐懼症強烈暗示多種精神健康狀況同時存在，這在物質相關精神疾病中常見。酒精成癮本身就是一種物質使用疾患。
+
+2. **建議藥物：**治療可能需要多方面方法，包括：
+    * **酒精依賴藥物：**可能使用奈曲酮、阿坎酸或戒酒硫等藥物以減少渴望或阻止飲酒。
+    * **抗憂鬱劑：**選擇性血清素再吸收抑制劑 (SSRI) 或其他抗憂鬱劑以治療憂鬱症。
+    * **情緒穩定劑：**例如鋰或瓦爾普酸，以幫助控制易怒和憤怒。
+    * **抗焦慮藥：**針對恐懼症，根據其性質和嚴重程度，可能會考慮使用抗焦慮藥（例如苯二氮卓類藥物——僅短期使用）或其他抗焦慮藥物。
+    * **治療：**認知行為治療 (CBT) 和/或其他形式的心理治療對於處理導致物質濫用、憂鬱症、憤怒管理和恐懼症的根本問題至關重要。
+
+3. **建議醫學檢查：**
+    * **全面的精神科評估：**這是評估全部症狀範圍和做出正確診斷最重要的第一步。
+    * **實驗室檢查：**血液檢查（肝功能檢查、完整血球計數）以檢查與酒精濫用相關的任何器官損傷。
+    * **尿液毒物學篩檢：**以確認酒精使用並排除其他物質使用。
+
+==================================================
+Processing Question #25 | Q_ID from data: 3437
+Original English Question:
+ Doctor, I've been experiencing sweating along with back pain, foot or toe weakness, and dizziness. What do you think could be the problem?
+Translated Chinese Question:
+ 醫生，我最近一直流汗，還伴隨著背痛、腳趾無力以及頭暈。您覺得可能是什麼問題呢？
+Re-translated English Question:
+ Doctor, I've been sweating a lot lately, along with back pain, weakness in my toes, and dizziness. What do you think could be wrong?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Excessive sweating, Back pain, Toe weakness, Dizziness']
+Dynamically Extracted question_kg:
+ ['Excessive sweating', 'Back pain', 'Toe weakness', 'Dizziness']
+Question Entities:
+ ['Sweating', 'Back_pain', 'Foot_or_toe_pain', 'Dizziness']
+Find Subgraph: 1.543 秒
+Find Paths: 3.353 秒
+Generate Paths in NL: 25.606 秒
+Final English Answer: **\n\n1. **Most Likely Disease:**  Based on the symptoms (sweating, back pain, weakness in toes, dizziness), one possible condition is **Normal Pressure Hydrocephalus (NPH)**.  While other conditions are possible given the linked symptoms in the provided data, NPH is a more plausible explanation encompassing the combination of symptoms and the potential for misdiagnosis along the paths shown. The dizziness, back pain, and gait issues (implied by weakness in toes) are common symptoms of NPH.  Excessive sweating could be a secondary manifestation due to underlying neurological or hormonal imbalances. It's crucial to note this is a *possible* diagnosis and further evaluation is absolutely necessary.\n\n2. **Recommended Medication(s):** Treatment for NPH often involves **surgical intervention** such as a shunt placement to drain excess cerebrospinal fluid.  In some cases, **acetazolamide** (a diuretic) might be used to temporarily reduce intracranial pressure, but this is typically not a long-term solution.  Other medications might target symptoms like dizziness or pain, but won't address the underlying cause.\n\n3. **Suggested Medical Test(s):**  A **neurological examination** is crucial, including an assessment of gait and cognitive function.  An **MRI or CT scan of the brain** is necessary to visualize the ventricles and assess for ventricular enlargement, a hallmark of NPH.  A **lumbar puncture** (spinal tap) can measure cerebrospinal fluid pressure, though this is less commonly used now in the initial diagnosis of NPH due to the risk and the availability of neuroimaging.\n\n**
+Final Chinese Answer: 1. **最可能的疾病：**根據症狀（出汗、背痛、腳趾無力、頭暈），一種可能的病症是**正常壓力腦積水 (NPH)**。雖然根據提供的資料中相關聯的症狀，其他病症也是可能的，但NPH更能合理地解釋這些症狀的組合，以及沿著所示途徑誤診的可能性。頭暈、背痛和步態問題（腳趾無力暗示）是NPH的常見症狀。過度出汗可能是由於潛在的神經或荷爾蒙失衡引起的次要表現。務必注意這只是一個*可能的*診斷，絕對需要進一步評估。
+
+2. **建議藥物：**NPH的治療通常需要**手術介入**，例如放置分流器以排出多餘的腦脊髓液。在某些情況下，**醋唑胺**(一種利尿劑)可用於暫時降低顱內壓，但这通常不是長期的解決方案。其他藥物可能會針對頭暈或疼痛等症狀，但無法解決根本原因。
+
+3. **建議的醫學檢查：**進行**神經系統檢查**至關重要，包括步態和認知功能的評估。需要進行**腦部核磁共振成像或電腦斷層掃描**以觀察腦室並評估腦室是否擴大，這是NPH的標誌。**腰椎穿刺**（脊椎穿刺）可以測量腦脊髓液壓力，但由於風險和神經影像學的可用性，這在NPH的初步診斷中現在較少使用。
+
+==================================================
+Processing Question #26 | Q_ID from data: 1806
+Original English Question:
+ Doctor, I have been experiencing vomiting, burning abdominal pain and sharp abdominal pain, what could be the problem?
+Translated Chinese Question:
+ 醫生，我最近一直嘔吐，腹部灼痛且劇痛，請問可能是什麼問題？
+Re-translated English Question:
+ Doctor, I've been vomiting lately, and my abdomen is burning and severely painful. What could be the problem?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Abdominal pain, Vomiting']
+Dynamically Extracted question_kg:
+ ['Abdominal pain', 'Vomiting']
+Question Entities:
+ ['Sharp_abdominal_pain', 'Vomiting']
+Find Subgraph: 1.207 秒
+Find Paths: 0.168 秒
+Generate Paths in NL: 4.380 秒
+Final English Answer: **\n\n1. **Most Likely Disease:** Acute Pancreatitis.  The combination of severe abdominal pain and vomiting strongly suggests pancreatitis. While other conditions can cause these symptoms, the severity and the burning abdominal pain point more towards pancreatitis.\n\n\n2. **Recommended Medication(s):**  Pain management is crucial.  This often involves intravenous fluids, analgesics (such as morphine or fentanyl for severe pain), and antiemetics (to control vomiting, such as ondansetron or promethazine).  Specific enzyme inhibitors may also be used, depending on the cause and severity of the pancreatitis.\n\n\n3. **Suggested Medical Test(s):**  A complete blood count (CBC) to check for infection and inflammation.  Lipase and amylase blood tests are crucial for diagnosing pancreatitis as these enzymes are elevated in the blood when the pancreas is inflamed.  Imaging tests such as abdominal ultrasound or CT scan are crucial to visualize the pancreas and rule out other abdominal causes.  Additional tests might include blood chemistry panels to assess organ function and assess for causes like gallstones.\n\n\n**
+test: 503
+An error occurred during translation: 'int' object has no attribute 'strip'
+Final Chinese Answer: [Translation Error: **\n\n1. **Most Likely Disease:** Acute Pancreatitis.  The combination of severe abdominal pain and vomiting strongly suggests pancreatitis. While other conditions can cause these symptoms, the severity and the burning abdominal pain point more towards pancreatitis.\n\n\n2. **Recommended Medication(s):**  Pain management is crucial.  This often involves intravenous fluids, analgesics (such as morphine or fentanyl for severe pain), and antiemetics (to control vomiting, such as ondansetron or promethazine).  Specific enzyme inhibitors may also be used, depending on the cause and severity of the pancreatitis.\n\n\n3. **Suggested Medical Test(s):**  A complete blood count (CBC) to check for infection and inflammation.  Lipase and amylase blood tests are crucial for diagnosing pancreatitis as these enzymes are elevated in the blood when the pancreas is inflamed.  Imaging tests such as abdominal ultrasound or CT scan are crucial to visualize the pancreas and rule out other abdominal causes.  Additional tests might include blood chemistry panels to assess organ function and assess for causes like gallstones.\n\n\n**]
+
+==================================================
+Processing Question #27 | Q_ID from data: 3680
+Original English Question:
+ Doctor, I've been having pelvic pain and it's been bothering me a lot lately. What could be causing this?
+Translated Chinese Question:
+ 醫生，我最近一直骨盆疼痛，而且很困擾。這可能是什麼原因造成的？
+test: 503
+An error occurred during translation: 'int' object has no attribute 'strip'
+Re-translated English Question:
+ [Translation Error: 醫生，我最近一直骨盆疼痛，而且很困擾。這可能是什麼原因造成的？]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: 醫生，我最近一直骨盆疼痛，而且很困擾。這可能是什麼原因造成的？]
+
+==================================================
+Processing Question #28 | Q_ID from data: 4828
+Original English Question:
+ Doctor, I have been experiencing cough, elbow cramps, excessive growth, low back weakness, and decreased appetite. What could this be?
+Translated Chinese Question:
+ 醫生，我最近一直咳嗽、手肘抽筋、生長過快、下背無力，而且食慾下降，這可能是什麼病？
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: 醫生，我最近一直咳嗽、手肘抽筋、生長過快、下背無力，而且食慾下降，這可能是什麼病？]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: 醫生，我最近一直咳嗽、手肘抽筋、生長過快、下背無力，而且食慾下降，這可能是什麼病？]
+
+==================================================
+Processing Question #29 | Q_ID from data: 2279
+Original English Question:
+ Doctor, I have a plugged feeling in my ear and my hearing has diminished recently. Additionally, I've been biting my nails a lot and experiencing some emotional symptoms. I've also noticed some muscle swelling. What could be causing all these symptoms?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have a plugged feeling in my ear and my hearing has diminished recently. Additionally, I've been biting my nails a lot and experiencing some emotional symptoms. I've also noticed some muscle swelling. What could be causing all these symptoms?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have a plugged feeling in my ear and my hearing has diminished recently. Additionally, I've been biting my nails a lot and experiencing some emotional symptoms. I've also noticed some muscle swelling. What could be causing all these symptoms?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have a plugged feeling in my ear and my hearing has diminished recently. Additionally, I've been biting my nails a lot and experiencing some emotional symptoms. I've also noticed some muscle swelling. What could be causing all these symptoms?]]
+
+==================================================
+Processing Question #30 | Q_ID from data: 54
+Original English Question:
+ Doctor, I have been feeling very down and sad after giving birth to my baby. It's been a few weeks now and I just can't seem to shake it off. 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been feeling very down and sad after giving birth to my baby. It's been a few weeks now and I just can't seem to shake it off. ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been feeling very down and sad after giving birth to my baby. It's been a few weeks now and I just can't seem to shake it off. ]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been feeling very down and sad after giving birth to my baby. It's been a few weeks now and I just can't seem to shake it off. ]]
+
+==================================================
+Processing Question #31 | Q_ID from data: 1308
+Original English Question:
+ Doctor, I broke my tooth and it's really hurting. What medication should I take?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I broke my tooth and it's really hurting. What medication should I take?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I broke my tooth and it's really hurting. What medication should I take?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I broke my tooth and it's really hurting. What medication should I take?]]
+
+==================================================
+Processing Question #32 | Q_ID from data: 3463
+Original English Question:
+ Hi doctor, I've been experiencing leg cramps or spasms a lot lately. Any idea what could be causing it?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Hi doctor, I've been experiencing leg cramps or spasms a lot lately. Any idea what could be causing it?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Hi doctor, I've been experiencing leg cramps or spasms a lot lately. Any idea what could be causing it?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Hi doctor, I've been experiencing leg cramps or spasms a lot lately. Any idea what could be causing it?]]
+
+==================================================
+Processing Question #33 | Q_ID from data: 2788
+Original English Question:
+ Doctor, I have been experiencing some strange symptoms lately, including focal weakness, depressive thoughts, and itching of my skin. Can you tell me what might be causing these symptoms? 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing some strange symptoms lately, including focal weakness, depressive thoughts, and itching of my skin. Can you tell me what might be causing these symptoms? ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing some strange symptoms lately, including focal weakness, depressive thoughts, and itching of my skin. Can you tell me what might be causing these symptoms? ]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing some strange symptoms lately, including focal weakness, depressive thoughts, and itching of my skin. Can you tell me what might be causing these symptoms? ]]
+
+==================================================
+Processing Question #34 | Q_ID from data: 2277
+Original English Question:
+ Doctor, I have been experiencing some dizziness, weakness in my elbow and low back area, and my muscles have been swelling. Additionally, I am also having a plugged feeling in my ear. Can you please tell me what's wrong with me?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing some dizziness, weakness in my elbow and low back area, and my muscles have been swelling. Additionally, I am also having a plugged feeling in my ear. Can you please tell me what's wrong with me?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing some dizziness, weakness in my elbow and low back area, and my muscles have been swelling. Additionally, I am also having a plugged feeling in my ear. Can you please tell me what's wrong with me?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing some dizziness, weakness in my elbow and low back area, and my muscles have been swelling. Additionally, I am also having a plugged feeling in my ear. Can you please tell me what's wrong with me?]]
+
+==================================================
+Processing Question #35 | Q_ID from data: 1274
+Original English Question:
+ Hi Doc, I've been experiencing knee pain for a while now and it hurts even more when I climb stairs or do any kind of physical activity.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Hi Doc, I've been experiencing knee pain for a while now and it hurts even more when I climb stairs or do any kind of physical activity.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Hi Doc, I've been experiencing knee pain for a while now and it hurts even more when I climb stairs or do any kind of physical activity.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Hi Doc, I've been experiencing knee pain for a while now and it hurts even more when I climb stairs or do any kind of physical activity.]]
+
+==================================================
+Processing Question #36 | Q_ID from data: 1764
+Original English Question:
+ Doctor, I've been experiencing Hemoptysis, Sharp abdominal pain, Side pain, Diarrhea, and Burning abdominal pain. What could be the reason for all these symptoms?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been experiencing Hemoptysis, Sharp abdominal pain, Side pain, Diarrhea, and Burning abdominal pain. What could be the reason for all these symptoms?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been experiencing Hemoptysis, Sharp abdominal pain, Side pain, Diarrhea, and Burning abdominal pain. What could be the reason for all these symptoms?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I've been experiencing Hemoptysis, Sharp abdominal pain, Side pain, Diarrhea, and Burning abdominal pain. What could be the reason for all these symptoms?]]
+
+==================================================
+Processing Question #37 | Q_ID from data: 2758
+Original English Question:
+ Doctor, I have a mouth ulcer and my gums are hurting a lot. What could be the reason for this?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have a mouth ulcer and my gums are hurting a lot. What could be the reason for this?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have a mouth ulcer and my gums are hurting a lot. What could be the reason for this?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have a mouth ulcer and my gums are hurting a lot. What could be the reason for this?]]
+
+==================================================
+Processing Question #38 | Q_ID from data: 838
+Original English Question:
+ Doctor, I have been feeling really down and hopeless since I had my baby. I think I might have postpartum depression.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been feeling really down and hopeless since I had my baby. I think I might have postpartum depression.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been feeling really down and hopeless since I had my baby. I think I might have postpartum depression.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been feeling really down and hopeless since I had my baby. I think I might have postpartum depression.]]
+
+==================================================
+Processing Question #39 | Q_ID from data: 760
+Original English Question:
+ Hi Doctor, I've been having some behavioral issues lately. I get into a lot of fights and feel angry all the time. 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Hi Doctor, I've been having some behavioral issues lately. I get into a lot of fights and feel angry all the time. ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Hi Doctor, I've been having some behavioral issues lately. I get into a lot of fights and feel angry all the time. ]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Hi Doctor, I've been having some behavioral issues lately. I get into a lot of fights and feel angry all the time. ]]
+
+==================================================
+Processing Question #40 | Q_ID from data: 3113
+Original English Question:
+ Doctor, I have been experiencing neck swelling, toothache, mouth pain, peripheral edema, and gum pain. What could be the issue?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing neck swelling, toothache, mouth pain, peripheral edema, and gum pain. What could be the issue?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing neck swelling, toothache, mouth pain, peripheral edema, and gum pain. What could be the issue?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing neck swelling, toothache, mouth pain, peripheral edema, and gum pain. What could be the issue?]]
+
+==================================================
+Processing Question #41 | Q_ID from data: 793
+Original English Question:
+ I have been experiencing vaginal dryness and itching lately. It's making sex very uncomfortable.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: I have been experiencing vaginal dryness and itching lately. It's making sex very uncomfortable.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: I have been experiencing vaginal dryness and itching lately. It's making sex very uncomfortable.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: I have been experiencing vaginal dryness and itching lately. It's making sex very uncomfortable.]]
+
+==================================================
+Processing Question #42 | Q_ID from data: 2941
+Original English Question:
+ Hi doctor, I have been experiencing cramps and spasms in my lower abdomen for the past week. I also noticed a mass on my vulva, my menstruation has become very infrequent and I've been having unusual vaginal discharge. Additionally, I experienced some vaginal bleeding after menopause. What could be causing these symptoms?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Hi doctor, I have been experiencing cramps and spasms in my lower abdomen for the past week. I also noticed a mass on my vulva, my menstruation has become very infrequent and I've been having unusual vaginal discharge. Additionally, I experienced some vaginal bleeding after menopause. What could be causing these symptoms?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Hi doctor, I have been experiencing cramps and spasms in my lower abdomen for the past week. I also noticed a mass on my vulva, my menstruation has become very infrequent and I've been having unusual vaginal discharge. Additionally, I experienced some vaginal bleeding after menopause. What could be causing these symptoms?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Hi doctor, I have been experiencing cramps and spasms in my lower abdomen for the past week. I also noticed a mass on my vulva, my menstruation has become very infrequent and I've been having unusual vaginal discharge. Additionally, I experienced some vaginal bleeding after menopause. What could be causing these symptoms?]]
+
+==================================================
+Processing Question #43 | Q_ID from data: 2818
+Original English Question:
+ Doctor, I've been experiencing nausea, a headache, and a plugged feeling in my ear. What's wrong with me?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been experiencing nausea, a headache, and a plugged feeling in my ear. What's wrong with me?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been experiencing nausea, a headache, and a plugged feeling in my ear. What's wrong with me?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I've been experiencing nausea, a headache, and a plugged feeling in my ear. What's wrong with me?]]
+
+==================================================
+Processing Question #44 | Q_ID from data: 4946
+Original English Question:
+ Doctor, I have been experiencing symptoms like vaginal itching, painful urination, groin pain, vaginal discharge, and also I have some skin lesions. What could be the reason for these symptoms?
+Translated Chinese Question:
+ 醫生，我最近一直有陰部搔癢、排尿疼痛、腹股溝疼痛、陰道分泌物，還有皮膚病灶的問題，這些症狀可能的原因是什麼？
+Re-translated English Question:
+ Doctor, I've recently been experiencing genital itching, painful urination, groin pain, vaginal discharge, and skin lesions. What could be causing these symptoms?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: Doctor, I've recently been experiencing genital itching, painful urination, groin pain, vaginal discharge, and skin lesions. What could be causing these symptoms?
+
+==================================================
+Processing Question #45 | Q_ID from data: 2167
+Original English Question:
+ Doctor, I have redness in my ear and my skin has an abnormal appearance. What could be wrong?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have redness in my ear and my skin has an abnormal appearance. What could be wrong?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have redness in my ear and my skin has an abnormal appearance. What could be wrong?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have redness in my ear and my skin has an abnormal appearance. What could be wrong?]]
+
+==================================================
+Processing Question #46 | Q_ID from data: 356
+Original English Question:
+ Doctor, I fell off my bike and got an open wound on my cheek. What do I need to do?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I fell off my bike and got an open wound on my cheek. What do I need to do?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I fell off my bike and got an open wound on my cheek. What do I need to do?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I fell off my bike and got an open wound on my cheek. What do I need to do?]]
+
+==================================================
+Processing Question #47 | Q_ID from data: 3764
+Original English Question:
+ Doctor, I have been experiencing some trouble with urination lately. I have to go very frequently and sometimes I even urinate involuntarily.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing some trouble with urination lately. I have to go very frequently and sometimes I even urinate involuntarily.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing some trouble with urination lately. I have to go very frequently and sometimes I even urinate involuntarily.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing some trouble with urination lately. I have to go very frequently and sometimes I even urinate involuntarily.]]
+
+==================================================
+Processing Question #48 | Q_ID from data: 4393
+Original English Question:
+ Hey doctor, I am experiencing some symptoms of eye, like blurred vision and dry eyes. Can you please tell me what could be the issue?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Hey doctor, I am experiencing some symptoms of eye, like blurred vision and dry eyes. Can you please tell me what could be the issue?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Hey doctor, I am experiencing some symptoms of eye, like blurred vision and dry eyes. Can you please tell me what could be the issue?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Hey doctor, I am experiencing some symptoms of eye, like blurred vision and dry eyes. Can you please tell me what could be the issue?]]
+
+==================================================
+Processing Question #49 | Q_ID from data: 1023
+Original English Question:
+  Hi doctor, I have been experiencing some discomfort and pain in my kidneys. I am concerned that I may have acute kidney injury. 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error:  Hi doctor, I have been experiencing some discomfort and pain in my kidneys. I am concerned that I may have acute kidney injury. ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error:  Hi doctor, I have been experiencing some discomfort and pain in my kidneys. I am concerned that I may have acute kidney injury. ]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error:  Hi doctor, I have been experiencing some discomfort and pain in my kidneys. I am concerned that I may have acute kidney injury. ]]
+
+==================================================
+Processing Question #50 | Q_ID from data: 3101
+Original English Question:
+ Doctor, I have been experiencing impotence, heartburn, blood in stool, and leg swelling. What could be the reason for these symptoms?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing impotence, heartburn, blood in stool, and leg swelling. What could be the reason for these symptoms?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing impotence, heartburn, blood in stool, and leg swelling. What could be the reason for these symptoms?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing impotence, heartburn, blood in stool, and leg swelling. What could be the reason for these symptoms?]]
+
+==================================================
+Processing Question #51 | Q_ID from data: 646
+Original English Question:
+ Doctor, I have been having trouble retracting my foreskin. It's painful and causing inflammation. What should I do?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been having trouble retracting my foreskin. It's painful and causing inflammation. What should I do?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been having trouble retracting my foreskin. It's painful and causing inflammation. What should I do?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been having trouble retracting my foreskin. It's painful and causing inflammation. What should I do?]]
+
+==================================================
+Processing Question #52 | Q_ID from data: 4523
+Original English Question:
+ Doctor, I have been experiencing a sharp pain in my lower abdomen. It's mostly around the suprapubic region. What could be the reason for this pain?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing a sharp pain in my lower abdomen. It's mostly around the suprapubic region. What could be the reason for this pain?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing a sharp pain in my lower abdomen. It's mostly around the suprapubic region. What could be the reason for this pain?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing a sharp pain in my lower abdomen. It's mostly around the suprapubic region. What could be the reason for this pain?]]
+
+==================================================
+Processing Question #53 | Q_ID from data: 2402
+Original English Question:
+ Doctor, I have been feeling very depressed and sometimes I feel like I am losing my mind. I have also noticed that my breathing is shorter than usual and my movements feel restricted. Additionally, my feet and legs are swollen. What could be happening to me?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been feeling very depressed and sometimes I feel like I am losing my mind. I have also noticed that my breathing is shorter than usual and my movements feel restricted. Additionally, my feet and legs are swollen. What could be happening to me?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been feeling very depressed and sometimes I feel like I am losing my mind. I have also noticed that my breathing is shorter than usual and my movements feel restricted. Additionally, my feet and legs are swollen. What could be happening to me?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been feeling very depressed and sometimes I feel like I am losing my mind. I have also noticed that my breathing is shorter than usual and my movements feel restricted. Additionally, my feet and legs are swollen. What could be happening to me?]]
+
+==================================================
+Processing Question #54 | Q_ID from data: 5150
+Original English Question:
+ Doctor, I have been experiencing shoulder pain. Could you tell me what might be causing it?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing shoulder pain. Could you tell me what might be causing it?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing shoulder pain. Could you tell me what might be causing it?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing shoulder pain. Could you tell me what might be causing it?]]
+
+==================================================
+Processing Question #55 | Q_ID from data: 5067
+Original English Question:
+ Doctor, I have noticed problems with the shape and size of my breast and there is also some swelling in my back. Can you tell me what is wrong with me?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have noticed problems with the shape and size of my breast and there is also some swelling in my back. Can you tell me what is wrong with me?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have noticed problems with the shape and size of my breast and there is also some swelling in my back. Can you tell me what is wrong with me?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have noticed problems with the shape and size of my breast and there is also some swelling in my back. Can you tell me what is wrong with me?]]
+
+==================================================
+Processing Question #56 | Q_ID from data: 2963
+Original English Question:
+ Doctor, I have been having some redness in my ear, facial pain, toothache, sore throat, and ear pain. What could be the issue?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been having some redness in my ear, facial pain, toothache, sore throat, and ear pain. What could be the issue?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been having some redness in my ear, facial pain, toothache, sore throat, and ear pain. What could be the issue?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been having some redness in my ear, facial pain, toothache, sore throat, and ear pain. What could be the issue?]]
+
+==================================================
+Processing Question #57 | Q_ID from data: 4730
+Original English Question:
+ Doctor, I have been having some issues with my ear lately. There's always this constant ringing in my ear and I feel like there's fluid in my ear.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been having some issues with my ear lately. There's always this constant ringing in my ear and I feel like there's fluid in my ear.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been having some issues with my ear lately. There's always this constant ringing in my ear and I feel like there's fluid in my ear.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been having some issues with my ear lately. There's always this constant ringing in my ear and I feel like there's fluid in my ear.]]
+
+==================================================
+Processing Question #58 | Q_ID from data: 1576
+Original English Question:
+ Doctor, I've been experiencing suprapubic pain, groin mass, lack of growth, leg pain, and some emotional symptoms. What could be the problem?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been experiencing suprapubic pain, groin mass, lack of growth, leg pain, and some emotional symptoms. What could be the problem?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been experiencing suprapubic pain, groin mass, lack of growth, leg pain, and some emotional symptoms. What could be the problem?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I've been experiencing suprapubic pain, groin mass, lack of growth, leg pain, and some emotional symptoms. What could be the problem?]]
+
+==================================================
+Processing Question #59 | Q_ID from data: 570
+Original English Question:
+ Doctor, I have been experiencing fatigue, weakness, and jaundice. My family has a history of anemia and I think I might have it too.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing fatigue, weakness, and jaundice. My family has a history of anemia and I think I might have it too.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing fatigue, weakness, and jaundice. My family has a history of anemia and I think I might have it too.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing fatigue, weakness, and jaundice. My family has a history of anemia and I think I might have it too.]]
+
+==================================================
+Processing Question #60 | Q_ID from data: 376
+Original English Question:
+ Doctor, I have been experiencing dizziness and a feeling of everything spinning around me. It's been happening for a few days now and I'm a bit worried.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing dizziness and a feeling of everything spinning around me. It's been happening for a few days now and I'm a bit worried.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing dizziness and a feeling of everything spinning around me. It's been happening for a few days now and I'm a bit worried.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing dizziness and a feeling of everything spinning around me. It's been happening for a few days now and I'm a bit worried.]]
+
+==================================================
+Processing Question #61 | Q_ID from data: 5418
+Original English Question:
+ Doctor, I have a big swollen lip and I have an open wound in my jaw. What could be causing this?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have a big swollen lip and I have an open wound in my jaw. What could be causing this?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have a big swollen lip and I have an open wound in my jaw. What could be causing this?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have a big swollen lip and I have an open wound in my jaw. What could be causing this?]]
+
+==================================================
+Processing Question #62 | Q_ID from data: 1867
+Original English Question:
+ Doctor, I have been experiencing sharp abdominal pain recently.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing sharp abdominal pain recently.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing sharp abdominal pain recently.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing sharp abdominal pain recently.]]
+
+==================================================
+Processing Question #63 | Q_ID from data: 2371
+Original English Question:
+ Hi doctor, I'm experiencing some pain in my neck, shoulder, and arm. Do you have any idea what it could be?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Hi doctor, I'm experiencing some pain in my neck, shoulder, and arm. Do you have any idea what it could be?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Hi doctor, I'm experiencing some pain in my neck, shoulder, and arm. Do you have any idea what it could be?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Hi doctor, I'm experiencing some pain in my neck, shoulder, and arm. Do you have any idea what it could be?]]
+
+==================================================
+Processing Question #64 | Q_ID from data: 654
+Original English Question:
+ Doctor, I have been experiencing shortness of breath and chest pain. My doctor believes that I have pleural effusion. What tests do I need to take to confirm this diagnosis?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing shortness of breath and chest pain. My doctor believes that I have pleural effusion. What tests do I need to take to confirm this diagnosis?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing shortness of breath and chest pain. My doctor believes that I have pleural effusion. What tests do I need to take to confirm this diagnosis?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing shortness of breath and chest pain. My doctor believes that I have pleural effusion. What tests do I need to take to confirm this diagnosis?]]
+
+==================================================
+Processing Question #65 | Q_ID from data: 1908
+Original English Question:
+ Doctor, I have been experiencing vomiting blood, incontinence of stool, and temper problems lately. What could be the problem?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing vomiting blood, incontinence of stool, and temper problems lately. What could be the problem?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing vomiting blood, incontinence of stool, and temper problems lately. What could be the problem?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing vomiting blood, incontinence of stool, and temper problems lately. What could be the problem?]]
+
+==================================================
+Processing Question #66 | Q_ID from data: 828
+Original English Question:
+ Doctor, I think I may have a foreign object stuck in my vagina, and I'm experiencing discomfort.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I think I may have a foreign object stuck in my vagina, and I'm experiencing discomfort.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I think I may have a foreign object stuck in my vagina, and I'm experiencing discomfort.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I think I may have a foreign object stuck in my vagina, and I'm experiencing discomfort.]]
+
+==================================================
+Processing Question #67 | Q_ID from data: 3114
+Original English Question:
+ Doctor, I have been experiencing gum pain and pain in my gums. What could be the problem?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing gum pain and pain in my gums. What could be the problem?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing gum pain and pain in my gums. What could be the problem?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing gum pain and pain in my gums. What could be the problem?]]
+
+==================================================
+Processing Question #68 | Q_ID from data: 2278
+Original English Question:
+ Doctor, I have been experiencing elbow cramps and weakness lately, along with some emotional symptoms. Can you tell me what's wrong with me? 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing elbow cramps and weakness lately, along with some emotional symptoms. Can you tell me what's wrong with me? ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing elbow cramps and weakness lately, along with some emotional symptoms. Can you tell me what's wrong with me? ]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing elbow cramps and weakness lately, along with some emotional symptoms. Can you tell me what's wrong with me? ]]
+
+==================================================
+Processing Question #69 | Q_ID from data: 3715
+Original English Question:
+ I have this sore on my leg that just won't seem to heal, and the skin around it looks infected. What do you think it could be?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: I have this sore on my leg that just won't seem to heal, and the skin around it looks infected. What do you think it could be?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: I have this sore on my leg that just won't seem to heal, and the skin around it looks infected. What do you think it could be?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: I have this sore on my leg that just won't seem to heal, and the skin around it looks infected. What do you think it could be?]]
+
+==================================================
+Processing Question #70 | Q_ID from data: 5208
+Original English Question:
+ Doctor, I have this lump in my throat and drainage in my throat. My tonsils are also swollen and my throat feels tight. I am also experiencing some apnea. What could be causing these symptoms?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have this lump in my throat and drainage in my throat. My tonsils are also swollen and my throat feels tight. I am also experiencing some apnea. What could be causing these symptoms?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have this lump in my throat and drainage in my throat. My tonsils are also swollen and my throat feels tight. I am also experiencing some apnea. What could be causing these symptoms?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have this lump in my throat and drainage in my throat. My tonsils are also swollen and my throat feels tight. I am also experiencing some apnea. What could be causing these symptoms?]]
+
+==================================================
+Processing Question #71 | Q_ID from data: 2989
+Original English Question:
+ Doctor, I've been experiencing side pain, back pain, and it hurts to breathe. Additionally, my bones are painful. Can you tell me what's going on?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been experiencing side pain, back pain, and it hurts to breathe. Additionally, my bones are painful. Can you tell me what's going on?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been experiencing side pain, back pain, and it hurts to breathe. Additionally, my bones are painful. Can you tell me what's going on?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I've been experiencing side pain, back pain, and it hurts to breathe. Additionally, my bones are painful. Can you tell me what's going on?]]
+
+==================================================
+Processing Question #72 | Q_ID from data: 1333
+Original English Question:
+ Doctor, I have been experiencing a tingling sensation and weakness in my arms and legs. I was just diagnosed with mononeuritis. What medication should I take?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing a tingling sensation and weakness in my arms and legs. I was just diagnosed with mononeuritis. What medication should I take?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing a tingling sensation and weakness in my arms and legs. I was just diagnosed with mononeuritis. What medication should I take?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing a tingling sensation and weakness in my arms and legs. I was just diagnosed with mononeuritis. What medication should I take?]]
+
+==================================================
+Processing Question #73 | Q_ID from data: 3033
+Original English Question:
+ Doctor, I have been experiencing vomiting blood, depressive symptoms, and sometimes even hostile behavior. What could be causing all this?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing vomiting blood, depressive symptoms, and sometimes even hostile behavior. What could be causing all this?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing vomiting blood, depressive symptoms, and sometimes even hostile behavior. What could be causing all this?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing vomiting blood, depressive symptoms, and sometimes even hostile behavior. What could be causing all this?]]
+
+==================================================
+Processing Question #74 | Q_ID from data: 2911
+Original English Question:
+ Hi Doctor, I've been experiencing some symptoms lately like pain in my eye, facial pain and a lump on my knee. Do you know what might be causing this? 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Hi Doctor, I've been experiencing some symptoms lately like pain in my eye, facial pain and a lump on my knee. Do you know what might be causing this? ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Hi Doctor, I've been experiencing some symptoms lately like pain in my eye, facial pain and a lump on my knee. Do you know what might be causing this? ]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Hi Doctor, I've been experiencing some symptoms lately like pain in my eye, facial pain and a lump on my knee. Do you know what might be causing this? ]]
+
+==================================================
+Processing Question #75 | Q_ID from data: 1717
+Original English Question:
+ Doctor, I've been coughing up sputum and experiencing sharp chest and abdominal pain. I've also noticed flushing and jaundice. What could be wrong with me?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been coughing up sputum and experiencing sharp chest and abdominal pain. I've also noticed flushing and jaundice. What could be wrong with me?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been coughing up sputum and experiencing sharp chest and abdominal pain. I've also noticed flushing and jaundice. What could be wrong with me?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I've been coughing up sputum and experiencing sharp chest and abdominal pain. I've also noticed flushing and jaundice. What could be wrong with me?]]
+
+==================================================
+Processing Question #76 | Q_ID from data: 2188
+Original English Question:
+ Doctor, I have been feeling extremely tired and dizzy lately. I am also suffering from constipation and smoking problems. Additionally, I have been feeling very low and ache all over my body. What could be the reason for all of this?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been feeling extremely tired and dizzy lately. I am also suffering from constipation and smoking problems. Additionally, I have been feeling very low and ache all over my body. What could be the reason for all of this?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been feeling extremely tired and dizzy lately. I am also suffering from constipation and smoking problems. Additionally, I have been feeling very low and ache all over my body. What could be the reason for all of this?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been feeling extremely tired and dizzy lately. I am also suffering from constipation and smoking problems. Additionally, I have been feeling very low and ache all over my body. What could be the reason for all of this?]]
+
+==================================================
+Processing Question #77 | Q_ID from data: 5309
+Original English Question:
+ Doctor, I have been experiencing sharp chest pain, leg pain, sweating, back pain, and cough. What could be wrong with me?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing sharp chest pain, leg pain, sweating, back pain, and cough. What could be wrong with me?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing sharp chest pain, leg pain, sweating, back pain, and cough. What could be wrong with me?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing sharp chest pain, leg pain, sweating, back pain, and cough. What could be wrong with me?]]
+
+==================================================
+Processing Question #78 | Q_ID from data: 585
+Original English Question:
+ Doctor, I have been experiencing a lot of pain and discomfort in my breasts lately. I noticed a small lump that seems to be causing me immense pain. Do you know what could be the reason?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing a lot of pain and discomfort in my breasts lately. I noticed a small lump that seems to be causing me immense pain. Do you know what could be the reason?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing a lot of pain and discomfort in my breasts lately. I noticed a small lump that seems to be causing me immense pain. Do you know what could be the reason?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing a lot of pain and discomfort in my breasts lately. I noticed a small lump that seems to be causing me immense pain. Do you know what could be the reason?]]
+
+==================================================
+Processing Question #79 | Q_ID from data: 4991
+Original English Question:
+ Doctor, I've been experiencing groin pain along with redness of the penis and swelling of scrotum. Additionally, the skin around the area looks abnormal. What could be the issue?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been experiencing groin pain along with redness of the penis and swelling of scrotum. Additionally, the skin around the area looks abnormal. What could be the issue?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been experiencing groin pain along with redness of the penis and swelling of scrotum. Additionally, the skin around the area looks abnormal. What could be the issue?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I've been experiencing groin pain along with redness of the penis and swelling of scrotum. Additionally, the skin around the area looks abnormal. What could be the issue?]]
+
+==================================================
+Processing Question #80 | Q_ID from data: 5202
+Original English Question:
+ I have a skin rash, sore throat, lip sore, ache all over my body, and a terrible headache. What could be the problem, doctor?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: I have a skin rash, sore throat, lip sore, ache all over my body, and a terrible headache. What could be the problem, doctor?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: I have a skin rash, sore throat, lip sore, ache all over my body, and a terrible headache. What could be the problem, doctor?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: I have a skin rash, sore throat, lip sore, ache all over my body, and a terrible headache. What could be the problem, doctor?]]
+
+==================================================
+Processing Question #81 | Q_ID from data: 1402
+Original English Question:
+ Doctor, I have been experiencing very painful and unusual menstrual cramps every month. I don't know what to do, it's really affecting my daily routine.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing very painful and unusual menstrual cramps every month. I don't know what to do, it's really affecting my daily routine.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing very painful and unusual menstrual cramps every month. I don't know what to do, it's really affecting my daily routine.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing very painful and unusual menstrual cramps every month. I don't know what to do, it's really affecting my daily routine.]]
+
+==================================================
+Processing Question #82 | Q_ID from data: 4376
+Original English Question:
+ Doctor, I've been experiencing an irregular heartbeat, chest tightness, and palpitations. My heart rate has also decreased and I've been gaining weight. What could be causing these symptoms?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been experiencing an irregular heartbeat, chest tightness, and palpitations. My heart rate has also decreased and I've been gaining weight. What could be causing these symptoms?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been experiencing an irregular heartbeat, chest tightness, and palpitations. My heart rate has also decreased and I've been gaining weight. What could be causing these symptoms?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I've been experiencing an irregular heartbeat, chest tightness, and palpitations. My heart rate has also decreased and I've been gaining weight. What could be causing these symptoms?]]
+
+==================================================
+Processing Question #83 | Q_ID from data: 2006
+Original English Question:
+ Doctor, I have been experiencing vomiting, cough, sharp chest pain, and back pain. What could be the problem?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing vomiting, cough, sharp chest pain, and back pain. What could be the problem?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing vomiting, cough, sharp chest pain, and back pain. What could be the problem?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing vomiting, cough, sharp chest pain, and back pain. What could be the problem?]]
+
+==================================================
+Processing Question #84 | Q_ID from data: 1339
+Original English Question:
+ Doctor, I have recently been diagnosed with Endocarditis. What medications do I need to take?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have recently been diagnosed with Endocarditis. What medications do I need to take?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have recently been diagnosed with Endocarditis. What medications do I need to take?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have recently been diagnosed with Endocarditis. What medications do I need to take?]]
+
+==================================================
+Processing Question #85 | Q_ID from data: 3787
+Original English Question:
+ Doctor, I have been experiencing heartburn and back pain for the past few days. Could you please tell me what might be causing this?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing heartburn and back pain for the past few days. Could you please tell me what might be causing this?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing heartburn and back pain for the past few days. Could you please tell me what might be causing this?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing heartburn and back pain for the past few days. Could you please tell me what might be causing this?]]
+
+==================================================
+Processing Question #86 | Q_ID from data: 3109
+Original English Question:
+ Doctor, I've been feeling really down lately, and my body feels like it's in pain. Also, I'm having these weird involuntary movements. What could be wrong with me?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been feeling really down lately, and my body feels like it's in pain. Also, I'm having these weird involuntary movements. What could be wrong with me?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been feeling really down lately, and my body feels like it's in pain. Also, I'm having these weird involuntary movements. What could be wrong with me?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I've been feeling really down lately, and my body feels like it's in pain. Also, I'm having these weird involuntary movements. What could be wrong with me?]]
+
+==================================================
+Processing Question #87 | Q_ID from data: 2212
+Original English Question:
+ Doctor, I have an open wound on my back and I've been feeling like my heartbeat is irregular. What could be the problem? 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have an open wound on my back and I've been feeling like my heartbeat is irregular. What could be the problem? ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have an open wound on my back and I've been feeling like my heartbeat is irregular. What could be the problem? ]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have an open wound on my back and I've been feeling like my heartbeat is irregular. What could be the problem? ]]
+
+==================================================
+Processing Question #88 | Q_ID from data: 5243
+Original English Question:
+ Doctor, I have this skin rash on my feet and my skin is also dry, peeling and rough. What could be the reason?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have this skin rash on my feet and my skin is also dry, peeling and rough. What could be the reason?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have this skin rash on my feet and my skin is also dry, peeling and rough. What could be the reason?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have this skin rash on my feet and my skin is also dry, peeling and rough. What could be the reason?]]
+
+==================================================
+Processing Question #89 | Q_ID from data: 4563
+Original English Question:
+ Doctor, I have been experiencing a lot of pain lately. My hand, fingers, shoulder, neck, and even elbow have been hurting. I also have some low back pain. What do you think is the problem?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing a lot of pain lately. My hand, fingers, shoulder, neck, and even elbow have been hurting. I also have some low back pain. What do you think is the problem?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing a lot of pain lately. My hand, fingers, shoulder, neck, and even elbow have been hurting. I also have some low back pain. What do you think is the problem?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing a lot of pain lately. My hand, fingers, shoulder, neck, and even elbow have been hurting. I also have some low back pain. What do you think is the problem?]]
+
+==================================================
+Processing Question #90 | Q_ID from data: 1800
+Original English Question:
+ Doctor, my infant has been having diarrhea, redness in their ear, decreased appetite, and has been very irritable lately. What could be wrong?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, my infant has been having diarrhea, redness in their ear, decreased appetite, and has been very irritable lately. What could be wrong?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, my infant has been having diarrhea, redness in their ear, decreased appetite, and has been very irritable lately. What could be wrong?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, my infant has been having diarrhea, redness in their ear, decreased appetite, and has been very irritable lately. What could be wrong?]]
+
+==================================================
+Processing Question #91 | Q_ID from data: 2657
+Original English Question:
+ Doctor, I have been experiencing shoulder pain, headache, and weakness lately. What could be the problem?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing shoulder pain, headache, and weakness lately. What could be the problem?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing shoulder pain, headache, and weakness lately. What could be the problem?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I have been experiencing shoulder pain, headache, and weakness lately. What could be the problem?]]
+
+==================================================
+Processing Question #92 | Q_ID from data: 459
+Original English Question:
+ Hey Doc, I've been experiencing some chest pains recently and I'm afraid it might be related to my central atherosclerosis. Is there any way to know for sure?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Hey Doc, I've been experiencing some chest pains recently and I'm afraid it might be related to my central atherosclerosis. Is there any way to know for sure?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Hey Doc, I've been experiencing some chest pains recently and I'm afraid it might be related to my central atherosclerosis. Is there any way to know for sure?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Hey Doc, I've been experiencing some chest pains recently and I'm afraid it might be related to my central atherosclerosis. Is there any way to know for sure?]]
+
+==================================================
+Processing Question #93 | Q_ID from data: 1877
+Original English Question:
+ Doctor, I am having severe back pain and headache. What could be the reason?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I am having severe back pain and headache. What could be the reason?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I am having severe back pain and headache. What could be the reason?]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I am having severe back pain and headache. What could be the reason?]]
+
+==================================================
+Processing Question #94 | Q_ID from data: 263
+Original English Question:
+ Doctor, I am experiencing sudden weakness on one side of my face and an inability to close one of my eyes. Also, I am finding it difficult to eat and drink properly.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I am experiencing sudden weakness on one side of my face and an inability to close one of my eyes. Also, I am finding it difficult to eat and drink properly.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I am experiencing sudden weakness on one side of my face and an inability to close one of my eyes. Also, I am finding it difficult to eat and drink properly.]]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: [Translation Error: Doctor, I am experiencing sudden weakness on one side of my face and an inability to close one of my eyes. Also, I am finding it difficult to eat and drink properly.]]

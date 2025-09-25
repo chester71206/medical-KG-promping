@@ -1,0 +1,92 @@
+neo4j+s://65eb27c7.databases.neo4j.io
+Output file found. Appending results to: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Specific_Questions.csv
+
+==================================================
+Processing Matched Question | Q_ID: 459
+Original English Question:
+ Hey Doc, I've been experiencing some chest pains recently and I'm afraid it might be related to my central atherosclerosis. Is there any way to know for sure?
+Translated Chinese Question:
+ 嘿，醫生，我最近一直胸痛，擔心可能跟我的中心性動脈粥樣硬化有關，有什麼方法可以確定嗎？
+Re-translated English Question:
+ Hey doctor, I've been having chest pain lately, and I'm worried it might be related to my central artery atherosclerosis.  Is there any way to find out for sure?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Chest pain, Central artery atherosclerosis']
+Dynamically Extracted question_kg:
+ ['Chest pain', 'Central artery atherosclerosis']
+<Warning> Entity 'Central artery atherosclerosis' not in keyword embeddings. Skipping.
+Question Entities:
+ ['Sharp_chest_pain']
+Find Subgraph: 1.351 秒
+test
+Find Paths: 0.070 秒
+Generate Paths in NL: 7.040 秒
+Final English Answer: \n\n1. **Most Likely Disease:** Coronary atherosclerosis.  The patient's chief complaint is chest pain, and while many conditions can cause chest pain, coronary atherosclerosis (narrowing of the coronary arteries due to plaque buildup) is a serious and common cause of chest pain (angina).  The patient's mention of \"central artery atherosclerosis\" suggests some existing medical knowledge, hinting at a possible understanding of the condition's relevance.\n\n2. **Recommended Medication(s):**  This is dependent on the severity and confirmation of the diagnosis.  Potential medications include:\n    * **Nitroglycerin:** To relieve angina symptoms by dilating blood vessels.\n    * **Aspirin:** To prevent blood clot formation.\n    * **Statins:** To lower cholesterol levels and slow plaque progression.\n    * **Beta-blockers:** To reduce heart rate and blood pressure.\n    * **ACE inhibitors or ARBs:** To manage blood pressure and protect the heart.\n    * **Calcium channel blockers:** To relax blood vessels and improve blood flow.\n\n3. **Suggested Medical Test(s):**\n    * **Electrocardiogram (ECG or EKG):** To assess heart rhythm and detect any abnormalities.\n    * **Cardiac enzyme tests (troponin, CK-MB):** To rule out a heart attack.\n    * **Echocardiogram:** To visualize the heart's structure and function.\n    * **Coronary angiography:**  A definitive test to visualize the coronary arteries and assess the extent of atherosclerosis. This might involve a cardiac catheterization.\n    * **Stress test (exercise or pharmacological):** To assess the heart's response to increased demand.\n\n\n
+Final Chinese Answer: 1. **最可能的疾病：**冠狀動脈粥狀硬化。病患主訴為胸痛，雖然許多疾病都可能引起胸痛，但冠狀動脈粥狀硬化（由於斑塊堆積導致冠狀動脈狹窄）是嚴重的且常見的胸痛（心絞痛）原因。病患提及「中央動脈粥狀硬化」顯示其具備一定的醫療知識，暗示可能了解此疾病的相關性。
+
+2. **建議藥物：**這取決於診斷的嚴重程度和確診結果。潛在藥物包括：
+    * **硝酸甘油：**透過擴張血管來緩解心絞痛症狀。
+    * **阿斯匹靈：**預防血栓形成。
+    * **史他汀：**降低膽固醇水平並減緩斑塊發展。
+    * **β受體阻斷劑：**降低心跳速率和血壓。
+    * **ACE抑制劑或ARB：**控制血壓並保護心臟。
+    * **鈣離子通道阻斷劑：**放鬆血管並改善血液循環。
+
+3. **建議醫療檢查：**
+    * **心電圖 (ECG 或 EKG)：**評估心律並檢測任何異常。
+    * **心臟酵素檢查 (肌鈣蛋白、CK-MB)：**排除心肌梗塞。
+    * **心臟超音波：**觀察心臟結構和功能。
+    * **冠狀動脈攝影：**檢視冠狀動脈並評估粥狀硬化程度的確定性檢查，這可能需要進行心導管檢查。
+    * **壓力測試（運動或藥物誘發）：**評估心臟對增加需求的反應。
+
+==================================================
+Processing Matched Question | Q_ID: 995
+Original English Question:
+ I had surgery yesterday and I'm experiencing a lot of pain. What medications should I take?
+Translated Chinese Question:
+ 我昨天動了手術，現在非常疼痛，我該服用什麼藥物？
+Re-translated English Question:
+ I had surgery yesterday and am in a lot of pain now. What medication should I take?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Post-surgical pain']
+Dynamically Extracted question_kg:
+ ['Post-surgical pain']
+<Warning> Entity 'Post-surgical pain' not in keyword embeddings. Skipping.
+<Warning> No matching entities found in KG. Cannot proceed.
+
+==================================================
+Processing Matched Question | Q_ID: 3783
+Original English Question:
+ Doctor, I have been experiencing pain when I breathe, excessive sweating, and congestion in my chest. What could be wrong with me?
+Translated Chinese Question:
+ 醫生，我呼吸時會痛、出很多汗，而且胸悶。我可能得了什麼病？
+Re-translated English Question:
+ Doctor, I have chest pain when I breathe, I'm sweating a lot, and I feel tightness in my chest. What could be wrong with me?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Chest pain, Chest tightness, Diaphoresis']
+Dynamically Extracted question_kg:
+ ['Chest pain', 'Chest tightness', 'Diaphoresis']
+<Warning> Entity 'Diaphoresis' not in keyword embeddings. Skipping.
+Question Entities:
+ ['Sharp_chest_pain', 'Chest_tightness']
+Find Subgraph: 0.981 秒
+Find Paths: 0.329 秒
+Generate Paths in NL: 4.071 秒
+Final English Answer: \n\n1. **Most Likely Disease:** Coronary atherosclerosis.  The combination of chest pain (angina), sweating, and chest tightness strongly suggests a potential cardiac issue. While other conditions listed can cause similar symptoms, the severity and combination of symptoms make coronary atherosclerosis the most likely possibility.  It's crucial to note that this is a preliminary assessment based on limited information and a proper diagnosis requires thorough medical evaluation.\n\n2. **Recommended Medication(s):** This is highly dependent on the severity and confirmation of the diagnosis.  Treatment options for coronary atherosclerosis may include:\n    * **Nitroglycerin:** To relieve angina pain by dilating blood vessels.\n    * **Aspirin:** To prevent blood clot formation.\n    * **Statins:** To lower cholesterol levels.\n    * **Beta-blockers:** To reduce heart rate and blood pressure.\n    * **ACE inhibitors:** To improve blood flow and reduce strain on the heart.\n    * **Angioplasty or coronary artery bypass grafting (CABG):**  Surgical interventions for severe cases.\n\n3. **Suggested Medical Test(s):**\n    * **Electrocardiogram (ECG or EKG):** To assess heart rhythm and detect abnormalities.\n    * **Cardiac enzyme tests (e.g., troponin):** To detect heart muscle damage.\n    * **Chest X-ray:** To rule out other conditions affecting the lungs or heart.\n    * **Echocardiogram:** To visualize the heart's structure and function.\n    * **Coronary angiography:** A definitive test to visualize the coronary arteries and identify blockages.\n\n\n
+Final Chinese Answer: 1. **最可能疾病：**冠狀動脈粥狀硬化。胸痛（心絞痛）、出汗和胸悶的組合強烈暗示潛在的心臟問題。雖然所列的其他疾病也可能引起類似症狀，但症狀的嚴重程度和組合使冠狀動脈粥狀硬化成為最可能的可能性。務必注意，這僅基於有限資訊的初步評估，正確的診斷需要徹底的醫療評估。
+
+2. **建議藥物：**這高度取決於診斷的嚴重程度和確診。冠狀動脈粥狀硬化的治療方案可能包括：
+    * **硝化甘油：**通過擴張血管來緩解心絞痛。
+    * **阿司匹靈：**預防血栓形成。
+    * **他汀類藥物：**降低膽固醇水平。
+    * **β受體阻滯劑：**降低心率和血壓。
+    * **ACE抑制劑：**改善血流並減輕心臟負擔。
+    * **血管成形術或冠狀動脈繞道移植術 (CABG)：**嚴重病例的外科手術干預。
+
+3. **建議醫療檢測：**
+    * **心電圖 (ECG 或 EKG)：**評估心律並檢測異常。
+    * **心臟酶檢測（例如，肌鈣蛋白）：**檢測心肌損傷。
+    * **胸部X光檢查：**排除影響肺部或心臟的其他疾病。
+    * **超音波心臟圖：**觀察心臟的結構和功能。
+    * **冠狀動脈造影：**一種確診性檢查，用於觀察冠狀動脈並識別阻塞。
+
+Processing complete. Results saved to: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Specific_Questions.csv

@@ -1,0 +1,71 @@
+neo4j+s://65eb27c7.databases.neo4j.io
+Starting a new run. Creating file: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Test.csv
+
+==================================================
+Processing Question #1 | Q_ID from data: 5239
+Original English Question:
+ Doctor, I'm experiencing some strange symptoms. I've been acting hostile towards my family, and I'm having problems with my movement. Also, I've noticed that I've been slurring my words lately.
+Translated Chinese Question:
+ 醫生，我有一些奇怪的症狀。我最近對家人很敵對，而且行動也有問題。此外，我還注意到最近說話有點大舌頭。
+Re-translated English Question:
+ Doctor, I've been experiencing some strange symptoms.  I've been unusually hostile towards my family lately, and I'm also having problems with my movements.  In addition, I've noticed I've been slurring my speech recently.
+question_kg:
+ ['Hostility', 'Problems with Movement', 'Slurred Speech']
+Question Entities:
+ ['Hostile_behavior', 'Problems_with_movement', 'Slurring_words']
+Find Subgraph: 2.568 秒
+Find Paths: 0.376 秒
+Generate Paths in NL: 3.486 秒
+Final English Answer: **\n\n1. **Most Likely Disease:** Stroke.  The combination of hostility (which can be a symptom of some strokes affecting certain brain regions), movement problems, and slurred speech strongly points towards a stroke.  While a subdural hemorrhage is possible, the rapid onset of multiple neurological symptoms makes stroke the more likely diagnosis.\n\n2. **Recommended Medication(s):**  This is not a recommendation, as I am an AI and cannot provide medical advice.  Treatment for stroke is time-sensitive and requires immediate medical attention.  Potential treatments could include clot-busting drugs (thrombolytics) if it's an ischemic stroke, or surgery to remove a clot or address bleeding if it's a hemorrhagic stroke.  Supportive care such as managing blood pressure, blood glucose, and preventing complications would also be necessary.\n\n3. **Suggested Medical Test(s):**  This is not a recommendation, as I am an AI and cannot provide medical advice.  A CT scan of the brain is crucial to rapidly identify the type of stroke (ischemic or hemorrhagic) and its location. An MRI of the brain may provide more detailed information.  Blood tests might be done to rule out other conditions and assess the patient's overall health status.  A neurological examination would also be essential to assess the extent of neurological deficits.\n\n\n**
+Final Chinese Answer: 1. **最可能疾病：**中風。敵意（可能是某些中風影響特定腦區的症狀）、動作問題和說話含糊不清的組合強烈指向中風。雖然硬腦膜下出血是有可能的，但多種神經症狀的快速發作使中風成為更可能的診斷。
+
+2. **建議藥物：**這不是建議，因為我是一個 AI，無法提供醫療建議。中風的治療時間緊迫，需要立即就醫。潛在治療可能包括如果為缺血性中風，則使用溶栓藥物；如果為出血性中風，則可能需要手術移除血塊或處理出血。必要的支持性照護還包括控制血壓、血糖和預防併發症。
+
+3. **建議醫療檢查：**這不是建議，因為我是一個 AI，無法提供醫療建議。腦部電腦斷層掃描對於快速識別中風類型（缺血性或出血性）及其位置至關重要。腦部核磁共振成像可以提供更詳細的資訊。可能會進行血液檢查以排除其他疾病並評估病人的整體健康狀況。神經學檢查對於評估神經功能缺損的程度也至關重要。
+
+==================================================
+Processing Question #2 | Q_ID from data: 913
+Original English Question:
+ Hi Doctor, I've been feeling very weak and fatigued lately. I also noticed that my muscles have been shrinking and I'm having trouble building muscle. 
+Translated Chinese Question:
+ 嗨，醫生，我最近一直覺得很虛弱疲倦，也注意到我的肌肉萎縮了，而且很難增肌。
+Re-translated English Question:
+ Hi doctor, I've been feeling very weak and tired lately, and I've also noticed my muscles are wasting away and it's difficult to gain muscle.
+question_kg:
+ ['Weakness', 'Fatigue', 'Muscle shrinkage', 'Difficulty building muscle']
+Question Entities:
+ ['Weakness', 'Fatigue', 'Muscle_swelling', 'Muscle_pain']
+Find Subgraph: 1.602 秒
+Find Paths: 3.394 秒
+Generate Paths in NL: 31.791 秒
+Final English Answer: \n\n1. **Most Likely Disease:**\n\nBased on the symptoms of weakness, fatigue, and muscle wasting, a few possibilities exist, but **Metabolic Disorder** seems most likely given the information provided.  Muscle wasting (muscle atrophy) is a common symptom across various metabolic disorders, and the accompanying weakness and fatigue are also frequently associated.  While the provided paths suggest other conditions, the focus on muscle issues makes metabolic disorders the strongest candidate without further information.\n\n2. **Recommended Medication(s):**\n\nRecommended medications for metabolic disorders would depend heavily on the specific diagnosis.  There is no single cure.  Treatment would be tailored to the underlying cause.  Examples *might* include:\n\n* **Supplements:**  Depending on the specific deficiency (e.g., vitamin D, creatine), supplementation might be necessary.\n* **Medications to manage symptoms:**  For example, medications to improve energy levels if fatigue is severe.\n* **Hormone replacement therapy:** In cases of hormone imbalances.\n* **Drugs to address underlying disease process:** Medications specific to the identified metabolic condition (e.g. drugs for mitochondrial diseases, etc).\n\n3. **Suggested Medical Test(s):**\n\nA thorough investigation is necessary to pinpoint the exact metabolic disorder.  Tests could include:\n\n* **Comprehensive metabolic panel (CMP):**  This blood test assesses various electrolytes, glucose, liver and kidney function, which can indicate metabolic imbalances.\n* **Urine analysis:** To check for unusual metabolites or other indicators.\n* **Genetic testing:** To identify genetic defects that cause certain metabolic disorders.\n* **Muscle biopsy:**  This invasive procedure may be used to examine muscle tissue for abnormalities associated with various metabolic myopathies.\n* **Magnetic resonance imaging (MRI):** This can provide images to show muscle atrophy.\n* **Lipid Panel:** To check for lipid abnormalities which could point to underlying metabolic issues.\n\n\n
+Final Chinese Answer: 1. **最可能的疾病：**
+
+根據虛弱、疲勞和肌肉萎縮的症狀，存在幾種可能性，但根據提供的資訊，**代謝性疾病**似乎最有可能。肌肉萎縮是各種代謝性疾病的常見症狀，伴隨的虛弱和疲勞也經常相關聯。雖然提供的途徑暗示其他疾病，但重點在於肌肉問題，在沒有更多資訊的情況下，代謝性疾病是最強的候選者。
+
+
+2. **建議藥物：**
+
+代謝性疾病的推薦藥物將嚴重依賴於具體診斷。沒有單一的治療方法。治療將針對根本原因量身定制。示例*可能*包括：
+
+* **補充劑：**根據具體缺乏症（例如，維生素D、肌酸），可能需要補充劑。
+* **控制症狀的藥物：**例如，如果疲勞嚴重，則可以使用改善能量水平的藥物。
+* **荷爾蒙替代療法：**在荷爾蒙失衡的情況下。
+* **治療潛在疾病過程的藥物：**針對已識別的代謝疾病的特定藥物（例如線粒體疾病藥物等）。
+
+
+3. **建議的醫學檢查：**
+
+需要徹底的檢查才能查明確切的代謝性疾病。測試可能包括：
+
+* **全面代謝評估（CMP）：**此血液測試評估各種電解質、葡萄糖、肝臟和腎臟功能，這可以表明代謝失衡。
+* **尿液分析：**檢查異常代謝物或其他指標。
+* **基因檢測：**識別導致某些代謝性疾病的基因缺陷。
+* **肌肉活檢：**此侵入性手術可用於檢查與各種代謝性肌病相關的肌肉組織異常。
+* **磁共振成像（MRI）：**這可以提供圖像以顯示肌肉萎縮。
+* **血脂檢測：**檢查血脂異常，這可能指向潛在的代謝問題。
+
+==================================================
+Processing Question #3 | Q_ID from data: 205
+Original English Question:
+ Hi doctor, I am experiencing some pain in my lower abdomen and after a few tests, I have been diagnosed with a benign kidney cyst. What medical tests do I need to undergo now? 

@@ -1,0 +1,189 @@
+neo4j+s://65eb27c7.databases.neo4j.io
+Starting a new run. Creating file: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-18_BFS_Chinese_Test.csv
+
+==================================================
+Processing Question #1 | Q_ID from data: 5239
+Original English Question:
+ Doctor, I'm experiencing some strange symptoms. I've been acting hostile towards my family, and I'm having problems with my movement. Also, I've noticed that I've been slurring my words lately.
+Translated Chinese Question:
+ 醫生，我出現一些奇怪的症狀。我最近對家人很敵對，而且行動也有困難。此外，我發現自己最近說話有點大舌頭。
+Re-translated English Question:
+ Doctor, I'm experiencing some strange symptoms. I've been very hostile towards my family lately, and I'm also having difficulty moving around.  Furthermore, I've noticed I've been slurring my speech recently.
+question_kg:
+ ['Hostility', 'Problems with Movement', 'Slurred Speech']
+Question Entities:
+ ['Hostile_behavior', 'Problems_with_movement', 'Slurring_words']
+Find Subgraph: 2.004 秒
+Find Paths: 0.324 秒
+Generate Paths in NL: 4.182 秒
+Final English Answer: **\n\n1. **Most Likely Disease:** Stroke\n\nThe combination of hostility (potentially a neurological symptom), difficulty moving, and slurred speech strongly suggests a stroke.  While substance-related disorders can mimic these symptoms, the cluster of neurological deficits points more strongly towards a stroke.\n\n2. **Recommended Medication(s):**\n\n* **tPA (tissue plasminogen activator):**  This is a clot-busting drug used in ischemic strokes (the most common type) within a narrow timeframe (typically within 3-4.5 hours of symptom onset).  It's crucial to note that this medication has significant risks and is only administered under strict medical supervision.\n* **Antiplatelet agents (e.g., aspirin, clopidogrel):** These medications help prevent further clot formation.  They are often given after a stroke to reduce the risk of recurrence.\n* **Anticoagulants (e.g., heparin, warfarin):** These medications are used to prevent blood clots, but are generally not first-line treatment for acute stroke unless a specific type of stroke is identified.\n* **Blood pressure medication:** Managing blood pressure is crucial after a stroke.\n* **Rehabilitation therapy:** Physical, occupational, and speech therapies are essential for recovery from a stroke.\n\n3. **Suggested Medical Test(s):**\n\n* **CT scan of the brain:** This is usually the first imaging test performed to quickly identify bleeding in the brain (hemorrhagic stroke) or rule it out in favor of an ischemic stroke.\n* **MRI scan of the brain:** This provides more detailed images of brain structures and can help identify the location and extent of the stroke.\n* **Blood tests:** These tests check for things like blood glucose levels, blood clotting factors, and markers of infection which can help determine the cause of the stroke.\n* **Carotid ultrasound:** To check for blockages in the carotid arteries, which are a major source of blood flow to the brain.\n\n\n**
+Final Chinese Answer: 1. **最可能的疾病：**中風
+
+好鬥（可能是神經系統症狀）、行動困難和說話含糊不清的症狀組合強烈暗示著中風。雖然藥物相關疾病可能會模仿這些症狀，但神經系統功能缺損的群集更強烈地指向中風。
+
+2. **建議藥物：**
+
+* **tPA（組織纖維蛋白溶酶原活化劑）：**這是一種溶栓藥物，用於缺血性中風（最常見類型），時間範圍很窄（通常在症狀出現後 3-4.5 小時內）。必須注意的是，這種藥物具有顯著的風險，只能在嚴格的醫療監督下使用。
+* **抗血小板藥物（例如，阿司匹林、克洛匹格雷）：**這些藥物有助於預防血塊進一步形成。中風後通常會給予這些藥物以降低復發的風險。
+* **抗凝劑（例如，肝素、華法林）：**這些藥物用於預防血栓，但除非確定特定類型的中風，否則通常不是急性中風的一線治療方法。
+* **降血壓藥物：**中風後控制血壓至關重要。
+* **復健治療：**物理治療、職能治療和語言治療對於中風康復至關重要。
+
+3. **建議醫療檢測：**
+
+* **腦部電腦斷層掃描：**這通常是第一項進行的影像學檢查，以快速識別腦出血（出血性中風）或排除腦出血，有利於缺血性中風的診斷。
+* **腦部核磁共振掃描：**這提供更詳細的腦部結構影像，可以幫助識別中風的位置和範圍。
+* **血液檢查：**這些檢查檢測血糖水平、血液凝固因子和感染標誌物等，這有助於確定中風的原因。
+* **頸動脈超聲波：**檢查頸動脈阻塞，頸動脈是通往大腦的主要血流來源。
+
+==================================================
+Processing Question #2 | Q_ID from data: 913
+Original English Question:
+ Hi Doctor, I've been feeling very weak and fatigued lately. I also noticed that my muscles have been shrinking and I'm having trouble building muscle. 
+Translated Chinese Question:
+ 嗨，醫生，我最近一直感到非常虛弱和疲倦。我也注意到我的肌肉萎縮了，而且很難增肌。
+Re-translated English Question:
+ Hi doctor, I've been feeling very weak and tired lately. I've also noticed muscle wasting and it's been difficult to gain muscle.
+question_kg:
+ ['Weakness', 'Fatigue', 'Muscle shrinkage', 'Difficulty building muscle']
+Question Entities:
+ ['Weakness', 'Fatigue', 'Muscle_swelling', 'Muscle_pain']
+Find Subgraph: 1.612 秒
+Find Paths: 3.133 秒
+Generate Paths in NL: 41.498 秒
+Final English Answer: \n\n1. **Most Likely Disease:**\n\nBased on the reported weakness, fatigue, and muscle wasting, the most likely possibility among those suggested by the provided knowledge graph is a **metabolic disorder**.  Muscle wasting (atrophy) and weakness are common symptoms of many metabolic conditions, where the body's ability to process nutrients or energy is impaired, leading to muscle breakdown.\n\n\n2. **Recommended Medication(s):**\n\nThere is no single medication that cures all metabolic disorders. Treatment is highly specific to the underlying cause.  Depending on the identified metabolic disorder, treatment might include:\n\n* **Dietary changes:**  This is often the cornerstone of management, focusing on specific nutrient restrictions or supplementation.\n* **Enzyme replacement therapy:** For disorders involving enzyme deficiencies.\n* **Hormone replacement therapy:** In cases of hormonal imbalances.\n* **Medication to manage symptoms:**  For example, medications to manage related complications like diabetes or high blood pressure.\n\n\n3. **Suggested Medical Test(s):**\n\nA comprehensive evaluation is needed to determine the precise metabolic disorder. Essential tests could include:\n\n* **Blood tests:** To assess blood glucose levels (checking for diabetes), electrolyte levels, liver function tests, lipid panel, and thyroid function tests.\n* **Genetic testing:** To identify specific genetic mutations associated with various metabolic disorders.\n* **Muscle biopsy:** In some cases, to assess muscle fiber structure and function.\n* **Urine tests:** To detect abnormal metabolites.\n* **Imaging studies (MRI or CT):** May be helpful in identifying organ abnormalities associated with certain metabolic diseases.\n\n\n
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: \n\n1. **Most Likely Disease:**\n\nBased on the reported weakness, fatigue, and muscle wasting, the most likely possibility among those suggested by the provided knowledge graph is a **metabolic disorder**.  Muscle wasting (atrophy) and weakness are common symptoms of many metabolic conditions, where the body's ability to process nutrients or energy is impaired, leading to muscle breakdown.\n\n\n2. **Recommended Medication(s):**\n\nThere is no single medication that cures all metabolic disorders. Treatment is highly specific to the underlying cause.  Depending on the identified metabolic disorder, treatment might include:\n\n* **Dietary changes:**  This is often the cornerstone of management, focusing on specific nutrient restrictions or supplementation.\n* **Enzyme replacement therapy:** For disorders involving enzyme deficiencies.\n* **Hormone replacement therapy:** In cases of hormonal imbalances.\n* **Medication to manage symptoms:**  For example, medications to manage related complications like diabetes or high blood pressure.\n\n\n3. **Suggested Medical Test(s):**\n\nA comprehensive evaluation is needed to determine the precise metabolic disorder. Essential tests could include:\n\n* **Blood tests:** To assess blood glucose levels (checking for diabetes), electrolyte levels, liver function tests, lipid panel, and thyroid function tests.\n* **Genetic testing:** To identify specific genetic mutations associated with various metabolic disorders.\n* **Muscle biopsy:** In some cases, to assess muscle fiber structure and function.\n* **Urine tests:** To detect abnormal metabolites.\n* **Imaging studies (MRI or CT):** May be helpful in identifying organ abnormalities associated with certain metabolic diseases.\n\n\n]
+
+==================================================
+Processing Question #3 | Q_ID from data: 205
+Original English Question:
+ Hi doctor, I am experiencing some pain in my lower abdomen and after a few tests, I have been diagnosed with a benign kidney cyst. What medical tests do I need to undergo now? 
+Translated Chinese Question:
+ 嗨醫生，我的下腹部有些疼痛，經過幾項檢查後，診斷出是良性腎囊腫。請問我現在需要做哪些醫療檢查？
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: 嗨醫生，我的下腹部有些疼痛，經過幾項檢查後，診斷出是良性腎囊腫。請問我現在需要做哪些醫療檢查？]
+question_kg:
+ ['Pain in lower abdomen', 'Benign kidney cyst', 'Medical tests']
+Question Entities:
+ ['Lower_abdominal_pain', 'Kidney_mass', 'Hematologic_tests_(Blood_test)']
+Find Subgraph: 1.495 秒
+Find Paths: 0.138 秒
+Generate Paths in NL: 19.087 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #4 | Q_ID from data: 2254
+Original English Question:
+ Doctor, I am experiencing some pain and soreness in my breast, along with some back pain and difficulty breathing. What could be the problem?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I am experiencing some pain and soreness in my breast, along with some back pain and difficulty breathing. What could be the problem?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I am experiencing some pain and soreness in my breast, along with some back pain and difficulty breathing. What could be the problem?]]
+question_kg:
+ ['Breast pain', 'Back pain', 'Difficulty breathing']
+Question Entities:
+ ['Pain_or_soreness_of_breast', 'Back_pain', 'Difficulty_breathing']
+Find Subgraph: 1.280 秒
+Find Paths: 1.345 秒
+Generate Paths in NL: 10.504 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #5 | Q_ID from data: 2007
+Original English Question:
+ Doctor, I've been experiencing shortness of breath, drainage in my throat, weakness in my wrist, and I've been coughing up blood. What could be the problem?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been experiencing shortness of breath, drainage in my throat, weakness in my wrist, and I've been coughing up blood. What could be the problem?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been experiencing shortness of breath, drainage in my throat, weakness in my wrist, and I've been coughing up blood. What could be the problem?]]
+question_kg:
+ ['Shortness of breath', 'Drainage in throat', 'Weakness in wrist', 'Coughing up blood']
+Question Entities:
+ ['Shortness_of_breath', 'Drainage_in_throat', 'Wrist_weakness', 'Coughing_up_sputum']
+Find Subgraph: 1.669 秒
+Find Paths: 0.347 秒
+Generate Paths in NL: 10.466 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #6 | Q_ID from data: 1829
+Original English Question:
+ Doctor, I have been experiencing sharp chest pain along with an irregular heartbeat. What could be the problem?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing sharp chest pain along with an irregular heartbeat. What could be the problem?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing sharp chest pain along with an irregular heartbeat. What could be the problem?]]
+question_kg:
+ ['Sharp chest pain', 'Irregular heartbeat']
+Question Entities:
+ ['Sharp_chest_pain', 'Irregular_heartbeat']
+Find Subgraph: 1.267 秒
+Find Paths: 0.075 秒
+Generate Paths in NL: 10.454 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #7 | Q_ID from data: 1144
+Original English Question:
+ I have been diagnosed with primary kidney disease. What are the required medications for it? 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: I have been diagnosed with primary kidney disease. What are the required medications for it? ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: I have been diagnosed with primary kidney disease. What are the required medications for it? ]]
+question_kg:
+ ['Primary kidney disease', 'Required medications']
+Question Entities:
+ ['Symptoms_of_the_kidneys', 'Prednisone']
+Find Subgraph: 2.473 秒
+Find Paths: 0.105 秒
+Generate Paths in NL: 10.465 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #8 | Q_ID from data: 840
+Original English Question:
+ Doctor, I have been experiencing severe back pain and stiffness. Sometimes the pain even radiates to my neck and shoulders. I also find it difficult to move my back freely.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing severe back pain and stiffness. Sometimes the pain even radiates to my neck and shoulders. I also find it difficult to move my back freely.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing severe back pain and stiffness. Sometimes the pain even radiates to my neck and shoulders. I also find it difficult to move my back freely.]]
+question_kg:
+ ['Back pain', 'Stiffness', 'Radiating pain', 'Difficulty moving back freely']
+Question Entities:
+ ['Back_pain', 'Stiffness_all_over', 'Suprapubic_pain', 'Problems_with_movement']
+Find Subgraph: 2.252 秒
+Find Paths: 0.071 秒
+Generate Paths in NL: 10.456 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #9 | Q_ID from data: 4468
+Original English Question:
+ Doctor, I recently had an ultrasound and they found a mass on my kidney. What could this mean?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I recently had an ultrasound and they found a mass on my kidney. What could this mean?]

@@ -1,0 +1,505 @@
+neo4j+s://65eb27c7.databases.neo4j.io
+Starting a new run. Creating file: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-20_BFS_Chinese_Test.csv
+
+==================================================
+Processing Question #1 | Q_ID from data: 5239
+Original English Question:
+ Doctor, I'm experiencing some strange symptoms. I've been acting hostile towards my family, and I'm having problems with my movement. Also, I've noticed that I've been slurring my words lately.
+Translated Chinese Question:
+ 醫生，我有一些奇怪的症狀。我最近對家人很敵對，而且行動也有困難。另外，我發現自己最近說話有點口齒不清。
+Re-translated English Question:
+ Doctor, I have some strange symptoms.  I've been very hostile towards my family lately, and I'm also having trouble with mobility.  Also, I've noticed I've been slurring my speech recently.
+question_kg:
+ ['Hostility', 'Problems with Movement', 'Slurred Speech']
+Question Entities:
+ ['Hostile_behavior', 'Problems_with_movement', 'Slurring_words']
+Find Subgraph: 2.123 秒
+Find Paths: 0.338 秒
+Generate Paths in NL: 3.889 秒
+Final English Answer: **\n\n1. **Most Likely Disease:** Stroke.  The combination of hostility (which can be a neurological symptom), mobility problems, and slurred speech strongly suggests a stroke. While a subdural hemorrhage is possible, the speed of onset suggested by the recent appearance of symptoms points more towards stroke.  Substance-related disorders can also cause these symptoms, but without further information, stroke is a more immediate concern given the severity of the presented symptoms.\n\n2. **Recommended Medication(s):**  There is no single \"cure\" for a stroke, but treatment focuses on minimizing damage and promoting recovery. This might include:\n    * **Tissue plasminogen activator (tPA):** A clot-busting drug, but only if administered within a very narrow time window from stroke onset.\n    * **Anticoagulants (e.g., heparin, warfarin):** To prevent further clot formation, depending on the type of stroke.\n    * **Antiplatelet agents (e.g., aspirin, clopidogrel):**  To prevent blood clots, often used long-term after a stroke.\n    * **Blood pressure medications:** To manage blood pressure, a critical factor in stroke risk and recovery.\n    * **Rehabilitation therapy:** Physical, occupational, and speech therapy are crucial for recovery of lost function.\n\n\n3. **Suggested Medical Test(s):**\n    * **CT scan or MRI of the brain:** To visualize brain tissue and identify the location and extent of the stroke.\n    * **Blood tests:** To check for blood clotting factors, blood sugar levels (diabetes increases stroke risk), and other relevant markers.\n    * **Echocardiogram:** To assess the heart for sources of emboli (blood clots that travel to the brain).\n    * **Carotid ultrasound:** To check for blockages in the carotid arteries supplying blood to the brain.\n\n\n\n**
+Final Chinese Answer: 1. **最可能的疾病：**中風。敵意（可能是神經系統症狀）、行動不便和說話含糊不清的組合強烈暗示中風。雖然硬腦膜下出血也有可能，但症狀近期出現的速度更指向中風。物質使用疾患也可能引起這些症狀，但在沒有更多資訊的情況下，鑑於症狀的嚴重性，中風是更迫切的關切。
+
+2. **建議藥物：**中風沒有單一的「治療方法」，但治療重點在於最大限度地減少損害並促進康復。這可能包括：
+    * **組織型纖維蛋白溶酶原活化劑 (tPA)：**一種溶解血塊的藥物，但只有在中風發作後非常狹窄的時間窗內給藥才有效。
+    * **抗凝劑（例如，肝素、華法林）：**根據中風的類型，預防進一步的血塊形成。
+    * **抗血小板藥物（例如，阿斯匹靈、克洛比格雷）：**預防血栓形成，中風後通常長期使用。
+    * **降血壓藥物：**控制血壓，血壓是中風風險和恢復的關鍵因素。
+    * **復健治療：**物理治療、職能治療和語言治療對於恢復喪失的功能至關重要。
+
+3. **建議的醫學檢查：**
+    * **腦部電腦斷層掃描或核磁共振成像：**觀察腦組織並確定中風的位置和程度。
+    * **血液檢查：**檢查血液凝固因子、血糖水平（糖尿病會增加中風風險）和其他相關指標。
+    * **心臟超音波檢查：**評估心臟是否有栓塞來源（血栓移動到腦部）。
+    * **頸動脈超音波檢查：**檢查供給腦部血液的頸動脈是否有阻塞。
+
+==================================================
+Processing Question #2 | Q_ID from data: 913
+Original English Question:
+ Hi Doctor, I've been feeling very weak and fatigued lately. I also noticed that my muscles have been shrinking and I'm having trouble building muscle. 
+Translated Chinese Question:
+ 嗨，醫生，我最近一直覺得很虛弱疲倦，也發現我的肌肉萎縮了，而且很難增肌。
+Re-translated English Question:
+ Hi doctor, I've been feeling weak and tired lately, and I've noticed my muscles are wasting away and it's difficult to gain muscle.
+question_kg:
+ ['Weakness', 'Fatigue', 'Muscle shrinkage', 'Difficulty building muscle']
+Question Entities:
+ ['Weakness', 'Fatigue', 'Muscle_swelling', 'Muscle_pain']
+Find Subgraph: 1.613 秒
+Find Paths: 3.310 秒
+Generate Paths in NL: 35.080 秒
+Final English Answer: **\n\n1. **Most Likely Disease:**\n\nBased on the reported weakness, fatigue, and muscle wasting, a **metabolic disorder** is a strong possibility.  These symptoms are not specific to any one disease, but muscle wasting (muscle atrophy) is a key indicator of problems with metabolism and nutrient utilization.\n\n2. **Recommended Medication(s):**\n\nThere is no single medication to \"cure\" metabolic disorders as this is a broad category encompassing many diseases. Treatment depends on the underlying cause.  Possible medication categories include:\n\n* **Nutritional supplements:** Depending on the specific deficiency (e.g., protein, vitamins, minerals).  This would require further testing.\n* **Hormone replacement therapy:** If the disorder is hormonal (e.g., hypothyroidism).\n* **Medications to address specific symptoms:**  For example, medications to improve appetite or energy levels.\n* **Medications to treat the underlying disease:**  If the metabolic disorder stems from another illness (e.g., diabetes, cancer).\n\n3. **Suggested Medical Test(s):**\n\nA comprehensive metabolic panel is crucial.  This should include:\n\n* **Complete blood count (CBC):** To check for anemia or other blood abnormalities.\n* **Comprehensive metabolic panel (CMP):** To assess kidney and liver function, electrolyte levels, and blood glucose.\n* **Thyroid panel:** To rule out hypothyroidism.\n* **Muscle biopsy:** To assess the muscle tissue directly for signs of disease.\n* **Genetic testing:** Depending on suspicion of a specific genetic metabolic disorder.\n* **Creatine kinase (CK) levels:**  To evaluate muscle damage.\n\n\n**
+Final Chinese Answer: 1. **最可能的疾病：**
+
+根據所報告的虛弱、疲勞和肌肉萎縮，**代謝性疾病**的可能性很高。這些症狀並非某一種疾病所獨有，但肌肉萎縮是代謝和營養利用方面存在問題的重要指標。
+
+2. **建議藥物：**
+
+沒有單一藥物可以「治癒」代謝性疾病，因為這是一個涵蓋許多疾病的廣泛類別。治療取決於根本原因。可能的藥物種類包括：
+
+* **營養補充劑：**取決於具體的缺乏症（例如，蛋白質、維生素、礦物質）。這需要進一步檢測。
+* **荷爾蒙替代療法：**如果疾病是荷爾蒙引起的（例如，甲狀腺機能低下症）。
+* **針對特定症狀的藥物：**例如，改善食慾或能量水平的藥物。
+* **治療潛在疾病的藥物：**如果代謝性疾病源於其他疾病（例如，糖尿病、癌症）。
+
+3. **建議的醫療檢測：**
+
+完整的代謝檢查至關重要。這應該包括：
+
+* **全血細胞計數 (CBC)：**檢查貧血或其他血液異常。
+* **綜合代謝檢查 (CMP)：**評估腎臟和肝臟功能、電解質水平和血糖。
+* **甲狀腺功能檢查：**排除甲狀腺機能低下症。
+* **肌肉活檢：**直接評估肌肉組織是否存在疾病跡象。
+* **基因檢測：**取決於是否懷疑特定的遺傳性代謝疾病。
+* **肌酸激酶 (CK) 水平：**評估肌肉損傷。
+
+==================================================
+Processing Question #3 | Q_ID from data: 205
+Original English Question:
+ Hi doctor, I am experiencing some pain in my lower abdomen and after a few tests, I have been diagnosed with a benign kidney cyst. What medical tests do I need to undergo now? 
+Translated Chinese Question:
+ 嗨，醫生，我的下腹部有些疼痛，經過幾次檢查後，診斷出是良性腎臟囊腫。我現在需要做哪些醫療檢查？
+Re-translated English Question:
+ Hi doctor, I have some pain in my lower abdomen, and after several examinations, it was diagnosed as a benign renal cyst. What medical examinations do I need now?
+question_kg:
+ ['Pain in lower abdomen', 'Benign kidney cyst', 'Medical tests']
+Question Entities:
+ ['Lower_abdominal_pain', 'Kidney_mass', 'Hematologic_tests_(Blood_test)']
+Find Subgraph: 1.453 秒
+Find Paths: 0.140 秒
+Generate Paths in NL: 15.656 秒
+Final English Answer: **\n\n1. **Most Likely Disease:** Benign Renal Cyst\n\nThe patient has already been diagnosed with a benign renal cyst.  This is the most likely diagnosis based on the provided information.\n\n2. **Recommended Medication(s):**\n\nThere is typically no medication needed to *cure* a benign renal cyst.  Treatment is focused on managing symptoms.  If the cyst is causing pain, over-the-counter pain relievers like ibuprofen or acetaminophen might be recommended.  In some cases, a doctor might prescribe stronger pain medication.\n\n3. **Suggested Medical Test(s):**\n\nGiven the diagnosis of a benign renal cyst, further tests might depend on the size of the cyst, the presence of symptoms, and the patient's overall health.  The tests could include:\n\n*   **Ultrasound:** To monitor the size and characteristics of the cyst over time.\n*   **CT scan or MRI:**  These more advanced imaging techniques may be used if there's concern about the cyst's nature or complications.\n*   **Blood tests:**  To assess kidney function (although not directly related to the cyst itself).\n\n\n**
+Final Chinese Answer: 1. **最可能疾病：**良性腎囊腫
+
+患者已被診斷出患有良性腎囊腫。根據提供的資訊，這是最可能的診斷。
+
+2. **建議藥物：**
+
+通常不需要藥物來*治癒*良性腎囊腫。治療重點在於症狀控制。如果囊腫引起疼痛，可能會建議使用布洛芬或acetaminophen等非處方止痛藥。在某些情況下，醫生可能會開立較強效的止痛藥。
+
+3. **建議醫學檢查：**
+
+鑑於良性腎囊腫的診斷，進一步檢查可能取決於囊腫的大小、症狀的存在以及患者的整體健康狀況。檢查可能包括：
+
+* **超音波：**用於追蹤囊腫的大小和特徵。
+* **電腦斷層掃描或核磁共振成像：**如果擔心囊腫的性質或併發症，可能會使用這些更先進的影像技術。
+* **血液檢查：**評估腎功能（雖然與囊腫本身無直接關係）。
+
+==================================================
+Processing Question #4 | Q_ID from data: 2254
+Original English Question:
+ Doctor, I am experiencing some pain and soreness in my breast, along with some back pain and difficulty breathing. What could be the problem?
+Translated Chinese Question:
+ 醫生，我胸部感到疼痛和酸痛，也伴隨背痛和呼吸困難，請問可能是什麼問題？
+Re-translated English Question:
+ Doctor, I'm experiencing chest pain and tightness, along with back pain and shortness of breath. What could be wrong?
+question_kg:
+ ['Breast pain', 'Back pain', 'Difficulty breathing']
+Question Entities:
+ ['Pain_or_soreness_of_breast', 'Back_pain', 'Difficulty_breathing']
+Find Subgraph: 1.297 秒
+Find Paths: 1.402 秒
+Generate Paths in NL: 21.547 秒
+Final English Answer: **\n\n1. **Most Likely Disease:**  I cannot provide a diagnosis based on the limited and unreliable information.  The symptoms described require immediate medical attention from a qualified physician to determine the underlying cause.\n\n2. **Recommended Medication(s):**  I cannot recommend medication without a proper diagnosis.\n\n3. **Suggested Medical Test(s):**  A physician should conduct a thorough physical examination, order an electrocardiogram (ECG) to assess heart function, chest X-ray to evaluate the lungs and heart, and potentially blood tests (such as cardiac enzyme tests) and further imaging (such as a CT scan or MRI) to investigate the cause of the chest and back pain and shortness of breath.\n\n\n**
+Final Chinese Answer: 1. **最可能的疾病：** 基於有限且不可靠的資訊，我無法提供診斷。所描述的症狀需要合格醫師立即進行醫療照護以確定根本原因。
+
+2. **建議藥物：** 我無法在沒有正確診斷的情況下推薦藥物。
+
+3. **建議醫療檢測：** 醫師應進行徹底的體格檢查，並開立心電圖 (ECG) 以評估心臟功能，胸部 X 光檢查以評估肺部和心臟，以及潛在的血液檢查（例如心臟酶檢測）和進一步的影像檢查（例如電腦斷層掃描或核磁共振）以調查胸背疼痛和呼吸急促的原因。
+
+==================================================
+Processing Question #5 | Q_ID from data: 2007
+Original English Question:
+ Doctor, I've been experiencing shortness of breath, drainage in my throat, weakness in my wrist, and I've been coughing up blood. What could be the problem?
+Translated Chinese Question:
+ 醫生，我最近呼吸困難、喉嚨有痰、手腕無力，而且咳血，請問可能是什麼問題？
+Re-translated English Question:
+ Doctor, I've recently been having difficulty breathing, phlegm in my throat, weakness in my wrists, and I'm coughing up blood. What could be the problem?
+question_kg:
+ ['Shortness of breath', 'Drainage in throat', 'Weakness in wrist', 'Coughing up blood']
+Question Entities:
+ ['Shortness_of_breath', 'Drainage_in_throat', 'Wrist_weakness', 'Coughing_up_sputum']
+Find Subgraph: 1.672 秒
+Find Paths: 0.389 秒
+Generate Paths in NL: 21.833 秒
+Final English Answer: **\n\n1. **Most Likely Disease:** Lung Abscess.  The combination of difficulty breathing (shortness of breath), phlegm in the throat (drainage in throat), coughing up blood (hemoptysis), and wrist weakness points towards a severe lung infection like a lung abscess.  While asthma can present with some overlapping symptoms, the presence of hemoptysis and wrist weakness makes a lung abscess a more likely and serious consideration.\n\n2. **Recommended Medication(s):**  Treatment for a lung abscess typically involves antibiotics (e.g., penicillin, amoxicillin-clavulanate, or other broad-spectrum antibiotics depending on culture results), possibly along with drainage procedures (if a large abscess is present).  Supportive care, including rest, hydration, and pain management, is also crucial.\n\n3. **Suggested Medical Test(s):**\n    * **Chest X-ray:** To visualize the lung abscess and assess its size and location.\n    * **CT scan of the chest:**  Provides a more detailed image than a chest X-ray, helping to better define the abscess and rule out other conditions.\n    * **Sputum culture and sensitivity:** To identify the bacteria causing the infection and determine the most effective antibiotic.\n    * **Blood tests:** Complete blood count (CBC) to assess infection severity and other blood work as needed.\n\n\n**
+Final Chinese Answer: 1. **最可能的疾病：**肺膿腫。呼吸困難（呼吸急促）、喉嚨有痰（喉嚨引流）、咳血（咯血）以及手腕無力等症狀組合，指向嚴重的肺部感染，例如肺膿腫。雖然哮喘也可能出現一些重疊症狀，但咯血和手腕無力更傾向於且更嚴重地考慮肺膿腫。
+
+2. **建議藥物：**肺膿腫的治療通常包括抗生素（例如青黴素、阿莫西林-克拉維酸或其他廣效抗生素，取決於培養結果），可能還需配合引流術（如果膿腫較大）。支持性治療，包括休息、補液和疼痛管理，也至關重要。
+
+3. **建議的醫療檢測：**
+    * **胸部X光檢查：**用於觀察肺膿腫並評估其大小和位置。
+    * **胸部電腦斷層掃描：**比胸部X光檢查提供更詳細的影像，有助於更好地界定膿腫並排除其他疾病。
+    * **痰液培養及藥敏試驗：**用於鑑定引起感染的細菌並確定最有效的抗生素。
+    * **血液檢查：**完整的血液檢查（CBC）以評估感染的嚴重程度以及其他必要的血液檢查。
+
+==================================================
+Processing Question #6 | Q_ID from data: 1829
+Original English Question:
+ Doctor, I have been experiencing sharp chest pain along with an irregular heartbeat. What could be the problem?
+Translated Chinese Question:
+ 醫生，我最近一直胸痛劇烈，心跳也不規律，請問可能是什麼問題？
+Re-translated English Question:
+ Doctor, I've been having severe chest pain lately, and my heartbeat is irregular. What could be the problem?
+question_kg:
+ ['Sharp chest pain', 'Irregular heartbeat']
+Question Entities:
+ ['Sharp_chest_pain', 'Irregular_heartbeat']
+Find Subgraph: 1.271 秒
+Find Paths: 0.071 秒
+Generate Paths in NL: 2.948 秒
+Final English Answer: **\n\n1. **Most Likely Disease:** Coronary atherosclerosis.  While all the listed conditions can cause chest pain and irregular heartbeat, coronary atherosclerosis (the buildup of plaque in the coronary arteries) is a more serious and potentially life-threatening condition that needs immediate attention.  The sharp chest pain is highly suggestive of angina (chest pain due to reduced blood flow to the heart).\n\n\n2. **Recommended Medication(s):**  This is not a substitute for professional medical advice.  A physician would determine the appropriate medication based on a thorough examination and test results. However, potential medications could include:\n    * **Aspirin:** To prevent blood clot formation.\n    * **Nitroglycerin:** To relieve angina pain by dilating coronary arteries.\n    * **Beta-blockers:** To slow the heart rate and reduce blood pressure.\n    * **Statins:** To lower cholesterol levels and slow plaque buildup.\n    * **ACE inhibitors or ARBs:** To manage blood pressure and protect the heart.\n\n\n3. **Suggested Medical Test(s):**\n    * **Electrocardiogram (ECG or EKG):** To assess the heart's rhythm and detect abnormalities.\n    * **Cardiac enzyme tests (Troponin I and T):** To detect heart muscle damage.\n    * **Echocardiogram:** To visualize the heart's structure and function.\n    * **Coronary angiography:** A more invasive test to visualize the coronary arteries and identify blockages.  This is often considered if other tests suggest significant coronary artery disease.\n\n\n**
+Final Chinese Answer: 1. **最可能的疾病：**冠狀動脈粥狀硬化。雖然所有列出的病症都可能導致胸痛和心律不整，但冠狀動脈粥狀硬化（冠狀動脈中斑塊堆積）是一種更嚴重且可能危及生命的疾病，需要立即就醫。劇烈的胸痛高度提示為心絞痛（因心臟血流減少引起的胸痛）。
+
+
+2. **建議藥物：**這不能代替專業醫療建議。醫生會根據徹底的檢查和檢驗結果確定適當的藥物。然而，潛在的藥物可能包括：
+    * **阿斯匹靈：**預防血栓形成。
+    * **硝化甘油：**通過擴張冠狀動脈來緩解心絞痛。
+    * **β受體阻滯劑：**減慢心率並降低血壓。
+    * **他汀類藥物：**降低膽固醇水平並減緩斑塊堆積。
+    * **ACE抑制劑或ARB：**控制血壓並保護心臟。
+
+
+3. **建議醫療檢驗：**
+    * **心電圖 (ECG 或 EKG)：**評估心律並檢測異常。
+    * **心臟酶檢驗 (肌鈣蛋白I和T)：**檢測心肌損傷。
+    * **超音波心臟圖：**觀察心臟結構和功能。
+    * **冠狀動脈攝影術：**一種較具侵入性的檢查，用於觀察冠狀動脈並識別阻塞。如果其他檢查提示存在明顯的冠狀動脈疾病，則通常會考慮進行此項檢查。
+
+==================================================
+Processing Question #7 | Q_ID from data: 1144
+Original English Question:
+ I have been diagnosed with primary kidney disease. What are the required medications for it? 
+Translated Chinese Question:
+ 我被診斷出患有原發性腎臟疾病，請問需要服用哪些藥物？
+Re-translated English Question:
+ I have been diagnosed with primary kidney disease. What medications do I need to take?
+question_kg:
+ ['Primary kidney disease', 'Required medications']
+Question Entities:
+ ['Symptoms_of_the_kidneys', 'Prednisone']
+Find Subgraph: 2.557 秒
+Find Paths: 0.098 秒
+Generate Paths in NL: 2.162 秒
+Final English Answer: \n\n1. **Most Likely Disease:** Primary Kidney Disease.  This is explicitly stated in the patient input.  The provided path evidence is irrelevant and does not offer a more likely diagnosis.\n\n\n2. **Recommended Medication(s):**  The specific medications for primary kidney disease depend heavily on the *underlying cause* of the kidney disease (e.g., glomerulonephritis, polycystic kidney disease, etc.) and the stage of the disease.  Therefore, a definitive medication list cannot be provided.  Treatment might include:\n\n    * **ACE inhibitors or ARBs:** To control blood pressure and slow the progression of kidney disease.\n    * **Diuretics:** To manage fluid retention.\n    * **Phosphate binders:** To control high phosphate levels.\n    * **Erythropoietin stimulating agents:** To treat anemia.\n    * **Immunosuppressants:** In cases of autoimmune kidney disease.\n    * **Dialysis or kidney transplant:** In advanced stages of kidney failure.\n\n\n3. **Suggested Medical Test(s):**  A comprehensive evaluation is necessary to diagnose and stage primary kidney disease and determine the underlying cause.  Tests may include:\n\n    * **Blood tests:**  Blood urea nitrogen (BUN), creatinine, glomerular filtration rate (GFR) estimation, electrolyte levels, complete blood count (CBC).\n    * **Urinalysis:** To check for protein, blood, and other abnormalities in the urine.\n    * **Kidney biopsy:** A small sample of kidney tissue is examined under a microscope to determine the underlying cause of kidney damage. This is often considered the gold standard for diagnosis.\n    * **Imaging studies:** Ultrasound, CT scan, or MRI of the kidneys to assess their size, shape, and structure.\n\n\n\n
+Final Chinese Answer: 1. **最可能疾病：**原發性腎臟疾病。病人輸入資料已明確說明。提供的途徑證據無關緊要，無法提供更可能的診斷。
+
+
+2. **建議藥物：**原發性腎臟疾病的特定藥物高度取決於腎臟疾病的*根本原因*(例如：腎絲球腎炎、多囊性腎臟疾病等)和疾病的階段。因此，無法提供確定的藥物清單。治療可能包括：
+
+    * **ACE抑制劑或ARB：**控制血壓並減緩腎臟疾病的進展。
+    * **利尿劑：**控制體液滯留。
+    * **磷結合劑：**控制高磷血症。
+    * **促紅細胞生成素刺激劑：**治療貧血。
+    * **免疫抑制劑：**在自體免疫性腎臟疾病的情況下。
+    * **透析或腎臟移植：**在腎衰竭晚期。
+
+
+3. **建議醫療檢查：**需要進行全面評估以診斷和分期原發性腎臟疾病並確定根本原因。檢查可能包括：
+
+    * **血液檢查：**血尿素氮 (BUN)、肌酸酐、腎絲球過濾率 (GFR) 估計值、電解質水平、全血細胞計數 (CBC)。
+    * **尿液分析：**檢查尿液中的蛋白質、血液和其他異常現象。
+    * **腎臟活體檢查：**在顯微鏡下檢查一小塊腎臟組織樣本，以確定腎臟損傷的根本原因。這通常被認為是診斷的金標準。
+    * **影像學檢查：**腎臟超聲波、電腦斷層掃描或核磁共振成像以評估其大小、形狀和結構。
+
+==================================================
+Processing Question #8 | Q_ID from data: 840
+Original English Question:
+ Doctor, I have been experiencing severe back pain and stiffness. Sometimes the pain even radiates to my neck and shoulders. I also find it difficult to move my back freely.
+Translated Chinese Question:
+ 醫生，我最近背部疼痛僵硬得很嚴重，有時疼痛還會延伸到頸部和肩膀，而且我發現很難自由活動我的背部。
+Re-translated English Question:
+ Doctor, I've been experiencing severe back pain and stiffness lately.  Sometimes the pain radiates to my neck and shoulders, and I find it difficult to move my back freely.
+question_kg:
+ ['Back pain', 'Stiffness', 'Radiating pain', 'Difficulty moving back freely']
+Question Entities:
+ ['Back_pain', 'Stiffness_all_over', 'Suprapubic_pain', 'Problems_with_movement']
+Find Subgraph: 2.282 秒
+Find Paths: 0.070 秒
+Generate Paths in NL: 11.701 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #9 | Q_ID from data: 4468
+Original English Question:
+ Doctor, I recently had an ultrasound and they found a mass on my kidney. What could this mean?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I recently had an ultrasound and they found a mass on my kidney. What could this mean?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I recently had an ultrasound and they found a mass on my kidney. What could this mean?]]
+question_kg:
+ ['Kidney mass']
+Question Entities:
+ ['Kidney_mass']
+Find Subgraph: 1.641 秒
+test
+Find Paths: 0.081 秒
+Generate Paths in NL: 10.475 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #10 | Q_ID from data: 713
+Original English Question:
+ Doctor, I was diagnosed with diabetic ketoacidosis. What tests do I need to take?<EOS>
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I was diagnosed with diabetic ketoacidosis. What tests do I need to take?<EOS>]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I was diagnosed with diabetic ketoacidosis. What tests do I need to take?<EOS>]]
+question_kg:
+ ['Diabetic ketoacidosis', 'Tests needed.']
+Question Entities:
+ ['Ketoconazole', 'Hematologic_tests_(Blood_test)']
+Find Subgraph: 1.505 秒
+Find Paths: 0.109 秒
+Generate Paths in NL: 1.196 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #11 | Q_ID from data: 4838
+Original English Question:
+ Doctor, I've been experiencing lower body pain and my foot/toe feels stiff or tight. Any idea what it might be?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been experiencing lower body pain and my foot/toe feels stiff or tight. Any idea what it might be?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been experiencing lower body pain and my foot/toe feels stiff or tight. Any idea what it might be?]]
+question_kg:
+ ['Lower body pain', 'Foot/toe stiffness or tightness']
+Question Entities:
+ ['Lower_body_pain', 'Foot_or_toe_stiffness_or_tightness']
+Find Subgraph: 2.033 秒
+Find Paths: 0.211 秒
+Generate Paths in NL: 11.268 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #12 | Q_ID from data: 3457
+Original English Question:
+ Doctor, I am experiencing an eyelid lesion or rash, diminished vision, and leg weakness. What could this be?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I am experiencing an eyelid lesion or rash, diminished vision, and leg weakness. What could this be?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I am experiencing an eyelid lesion or rash, diminished vision, and leg weakness. What could this be?]]
+question_kg:
+ ['Eyelid lesion or rash', 'Diminished vision', 'Leg weakness']
+Question Entities:
+ ['Eyelid_lesion_or_rash', 'Diminished_vision', 'Leg_pain']
+Find Subgraph: 1.492 秒
+Find Paths: 1.649 秒
+Generate Paths in NL: 10.484 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #13 | Q_ID from data: 261
+Original English Question:
+ Doctor, I have been experiencing some pain and swelling around my bellybutton. I also noticed some redness and discharge from the area. What could be the problem?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing some pain and swelling around my bellybutton. I also noticed some redness and discharge from the area. What could be the problem?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing some pain and swelling around my bellybutton. I also noticed some redness and discharge from the area. What could be the problem?]]
+question_kg:
+ ['Belly button pain', 'Belly button swelling', 'Redness around belly button', 'Discharge from belly button']
+Question Entities:
+ ['Lower_abdominal_pain', 'Swollen_abdomen', 'Vaginal_redness', 'Vaginal_discharge']
+Find Subgraph: 2.451 秒
+Find Paths: 0.612 秒
+Generate Paths in NL: 10.485 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #14 | Q_ID from data: 245
+Original English Question:
+ Doctor, I have an open wound from my surgical incision. What medical tests do I need?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have an open wound from my surgical incision. What medical tests do I need?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have an open wound from my surgical incision. What medical tests do I need?]]
+question_kg:
+ ['Open wound', 'Surgical incision', 'Medical tests']
+Question Entities:
+ ['Open_wound_of_the_hip', 'Incision_and_drainage_(I_d)', 'Hematologic_tests_(Blood_test)']
+Find Subgraph: 1.286 秒
+Find Paths: 1.182 秒
+Generate Paths in NL: 10.506 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #15 | Q_ID from data: 768
+Original English Question:
+ Doctor, I have been experiencing difficulty in passing urine lately. It feels like something is blocking my bladder. What should I do?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been experiencing difficulty in passing urine lately. It feels like something is blocking my bladder. What should I do?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been experiencing difficulty in passing urine lately. It feels like something is blocking my bladder. What should I do?]]
+question_kg:
+ ['Difficulty in passing urine', 'Bladder obstruction']
+Question Entities:
+ ['Retention_of_urine', 'Involuntary_urination']
+Find Subgraph: 1.198 秒
+Find Paths: 0.066 秒
+Generate Paths in NL: 10.479 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #16 | Q_ID from data: 1792
+Original English Question:
+ Hi doctor, I've been feeling hot and cold lately along with some elbow cramps or spasms. I also feel like vomiting sometimes and have had seizures in the past. What could be the reason for these symptoms? 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Hi doctor, I've been feeling hot and cold lately along with some elbow cramps or spasms. I also feel like vomiting sometimes and have had seizures in the past. What could be the reason for these symptoms? ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Hi doctor, I've been feeling hot and cold lately along with some elbow cramps or spasms. I also feel like vomiting sometimes and have had seizures in the past. What could be the reason for these symptoms? ]]
+question_kg:
+ ['Hot and cold sensation', 'Elbow cramps or spasms', 'Nausea', 'Seizures']
+Question Entities:
+ ['Feeling_hot_and_cold', 'Elbow_cramps_or_spasms', 'Nausea', 'Seizures']
+Find Subgraph: 2.581 秒
+Find Paths: 0.082 秒
+Generate Paths in NL: 10.453 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #17 | Q_ID from data: 1906
+Original English Question:
+ Doctor, I have been vomiting, my throat feels tight and I am experiencing incontinence of stool.
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have been vomiting, my throat feels tight and I am experiencing incontinence of stool.]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have been vomiting, my throat feels tight and I am experiencing incontinence of stool.]]
+question_kg:
+ ['Vomiting', 'Throat tightness', 'Incontinence of stool']
+Question Entities:
+ ['Vomiting', 'Throat_feels_tight', 'Incontinence_of_stool']
+Find Subgraph: 2.212 秒
+Find Paths: 0.081 秒
+Generate Paths in NL: 10.451 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #18 | Q_ID from data: 4140
+Original English Question:
+ Doctor, I am experiencing eye redness, a swollen eye, a headache, spots or clouds in vision, and pain in my eye. What could be causing these symptoms?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I am experiencing eye redness, a swollen eye, a headache, spots or clouds in vision, and pain in my eye. What could be causing these symptoms?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I am experiencing eye redness, a swollen eye, a headache, spots or clouds in vision, and pain in my eye. What could be causing these symptoms?]]
+question_kg:
+ ['Eye redness', 'Swollen eye', 'Headache', 'Spots or clouds in vision', 'Eye pain']
+Question Entities:
+ ['Eye_redness', 'Swollen_eye', 'Headache', 'Spots_or_clouds_in_vision', 'Pain_in_eye']
+Find Subgraph: 1.529 秒
+Find Paths: 1.662 秒
+Generate Paths in NL: 10.498 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #19 | Q_ID from data: 4932
+Original English Question:
+ Doctor, I have this strange rash on my skin and I've noticed a few skin growths. What could be causing this?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I have this strange rash on my skin and I've noticed a few skin growths. What could be causing this?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I have this strange rash on my skin and I've noticed a few skin growths. What could be causing this?]]
+question_kg:
+ ['Skin rash', 'Skin growths']
+Question Entities:
+ ['Skin_rash', 'Skin_growth']
+Find Subgraph: 1.255 秒
+Find Paths: 0.079 秒
+Generate Paths in NL: 10.479 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #20 | Q_ID from data: 218
+Original English Question:
+ I had an accident last night and I think I might have injured one of my internal organs. 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: I had an accident last night and I think I might have injured one of my internal organs. ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: I had an accident last night and I think I might have injured one of my internal organs. ]]
+question_kg:
+ ['Internal organ injury', 'Accident']
+Question Entities:
+ ['Injury_to_the_abdomen', 'Injury_to_the_hand']
+Find Subgraph: 1.162 秒
+Find Paths: 0.068 秒
+Generate Paths in NL: 10.464 秒
+Final English Answer: [Error: Failed to generate answer after 2 retries]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: [Error: Failed to generate answer after 2 retries]]
+
+==================================================
+Processing Question #21 | Q_ID from data: 4598
+Original English Question:
+ Doctor, I've been experiencing some strange symptoms lately. I've been abusing alcohol a bit more than usual, and I've been experiencing delusions or hallucinations. I've been slurring my words, too, and I even fainted at work the other day. 
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I've been experiencing some strange symptoms lately. I've been abusing alcohol a bit more than usual, and I've been experiencing delusions or hallucinations. I've been slurring my words, too, and I even fainted at work the other day. ]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: [Translation Error: Doctor, I've been experiencing some strange symptoms lately. I've been abusing alcohol a bit more than usual, and I've been experiencing delusions or hallucinations. I've been slurring my words, too, and I even fainted at work the other day. ]]

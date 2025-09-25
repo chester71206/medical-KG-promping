@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>醫療知識問答系統</title>
+    <style>
+        /* --- 全局樣式 --- */
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --background-color: #f4f7f9;
+            --container-bg: #ffffff;
+            --user-msg-bg: #007bff;
+            --bot-msg-bg: #e9ecef;
+            --text-color-light: #ffffff;
+            --text-color-dark: #333333;
+            --border-color: #dee2e6;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: var(--font-family);
+            background-color: var(--background-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* --- 主聊天容器 --- */
+        .chat-container {
+            width: 90%;
+            max-width: 800px;
+            height: 90vh;
+            max-height: 800px;
+            background-color: var(--container-bg);
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* --- 標題欄 --- */
+        .chat-header {
+            padding: 20px;
+            background: linear-gradient(135deg, var(--primary-color), #0056b3);
+            color: var(--text-color-light);
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            flex-shrink: 0;
+        }
+
+        .chat-header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .chat-header p {
+            margin: 5px 0 0;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* --- 聊天訊息區 --- */
+        .chat-box {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .message {
+            padding: 12px 18px;
+            border-radius: 20px;
+            max-width: 75%;
+            line-height: 1.5;
+            word-wrap: break-word;
+        }
+
+        .user-message {
+            background-color: var(--user-msg-bg);
+            color: var(--text-color-light);
+            align-self: flex-end;
+            border-bottom-right-radius: 5px;
+        }
+
+        .bot-message {
+            background-color: var(--bot-msg-bg);
+            color: var(--text-color-dark);
+            align-self: flex-start;
+            border-bottom-left-radius: 5px;
+        }
+        
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
+            align-self: center;
+            text-align: center;
+            width: 80%;
+        }
+
+        /* --- 輸入區 --- */
+        .message-form {
+            display: flex;
+            padding: 15px;
+            border-top: 1px solid var(--border-color);
+            background-color: var(--container-bg);
+            flex-shrink: 0;
+        }
+
+        #user-input {
+            flex-grow: 1;
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 25px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        #user-input:focus {
+            border-color: var(--primary-color);
+        }
+
+        #send-button {
+            background-color: var(--primary-color);
+            border: none;
+            color: white;
+            padding: 0 15px;
+            border-radius: 50%;
+            margin-left: 10px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            transition: background-color 0.3s;
+        }
+
+        #send-button:hover {
+            background-color: #0056b3;
+        }
+
+        #send-button:disabled {
+            background-color: var(--secondary-color);
+            cursor: not-allowed;
+        }
+
+        #send-button svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* --- 載入動畫 --- */
+        .loading-spinner {
+            display: none;
+            align-self: flex-start;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .loading-spinner .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--bot-msg-bg);
+            border-top: 4px solid var(--primary-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>醫療知識問答系統</h1>
+            <p>輸入您的健康問題，我們將為您提供資訊</p>
+        </header>
+
+        <div id="chat-box" class="chat-box">
+            <div class="message bot-message">
+                您好！請問有什麼可以幫助您的嗎？
+            </div>
+        </div>
+        
+        <div id="loading-spinner" class="loading-spinner">
+            <div class="spinner"></div>
+        </div>
+
+        <form id="message-form" class="message-form">
+            <input type="text" id="user-input" placeholder="請在這裡輸入您的問題..." autocomplete="off">
+            <button id="send-button" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2 .01 7z"/>
+                </svg>
+            </button>
+        </form>
+    </div>
+
+    <script>
+        // --- DOM 元素 ---
+        const chatBox = document.getElementById('chat-box');
+        const messageForm = document.getElementById('message-form');
+        const userInput = document.getElementById('user-input');
+        const sendButton = document.getElementById('send-button');
+        const loadingSpinner = document.getElementById('loading-spinner');
+
+        // --- 事件監聽 ---
+        messageForm.addEventListener('submit', handleFormSubmit);
+
+        /**
+         * 處理表單提交事件
+         * @param {Event} event 
+         */
+        async function handleFormSubmit(event) {
+            event.preventDefault(); // 防止頁面刷新
+            const userText = userInput.value.trim();
+            if (userText === "") return;
+
+            // 1. 在畫面上顯示使用者輸入的訊息
+            addMessage(userText, 'user');
+            userInput.value = ""; // 清空輸入框
+            toggleForm(false); // 禁用表單
+
+            // 2. 判斷語言 (核心邏輯)
+            // 使用正規表示式檢測是否包含中文字元
+            const isChinese = /[\u4e00-\u9fa5]/.test(userText);
+            console.log(`偵測到中文: ${isChinese}`);
+
+            // 3. 準備發送給後端的資料
+            const dataToSend = {
+                question: userText,
+                is_chinese: isChinese // 將判斷結果一起傳給後端
+            };
+
+            // 4. 發送請求到後端
+            try {
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(dataToSend)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`伺服器錯誤: ${response.statusText}`);
+                }
+
+                const result = await response.json();
+                
+                // 5. 顯示後端回傳的答案
+                addMessage(result.answer, 'bot');
+
+            } catch (error) {
+                console.error("請求失敗:", error);
+                addMessage(`抱歉，系統發生錯誤，請稍後再試。(${error.message})`, 'error');
+            } finally {
+                // 6. 無論成功或失敗，都重新啟用表單
+                toggleForm(true);
+            }
+        }
+
+        /**
+         * 在聊天框中新增一條訊息
+         * @param {string} text - 訊息內容
+         * @param {('user'|'bot'|'error')} sender - 發送者
+         */

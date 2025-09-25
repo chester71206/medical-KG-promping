@@ -1,0 +1,81 @@
+neo4j+s://65eb27c7.databases.neo4j.io
+neo4j+s://65eb27c7.databases.neo4j.io
+Resuming run from question #2. Appending to file: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-18_BFS_Chinese_Test.csv
+
+==================================================
+Processing Question #2 | Q_ID from data: 913
+Original English Question:
+ Hi Doctor, I've been feeling very weak and fatigued lately. I also noticed that my muscles have been shrinking and I'm having trouble building muscle. 
+Translated Chinese Question:
+ 嗨，醫生，我最近一直覺得非常虛弱疲倦，也發現我的肌肉萎縮了，而且很難增肌。
+Re-translated English Question:
+ Hi doctor, I've been feeling very weak and tired lately, and I've also noticed my muscles are wasting away, and it's very difficult to build muscle.
+Question Entities:
+ ['Weakness', 'Fatigue', 'Muscle_swelling', 'Muscle_pain']
+Find Subgraph: 2.121 秒
+Find Paths: 3.279 秒
+Generate Paths in NL: 32.200 秒
+Final English Answer: \n\n1. **Most Likely Disease:**\n\nBased on the reported weakness, muscle wasting, and difficulty building muscle, the most likely condition is a **metabolic disorder**.  This encompasses a range of conditions affecting the body's metabolism, leading to impaired muscle function and growth.  While other conditions in the provided data could exhibit some overlapping symptoms, the combination of weakness and muscle wasting points more strongly towards a metabolic issue than isolated cardiac or neurological problems.\n\n\n2. **Recommended Medication(s):**\n\nThere's no single medication to \"cure\" metabolic disorders as it's a broad category. Treatment depends on the specific underlying cause.  Possible medication approaches include:\n\n* **Dietary supplements:**  Creatine, protein supplements, or specific vitamin/mineral supplements might be recommended depending on the identified deficiency.\n* **Hormone replacement therapy:** If a hormonal imbalance (e.g., hypothyroidism) is identified.\n* **Medications to manage specific symptoms:**  For example, medications to improve muscle strength or address fatigue.\n* **Drugs to manage underlying diseases:**  This would vary widely depending on the specific disorder identified.\n\n\n3. **Suggested Medical Test(s):**\n\nSeveral tests are crucial to diagnose the underlying metabolic disorder:\n\n* **Complete blood count (CBC):** To check for anemia or other blood abnormalities.\n* **Comprehensive metabolic panel (CMP):** To assess kidney and liver function, electrolyte balance, and blood glucose levels.\n* **Thyroid panel:** To rule out or confirm hypothyroidism or hyperthyroidism.\n* **Muscle biopsy:** To examine muscle tissue for signs of damage or disease.\n* **Genetic testing:**  In some cases, genetic testing might be needed to pinpoint the specific metabolic disorder.\n* **Lipid panel:** As suggested in Path Evidence 4 and 5, to assess for potential lipid abnormalities that can cause muscle problems.\n\n\n
+Final Chinese Answer: 1. **最可能疾病：**
+
+根據所報告的虛弱、肌肉萎縮和肌肉難以增長，最可能的病症是**代謝性疾病**。這包含一系列影響身體新陳代謝的疾病，導致肌肉功能和生長受損。雖然提供的資料中其他疾病也可能出現一些重疊症狀，但虛弱和肌肉萎縮的組合更強烈地指向代謝問題，而非單純的心臟或神經系統問題。
+
+
+2. **建議藥物：**
+
+沒有單一藥物可以「治癒」代謝性疾病，因為它是一個廣泛的類別。治療取決於具體的根本原因。可能的藥物方法包括：
+
+* **膳食補充劑：**根據確定的缺乏症，可能建議使用肌酸、蛋白質補充劑或特定的維生素/礦物質補充劑。
+* **荷爾蒙替代療法：**如果發現荷爾蒙失衡（例如，甲狀腺機能低下）。
+* **管理特定症狀的藥物：**例如，改善肌肉力量或解決疲勞的藥物。
+* **管理潛在疾病的藥物：**這將根據確定的特定疾病而有很大差異。
+
+
+3. **建議的醫學檢查：**
+
+幾項檢查對於診斷潛在的代謝性疾病至關重要：
+
+* **血液常規檢查 (CBC)：**檢查貧血或其他血液異常。
+* **全面代謝檢查 (CMP)：**評估腎臟和肝臟功能、電解質平衡和血糖水平。
+* **甲狀腺功能檢查：**排除或確認甲狀腺機能低下或甲狀腺機能亢進。
+* **肌肉活體檢查：**檢查肌肉組織是否有損傷或疾病跡象。
+* **基因檢測：**在某些情況下，可能需要基因檢測來精確找出特定的代謝性疾病。
+* **血脂檢查：**如病理證據 4 和 5 所建議，評估可能導致肌肉問題的潛在血脂異常。
+
+==================================================
+Processing Question #3 | Q_ID from data: 205
+Original English Question:
+ Hi doctor, I am experiencing some pain in my lower abdomen and after a few tests, I have been diagnosed with a benign kidney cyst. What medical tests do I need to undergo now? 
+Translated Chinese Question:
+ 嗨醫生，我的下腹部有些疼痛，經過幾項檢查後，診斷出是良性腎臟囊腫。現在我需要做哪些醫療檢查？
+Re-translated English Question:
+ Hi doctor, I have some lower abdominal pain. After several examinations, I was diagnosed with a benign renal cyst. What medical examinations do I need now?
+Question Entities:
+ ['Lower_abdominal_pain', 'Kidney_mass', 'Hematologic_tests_(Blood_test)']
+Find Subgraph: 1.237 秒
+Find Paths: 0.144 秒
+Generate Paths in NL: 24.237 秒
+Final English Answer: **\n\n1. **Most Likely Disease:** Benign Renal Cyst.  The patient has already been diagnosed with this condition.\n\n2. **Recommended Medication(s):**  No specific medication is typically required for a benign renal cyst that is asymptomatic.  Pain management might be considered if the cyst causes pain (e.g., acetaminophen or ibuprofen).  If the cyst grows significantly or causes complications, further intervention might be necessary.\n\n3. **Suggested Medical Test(s):**\n    * **Ultrasound:**  To monitor the size and characteristics of the cyst over time.  This is the most common imaging test for renal cysts.\n    * **CT scan or MRI:** In some cases, these more advanced imaging techniques might be used to further characterize the cyst, especially if there is concern about malignancy.  They provide better detail than ultrasound.\n    * **Blood tests:**  While not directly related to the diagnosis of a *benign* renal cyst, blood tests (e.g., complete blood count, creatinine) may be done to assess overall kidney function.\n\n**
+Final Chinese Answer: 1. **最可能疾病：**良性腎囊腫。病人已被診斷出此疾病。
+
+2. **建議藥物：**良性腎囊腫若無症狀，通常不需要特定藥物。如果囊腫引起疼痛，可考慮止痛藥物（例如：acetaminophen 或 ibuprofen）。如果囊腫明顯增大或引起併發症，則可能需要進一步介入治療。
+
+3. **建議醫療檢測：**
+    * **超音波：**追蹤囊腫大小和特徵隨時間的變化。這是腎囊腫最常見的影像學檢查。
+    * **電腦斷層掃描或核磁共振：**在某些情況下，這些更進階的影像技術可能用於進一步評估囊腫特性，尤其是在擔心惡性腫瘤時。它們比超音波提供更詳細的資訊。
+    * **血液檢查：**雖然與良性腎囊腫的診斷無直接關係，但血液檢查（例如：完整血球計數、肌酸酐）可能用於評估整體腎功能。
+
+==================================================
+Processing Question #4 | Q_ID from data: 2254
+Original English Question:
+ Doctor, I am experiencing some pain and soreness in my breast, along with some back pain and difficulty breathing. What could be the problem?
+Translated Chinese Question:
+ 醫生，我乳房感到疼痛和酸脹，同時背部也疼痛，而且呼吸困難。請問是什麼問題？
+Re-translated English Question:
+ Doctor, my breast is painful and swollen, my back also hurts, and I'm having trouble breathing. What could be wrong?
+Question Entities:
+ ['Pain_or_soreness_of_breast', 'Back_pain', 'Difficulty_breathing']
+Find Subgraph: 1.327 秒
+Find Paths: 1.329 秒
+Generate Paths in NL: 28.876 秒
+Final English Answer: \n\n1. **Most Likely Disease:**\nOvarian torsion.  The combination of breast pain and swelling (potentially suggesting hormonal changes or inflammation affecting the breast tissue,  though not directly indicative of ovarian torsion), back pain (which can be referred pain from pelvic organs), and difficulty breathing (which could be due to pain, shock, or related complications) points towards a serious condition requiring immediate medical attention. Ovarian torsion is a possibility due to the combination of symptoms, especially if there is associated abdominal pain or menstrual irregularities.  However, it's crucial to note this is a potential diagnosis, not a definitive one based solely on textual description.\n\n2. **Recommended Medication(s):**\nThere is no medication to \"cure\" ovarian torsion; it is a surgical emergency.  Pain management may be provided with analgesics such as morphine or other strong opioids while awaiting surgery.  Antibiotics might be given prophylactically to prevent infection.\n\n3. **Suggested Medical Test(s):**\n* **Pelvic Exam:** A physical examination to assess for tenderness, masses, or other abnormalities in the pelvic area.\n* **Ultrasound:** A transvaginal or abdominal ultrasound to visualize the ovaries and look for torsion (twisted ovary).  This is crucial for diagnosis.\n* **Blood Tests:**  Complete Blood Count (CBC) to assess for infection or other complications.  Beta-hCG test to rule out pregnancy.  Possibly other blood tests depending on other findings.\n* **Laparoscopy:**  A minimally invasive surgical procedure to confirm the diagnosis and perform detorsion or oophorectomy (ovary removal) if needed.\n\n\n

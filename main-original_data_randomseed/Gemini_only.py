@@ -7,10 +7,11 @@ import random
 from tqdm import tqdm
 from time import sleep
 from llm import gemini
-
+from dotenv import load_dotenv
+from pathlib import Path
 
 if __name__ == "__main__":
-
+    load_dotenv()  
     ### --- 1. Gemini API Connection
     GEMINI_API_KEY = os.getenv("gemini_api_key")
     chat_gm = gemini.Gemini(API_KEY=GEMINI_API_KEY)
@@ -71,12 +72,12 @@ if __name__ == "__main__":
             
             ## Q3873 input_text, output_text 會無法擷取，單獨存取
             if index+1 == 3873:
-                with open('../output/Gemini/Final_Q714/20250417_Gemini20Flash.csv', 'a+', newline='') as f6:
+                with open('../output/Gemini/Final_Q714/20250916_Gemini20Flash.csv', 'a+', newline='') as f6:
                     writer = csv.writer(f6)
                     writer.writerow([index+1, output_all])
                     f6.flush()
             else:
-                with open('../output/Gemini/Final_Q714/20250417_Gemini20Flash.csv', 'a+', newline='') as f6:
+                with open('../output/Gemini/Final_Q714/20250916_Gemini20Flash.csv', 'a+', newline='') as f6:
                     writer = csv.writer(f6)
                     writer.writerow([index+1, input_text[0], output_text[0], output_all])
                     f6.flush()

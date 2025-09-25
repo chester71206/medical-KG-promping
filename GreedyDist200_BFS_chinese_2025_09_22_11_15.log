@@ -1,0 +1,99 @@
+neo4j+s://65eb27c7.databases.neo4j.io
+Resuming run from question #9. Appending to file: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Test.csv
+
+==================================================
+Processing Question #9 | Q_ID from data: 4468
+Original English Question:
+ Doctor, I recently had an ultrasound and they found a mass on my kidney. What could this mean?
+Translated Chinese Question:
+ 醫生，我最近做了超音波檢查，發現腎臟有一個腫塊。這代表什麼意思呢？
+Re-translated English Question:
+ Doctor, I recently had an ultrasound which showed a mass on my kidney. What does this mean?
+Dynamically extracting entities from the re-translated question...
+neo4j+s://65eb27c7.databases.neo4j.io
+Resuming run from question #9. Appending to file: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Test.csv
+
+==================================================
+Processing Question #9 | Q_ID from data: 4468
+Original English Question:
+ Doctor, I recently had an ultrasound and they found a mass on my kidney. What could this mean?
+Translated Chinese Question:
+ 醫生，我最近做了超音波檢查，發現腎臟有一個腫塊。這可能代表什麼意思？
+Re-translated English Question:
+ Doctor, I recently had an ultrasound which revealed a mass on my kidney. What could this mean?
+Dynamically extracting entities from the re-translated question...
+neo4j+s://65eb27c7.databases.neo4j.io
+Resuming run from question #9. Appending to file: ./output/DenselyConnectedSubgraphRetrieval/Q714_Gemini1.5/GreedyDist200/2025-09-22_BFS_Chinese_Test.csv
+
+==================================================
+Processing Question #9 | Q_ID from data: 4468
+Original English Question:
+ Doctor, I recently had an ultrasound and they found a mass on my kidney. What could this mean?
+Translated Chinese Question:
+ 醫生，我最近做了超音波檢查，發現腎臟有一個腫塊。這可能代表什麼意思呢？
+Re-translated English Question:
+ Doctor, I recently had an ultrasound which showed a mass on my kidney. What could this mean?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Renal mass, Ultrasound']
+Dynamically Extracted question_kg:
+ ['Renal mass', 'Ultrasound']
+<Warning> Entity 'Renal mass' not in keyword embeddings. Skipping.
+Question Entities:
+ ['Ultrasonography_(Ultrasound)']
+Find Subgraph: 1.369 秒
+test
+Find Paths: 0.094 秒
+Generate Paths in NL: 6.252 秒
+Final English Answer: \n1. **Most Likely Disease:** Renal Cell Carcinoma (RCC).  While an ultrasound showing a renal mass could indicate several possibilities (cysts, benign tumors),  the possibility of a cancerous mass necessitates further investigation. RCC is the most common type of kidney cancer in adults.\n\n2. **Recommended Medication(s):**  Treatment for RCC depends on the stage and type of cancer.  Options include surgery (partial nephrectomy or radical nephrectomy), targeted therapy (e.g., sunitinib, pazopanib, axitinib), immunotherapy (e.g., nivolumab, ipilimumab), chemotherapy (less common as a first-line treatment), and radiation therapy (sometimes used for palliative care).  There is no medication that *cures* RCC in all cases; treatment aims for remission or control.\n\n3. **Suggested Medical Test(s):**\n    * **CT scan or MRI:** To better visualize the mass, determine its size, location, and relationship to surrounding structures.  This is crucial for staging the cancer.\n    * **Biopsy:** A tissue sample is needed for definitive diagnosis.  This involves a needle biopsy (percutaneous or ultrasound-guided) to obtain cells from the mass for pathological examination.\n    * **Blood tests:**  Including a complete blood count (CBC), blood urea nitrogen (BUN), creatinine (to assess kidney function), and tumor markers (e.g., lactate dehydrogenase (LDH)) may be helpful.\n\n\n
+Final Chinese Answer: 1. **最可能疾病：** 腎細胞癌 (RCC)。雖然超音波顯示腎臟腫塊可能代表幾種情況（囊腫、良性腫瘤），但癌性腫塊的可能性需要進一步調查。RCC是成人最常見的腎癌類型。
+
+2. **建議藥物：** RCC的治療取決於癌症的期別和類型。治療方案包括手術（部分腎切除術或根治性腎切除術）、標靶治療（例如：舒尼替尼、帕唑帕尼、阿西替尼）、免疫療法（例如：納武單抗、伊匹單抗）、化學療法（較少作為一線治療）和放射線治療（有時用於舒緩性照護）。沒有任何藥物可以*治癒*所有病例的RCC；治療目標是緩解或控制病情。
+
+3. **建議醫學檢查：**
+    * **電腦斷層掃描或核磁共振造影：** 以更好地觀察腫塊，確定其大小、位置及其與周圍組織的關係。這對於癌症分期至關重要。
+    * **切片檢查：** 需要組織樣本以進行確診診斷。這涉及針刺活檢（經皮或超音波引導）以從腫塊中取得細胞進行病理檢查。
+    * **血液檢查：** 包括完整血球計數 (CBC)、血液尿素氮 (BUN)、肌酸酐（評估腎功能）和腫瘤標記物（例如：乳酸脫氫酶 (LDH)）可能有所幫助。
+
+==================================================
+Processing Question #10 | Q_ID from data: 713
+Original English Question:
+ Doctor, I was diagnosed with diabetic ketoacidosis. What tests do I need to take?<EOS>
+Translated Chinese Question:
+ 醫生，我被診斷出糖尿病酮酸中毒，我需要做哪些檢查？<EOS>
+Re-translated English Question:
+ Doctor, I've been diagnosed with diabetic ketoacidosis, what tests do I need?
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: ['Diabetic ketoacidosis']
+Dynamically Extracted question_kg:
+ ['Diabetic ketoacidosis']
+Question Entities:
+ ['Ketoconazole']
+Find Subgraph: 2.120 秒
+test
+Find Paths: 0.067 秒
+Generate Paths in NL: 1.093 秒
+Final English Answer: \n1. **Most Likely Disease:**\nDiabetic Ketoacidosis (DKA).  The patient explicitly states they have been diagnosed with it.\n\n2. **Recommended Medication(s):**\n* **Insulin:** This is the cornerstone of DKA treatment.  Different types of insulin (e.g., regular insulin, intravenous insulin) may be used depending on the severity and the patient's response.\n* **Fluid replacement:** Intravenous fluids are crucial to correct dehydration, a common feature of DKA.\n* **Electrolyte replacement:** Potassium, phosphate, and magnesium levels are often low in DKA and need to be corrected with intravenous supplementation.\n\n\n3. **Suggested Medical Test(s):**\n* **Blood glucose level:** To measure the severity of hyperglycemia.\n* **Blood ketones:** To assess the level of ketone bodies in the blood, a marker of DKA.\n* **Arterial blood gas (ABG):** To check for acidosis (low blood pH).\n* **Electrolyte panel:** To measure levels of sodium, potassium, chloride, bicarbonate, etc., which are often disrupted in DKA.\n* **Complete blood count (CBC):** To look for signs of infection, which can worsen DKA.\n* **Urinalysis:**  To check for ketones and glucose in the urine.\n\n\n
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Final Chinese Answer: [Translation Error: \n1. **Most Likely Disease:**\nDiabetic Ketoacidosis (DKA).  The patient explicitly states they have been diagnosed with it.\n\n2. **Recommended Medication(s):**\n* **Insulin:** This is the cornerstone of DKA treatment.  Different types of insulin (e.g., regular insulin, intravenous insulin) may be used depending on the severity and the patient's response.\n* **Fluid replacement:** Intravenous fluids are crucial to correct dehydration, a common feature of DKA.\n* **Electrolyte replacement:** Potassium, phosphate, and magnesium levels are often low in DKA and need to be corrected with intravenous supplementation.\n\n\n3. **Suggested Medical Test(s):**\n* **Blood glucose level:** To measure the severity of hyperglycemia.\n* **Blood ketones:** To assess the level of ketone bodies in the blood, a marker of DKA.\n* **Arterial blood gas (ABG):** To check for acidosis (low blood pH).\n* **Electrolyte panel:** To measure levels of sodium, potassium, chloride, bicarbonate, etc., which are often disrupted in DKA.\n* **Complete blood count (CBC):** To look for signs of infection, which can worsen DKA.\n* **Urinalysis:**  To check for ketones and glucose in the urine.\n\n\n]
+
+==================================================
+Processing Question #11 | Q_ID from data: 4838
+Original English Question:
+ Doctor, I've been experiencing lower body pain and my foot/toe feels stiff or tight. Any idea what it might be?
+Translated Chinese Question:
+ 醫生，我最近下半身疼痛，而且腳趾感覺僵硬或緊繃，您知道可能是什麼問題嗎？
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Re-translated English Question:
+ [Translation Error: 醫生，我最近下半身疼痛，而且腳趾感覺僵硬或緊繃，您知道可能是什麼問題嗎？]
+Dynamically extracting entities from the re-translated question...
+extracted_entities_raw: []
+<Warning> Failed to dynamically extract entities for question: [Translation Error: 醫生，我最近下半身疼痛，而且腳趾感覺僵硬或緊繃，您知道可能是什麼問題嗎？]
+
+==================================================
+Processing Question #12 | Q_ID from data: 3457
+Original English Question:
+ Doctor, I am experiencing an eyelid lesion or rash, diminished vision, and leg weakness. What could this be?
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
+Translated Chinese Question:
+ [Translation Error: Doctor, I am experiencing an eyelid lesion or rash, diminished vision, and leg weakness. What could this be?]
+An error occurred during translation: Expecting value: line 1 column 1 (char 0)
