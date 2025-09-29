@@ -13,3 +13,5 @@ networkx==3.1
 pyvis==0.3.2
 matplotlib==3.7.2
 seaborn==0.12.2
+langchain_core
+ollama
