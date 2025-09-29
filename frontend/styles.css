@@ -569,3 +569,25 @@ body::before {
 html {
     scroll-behavior: smooth;
 }
+.visualization-section {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* 在上方加一條分隔線 */
+    display: none; /* 預設隱藏，由JS控制顯示 */
+}
+
+.visualization-section h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#visualizationContainer iframe {
+    width: 100%;
+    height: 500px; /* 確保 CSS 中也定義了高度 */
+    border: 1px solid #e1e8ed;
+    border-radius: 15px; /* 與輸入框樣式保持一致 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background-color: #f8f9fa; /* 載入時的淺灰色背景 */
+}

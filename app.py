@@ -195,7 +195,7 @@ class MedicalQAService:
             # 步驟 7 & 8: 生成答案並翻譯回來
             english_answer = self.generate_answer(english_question, path_join)
             final_answer = self.translate_text(english_answer, "繁體中文") if original_language == "chinese" else english_answer
-
+            final_answer = final_answer.strip().replace('\\n', '  \n')
             # 步驟 9: 視覺化
             visualization_url = None
             try:
