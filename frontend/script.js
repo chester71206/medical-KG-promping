@@ -107,8 +107,67 @@ class MedicalQASystem {
     constructor() {
         this.currentStep = 0;
         this.totalSteps = 6;
+        this.voiceRecognition = null;
+        this.isListening = false;
+        this.initializeVoiceRecognition();
         this.initializeEventListeners();
         this.checkServerHealth();
+    }
+
+    // 初始化語音識別
+    initializeVoiceRecognition() {
+        if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            this.voiceRecognition = new SpeechRecognition();
+            
+            this.voiceRecognition.continuous = false;
+            this.voiceRecognition.interimResults = false;
+            this.voiceRecognition.lang = 'zh-TW';
+            
+            this.voiceRecognition.onstart = () => {
+                this.isListening = true;
+                document.getElementById('voiceBtn').classList.add('listening');
+                console.log('🎤 開始語音識別');
+            };
+
+            this.voiceRecognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                const questionInput = document.getElementById('questionInput');
+                questionInput.value += transcript;
+                questionInput.dispatchEvent(new Event('input'));
+                console.log('📝 識別結果:', transcript);
+            };
+
+            this.voiceRecognition.onend = () => {
+                this.isListening = false;
+                document.getElementById('voiceBtn').classList.remove('listening');
+                console.log('🛑 語音識別結束');
+            };
+
+            this.voiceRecognition.onerror = (event) => {
+                this.isListening = false;
+                document.getElementById('voiceBtn').classList.remove('listening');
+                console.error('❌ 語音識別錯誤:', event.error);
+            };
+            
+            console.log('✅ 語音識別已初始化');
+        } else {
+            console.warn('❌ 瀏覽器不支援語音識別');
+        }
+    }
+
+    // 切換語音輸入
+    toggleVoiceInput() {
+        if (!this.voiceRecognition) {
+            alert('您的瀏覽器不支援語音識別功能');
+            return;
+        }
+
+        if (this.isListening) {
+            this.voiceRecognition.stop();
+        } else {
+            this.voiceRecognition.start();
+        }
     }
 
     async checkServerHealth() {
@@ -125,6 +184,7 @@ class MedicalQASystem {
         const questionInput = document.getElementById('questionInput');
         const form = document.getElementById('questionForm');
         const directGeminiBtn = document.getElementById('directGeminiBtn');
+        const voiceBtn = document.getElementById('voiceBtn');
 
         // 監聽輸入變化，即時檢測語言並自動調整高度
         questionInput.addEventListener('input', (e) => {
@@ -145,6 +205,12 @@ class MedicalQASystem {
         directGeminiBtn.addEventListener('click', (e) => {
             e.preventDefault();
             this.directGeminiQuestion();
+        });
+
+        // 語音輸入按鈕
+        voiceBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            this.toggleVoiceInput();
         });
     }
 
